@@ -873,595 +873,213 @@
                 </div>
 				<!-- /Page Content -->
 				
-				<!-- Add Employee Modal -->
-				<div id="add_employee" class="modal custom-modal fade" role="dialog">
-					<div class="modal-dialog modal-dialog-centered modal-lg">
-						<div class="modal-content">
-							<div class="modal-header">
-								<h5 class="modal-title">Add Employee</h5>
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-									<span aria-hidden="true">&times;</span>
-								</button>
+<!-- Improved Add Employee Modal -->
+<div id="add_employee" class="modal custom-modal fade" role="dialog">
+	<div class="modal-dialog modal-dialog-centered modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Thêm nhân viên mới</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<form id="employeeForm" class="needs-validation" novalidate>
+					<div class="row">
+						<!-- Thông tin cá nhân -->
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label class="col-form-label">Họ và tên <span class="text-danger">*</span></label>
+								<input class="form-control" type="text" id="fullName" required>
+								<div class="invalid-feedback">Vui lòng nhập họ tên</div>
 							</div>
-							<div class="modal-body">
-								<form>
-									<div class="row">
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label class="col-form-label">First Name <span class="text-danger">*</span></label>
-												<input class="form-control" type="text">
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label class="col-form-label">Last Name</label>
-												<input class="form-control" type="text">
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label class="col-form-label">Username <span class="text-danger">*</span></label>
-												<input class="form-control" type="text">
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label class="col-form-label">Email <span class="text-danger">*</span></label>
-												<input class="form-control" type="email">
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label class="col-form-label">Password</label>
-												<input class="form-control" type="password">
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label class="col-form-label">Confirm Password</label>
-												<input class="form-control" type="password">
-											</div>
-										</div>
-										<div class="col-sm-6">  
-											<div class="form-group">
-												<label class="col-form-label">Employee ID <span class="text-danger">*</span></label>
-												<input type="text" class="form-control">
-											</div>
-										</div>
-										<div class="col-sm-6">  
-											<div class="form-group">
-												<label class="col-form-label">Joining Date <span class="text-danger">*</span></label>
-												<div class="cal-icon"><input class="form-control datetimepicker" type="text"></div>
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label class="col-form-label">Phone </label>
-												<input class="form-control" type="text">
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label class="col-form-label">Company</label>
-												<select class="select">
-													<option value="">Global Technologies</option>
-													<option value="1">Delta Infotech</option>
-												</select>
-											</div>
-										</div>
-										<div class="col-md-6">
-											<div class="form-group">
-												<label>Department <span class="text-danger">*</span></label>
-												<select class="select">
-													<option>Select Department</option>
-													<option>Web Development</option>
-													<option>IT Management</option>
-													<option>Marketing</option>
-												</select>
-											</div>
-										</div>
-										<div class="col-md-6">
-											<div class="form-group">
-												<label>Designation <span class="text-danger">*</span></label>
-												<select class="select">
-													<option>Select Designation</option>
-													<option>Web Designer</option>
-													<option>Web Developer</option>
-													<option>Android Developer</option>
-												</select>
-											</div>
-										</div>
-									</div>
-									<div class="table-responsive m-t-15">
-										<table class="table table-striped custom-table">
-											<thead>
-												<tr>
-													<th>Module Permission</th>
-													<th class="text-center">Read</th>
-													<th class="text-center">Write</th>
-													<th class="text-center">Create</th>
-													<th class="text-center">Delete</th>
-													<th class="text-center">Import</th>
-													<th class="text-center">Export</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Holidays</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-												</tr>
-												<tr>
-													<td>Leaves</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-												</tr>
-												<tr>
-													<td>Clients</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-												</tr>
-												<tr>
-													<td>Projects</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-												</tr>
-												<tr>
-													<td>Tasks</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-												</tr>
-												<tr>
-													<td>Chats</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-												</tr>
-												<tr>
-													<td>Assets</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-												</tr>
-												<tr>
-													<td>Timing Sheets</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-												</tr>
-											</tbody>
-										</table>
-									</div>
-									<div class="submit-section">
-										<button class="btn btn-primary submit-btn">Submit</button>
-									</div>
-								</form>
+						</div>
+						<div class="col-sm-6">  
+							<div class="form-group">
+								<label class="col-form-label">Mã nhân viên</label>
+								<input type="text" class="form-control" id="employeeId" readonly>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label class="col-form-label">Email <span class="text-danger">*</span></label>
+								<input class="form-control" type="email" id="email" required>
+								<div class="invalid-feedback">Vui lòng nhập email hợp lệ</div>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label class="col-form-label">Số điện thoại <span class="text-danger">*</span></label>
+								<input class="form-control" type="tel" id="phone" pattern="[0-9]{10,11}" required>
+								<div class="invalid-feedback">Vui lòng nhập số điện thoại (10-11 số)</div>
+							</div>
+						</div>
+						
+						<!-- Thông tin công việc -->
+						<div class="col-md-6">
+							<div class="form-group">
+								<label>Phòng ban <span class="text-danger">*</span></label>
+								<select class="form-control select" id="department" required>
+									<option value="">Chọn phòng ban</option>
+									<option value="IT">Công nghệ thông tin</option>
+									<option value="HR">Nhân sự</option>
+									<option value="FINANCE">Tài chính</option>
+									<option value="MARKETING">Marketing</option>
+									<option value="SALES">Kinh doanh</option>
+								</select>
+								<div class="invalid-feedback">Vui lòng chọn phòng ban</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label>Chức vụ <span class="text-danger">*</span></label>
+								<select class="form-control select" id="position" required>
+									<option value="">Chọn chức vụ</option>
+									<option value="STAFF">Nhân viên</option>
+									<option value="LEADER">Trưởng nhóm</option>
+									<option value="MANAGER">Quản lý</option>
+									<option value="DIRECTOR">Giám đốc</option>
+								</select>
+								<div class="invalid-feedback">Vui lòng chọn chức vụ</div>
+							</div>
+						</div>
+						<div class="col-sm-6">  
+							<div class="form-group">
+								<label class="col-form-label">Ngày vào làm <span class="text-danger">*</span></label>
+								<input class="form-control" type="date" id="startDate" required>
+								<div class="invalid-feedback">Vui lòng chọn ngày vào làm</div>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label class="col-form-label">Trạng thái</label>
+								<select class="form-control select" id="status">
+									<option value="ACTIVE">Đang làm việc</option>
+									<option value="INACTIVE">Tạm nghỉ</option>
+									<option value="RESIGNED">Đã nghỉ việc</option>
+								</select>
+							</div>
+						</div>
+						
+						<!-- Địa chỉ -->
+						<div class="col-sm-12">
+							<div class="form-group">
+								<label class="col-form-label">Địa chỉ</label>
+								<textarea class="form-control" id="address" rows="2" placeholder="Địa chỉ thường trú"></textarea>
 							</div>
 						</div>
 					</div>
-				</div>
-				<!-- /Add Employee Modal -->
-				
-				<!-- Edit Employee Modal -->
-				<div id="edit_employee" class="modal custom-modal fade" role="dialog">
-					<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-								<h5 class="modal-title">Edit Employee</h5>
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-									<span aria-hidden="true">&times;</span>
-								</button>
+					
+					<div class="submit-section">
+						<button class="btn btn-primary submit-btn" type="submit">Lưu nhân viên</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Improved Edit Employee Modal -->
+<div id="edit_employee" class="modal custom-modal fade" role="dialog">
+	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Edit Employee</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<form id="editEmployeeForm" class="needs-validation" novalidate>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label class="col-form-label">Họ và tên <span class="text-danger">*</span></label>
+								<input class="form-control" type="text" id="editFullName" required>
+								<div class="invalid-feedback">Vui lòng nhập họ tên</div>
 							</div>
-							<div class="modal-body">
-								<form>
-									<div class="row">
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label class="col-form-label">First Name <span class="text-danger">*</span></label>
-												<input class="form-control" value="John" type="text">
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label class="col-form-label">Last Name</label>
-												<input class="form-control" value="Doe" type="text">
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label class="col-form-label">Username <span class="text-danger">*</span></label>
-												<input class="form-control" value="johndoe" type="text">
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label class="col-form-label">Email <span class="text-danger">*</span></label>
-												<input class="form-control" value="johndoe@example.com" type="email">
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label class="col-form-label">Password</label>
-												<input class="form-control" value="johndoe" type="password">
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label class="col-form-label">Confirm Password</label>
-												<input class="form-control" value="johndoe" type="password">
-											</div>
-										</div>
-										<div class="col-sm-6">  
-											<div class="form-group">
-												<label class="col-form-label">Employee ID <span class="text-danger">*</span></label>
-												<input type="text" value="FT-0001" readonly class="form-control floating">
-											</div>
-										</div>
-										<div class="col-sm-6">  
-											<div class="form-group">
-												<label class="col-form-label">Joining Date <span class="text-danger">*</span></label>
-												<div class="cal-icon"><input class="form-control datetimepicker" type="text"></div>
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label class="col-form-label">Phone </label>
-												<input class="form-control" value="9876543210" type="text">
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label class="col-form-label">Company</label>
-												<select class="select">
-													<option>Global Technologies</option>
-													<option>Delta Infotech</option>
-													<option selected>International Software Inc</option>
-												</select>
-											</div>
-										</div>
-										<div class="col-md-6">
-											<div class="form-group">
-												<label>Department <span class="text-danger">*</span></label>
-												<select class="select">
-													<option>Select Department</option>
-													<option>Web Development</option>
-													<option>IT Management</option>
-													<option>Marketing</option>
-												</select>
-											</div>
-										</div>
-										<div class="col-md-6">
-											<div class="form-group">
-												<label>Designation <span class="text-danger">*</span></label>
-												<select class="select">
-													<option>Select Designation</option>
-													<option>Web Designer</option>
-													<option>Web Developer</option>
-													<option>Android Developer</option>
-												</select>
-											</div>
-										</div>
-									</div>
-									<div class="table-responsive m-t-15">
-										<table class="table table-striped custom-table">
-											<thead>
-												<tr>
-													<th>Module Permission</th>
-													<th class="text-center">Read</th>
-													<th class="text-center">Write</th>
-													<th class="text-center">Create</th>
-													<th class="text-center">Delete</th>
-													<th class="text-center">Import</th>
-													<th class="text-center">Export</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Holidays</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-												</tr>
-												<tr>
-													<td>Leaves</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-												</tr>
-												<tr>
-													<td>Clients</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-												</tr>
-												<tr>
-													<td>Projects</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-												</tr>
-												<tr>
-													<td>Tasks</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-												</tr>
-												<tr>
-													<td>Chats</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-												</tr>
-												<tr>
-													<td>Assets</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-												</tr>
-												<tr>
-													<td>Timing Sheets</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input checked="" type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-													<td class="text-center">
-														<input type="checkbox">
-													</td>
-												</tr>
-											</tbody>
-										</table>
-									</div>
-									<div class="submit-section">
-										<button class="btn btn-primary submit-btn">Save</button>
-									</div>
-								</form>
+						</div>
+						<div class="col-sm-6">  
+							<div class="form-group">
+								<label class="col-form-label">Mã nhân viên</label>
+								<input type="text" class="form-control" id="editEmployeeId" readonly>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label class="col-form-label">Email <span class="text-danger">*</span></label>
+								<input class="form-control" type="email" id="editEmail" required>
+								<div class="invalid-feedback">Vui lòng nhập email hợp lệ</div>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label class="col-form-label">Số điện thoại <span class="text-danger">*</span></label>
+								<input class="form-control" type="tel" id="editPhone" pattern="[0-9]{10,11}" required>
+								<div class="invalid-feedback">Vui lòng nhập số điện thoại (10-11 số)</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label>Phòng ban <span class="text-danger">*</span></label>
+								<select class="form-control select" id="editDepartment" required>
+									<option value="">Chọn phòng ban</option>
+									<option value="IT">Công nghệ thông tin</option>
+									<option value="HR">Nhân sự</option>
+									<option value="FINANCE">Tài chính</option>
+									<option value="MARKETING">Marketing</option>
+									<option value="SALES">Kinh doanh</option>
+								</select>
+								<div class="invalid-feedback">Vui lòng chọn phòng ban</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label>Chức vụ <span class="text-danger">*</span></label>
+								<select class="form-control select" id="editPosition" required>
+									<option value="">Chọn chức vụ</option>
+									<option value="STAFF">Nhân viên</option>
+									<option value="LEADER">Trưởng nhóm</option>
+									<option value="MANAGER">Quản lý</option>
+									<option value="DIRECTOR">Giám đốc</option>
+								</select>
+								<div class="invalid-feedback">Vui lòng chọn chức vụ</div>
+							</div>
+						</div>
+						<div class="col-sm-6">  
+							<div class="form-group">
+								<label class="col-form-label">Ngày vào làm <span class="text-danger">*</span></label>
+								<input class="form-control" type="date" id="editStartDate" required>
+								<div class="invalid-feedback">Vui lòng chọn ngày vào làm</div>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label class="col-form-label">Trạng thái</label>
+								<select class="form-control select" id="editStatus">
+									<option value="ACTIVE">Đang làm việc</option>
+									<option value="INACTIVE">Tạm nghỉ</option>
+									<option value="RESIGNED">Đã nghỉ việc</option>
+								</select>
+							</div>
+						</div>
+						<div class="col-sm-12">
+							<div class="form-group">
+								<label class="col-form-label">Địa chỉ</label>
+								<textarea class="form-control" id="editAddress" rows="2"></textarea>
 							</div>
 						</div>
 					</div>
-				</div>
-				<!-- /Edit Employee Modal -->
-				
+					
+					<div class="submit-section">
+						<button class="btn btn-primary submit-btn" type="submit">Cập nhật</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
 				<!-- Delete Employee Modal -->
 				<div class="modal custom-modal fade" id="delete_employee" role="dialog">
 					<div class="modal-dialog modal-dialog-centered">
