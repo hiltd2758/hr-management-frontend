@@ -11,6 +11,12 @@
 	<meta name="robots" content="noindex, nofollow">
 	<title>Employees - HRMS admin template</title>
 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+		rel="stylesheet">
+
+
 	<!-- Favicon -->
 	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
 
@@ -42,18 +48,12 @@
 <body>
 	<!-- Main Wrapper -->
 	<div class="main-wrapper">
-
-		<!-- Header -->
 		<div class="header">
-
-			<!-- Logo -->
 			<div class="header-left">
 				<a href="index.html" class="logo">
-					<img src="assets/img/logo.png" width="40" height="40" alt="">
+					<img src="assets/img/cmc_logo.png" width="60" height="60" alt="">
 				</a>
 			</div>
-			<!-- /Logo -->
-
 			<a id="toggle_btn" href="javascript:void(0);">
 				<span class="bar-icon">
 					<span></span>
@@ -61,19 +61,11 @@
 					<span></span>
 				</span>
 			</a>
-
-			<!-- Header Title -->
 			<div class="page-title-box">
-				<h3>Dreamguy's Technologies</h3>
+				<h3>CMC Global</h3>
 			</div>
-			<!-- /Header Title -->
-
 			<a id="mobile_btn" class="mobile_btn" href="#sidebar"><i class="fa fa-bars"></i></a>
-
-			<!-- Header Menu -->
 			<ul class="nav user-menu">
-
-				<!-- Search -->
 				<li class="nav-item">
 					<div class="top-nav-search">
 						<a href="javascript:void(0);" class="responsive-search">
@@ -85,9 +77,6 @@
 						</form>
 					</div>
 				</li>
-				<!-- /Search -->
-
-				<!-- Flag -->
 				<li class="nav-item dropdown has-arrow flag-nav">
 					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">
 						<img src="assets/img/flags/us.png" alt="" height="20"> <span>English</span>
@@ -97,19 +86,10 @@
 							<img src="assets/img/flags/us.png" alt="" height="16"> English
 						</a>
 						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="assets/img/flags/fr.png" alt="" height="16"> French
-						</a>
-						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="assets/img/flags/es.png" alt="" height="16"> Spanish
-						</a>
-						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="assets/img/flags/de.png" alt="" height="16"> German
+							<img src="assets/img/flags/vietnam.png" alt="" height="18"> Tiếng Việt
 						</a>
 					</div>
 				</li>
-				<!-- /Flag -->
-
-				<!-- Notifications -->
 				<li class="nav-item dropdown">
 					<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
 						<i class="fa fa-bell-o"></i> <span class="badge badge-pill">3</span>
@@ -209,9 +189,6 @@
 						</div>
 					</div>
 				</li>
-				<!-- /Notifications -->
-
-				<!-- Message Notifications -->
 				<li class="nav-item dropdown">
 					<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
 						<i class="fa fa-comment-o"></i> <span class="badge badge-pill">8</span>
@@ -320,13 +297,11 @@
 						</div>
 					</div>
 				</li>
-				<!-- /Message Notifications -->
-
 				<li class="nav-item dropdown has-arrow main-drop">
 					<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-						<span class="user-img"><img src="assets/img/profiles/avatar-21.jpg" alt="">
+						<span class="user-img"><img src="assets/img/user-circle-o.png" alt="">
 							<span class="status online"></span></span>
-						<span>Admin</span>
+						<span>Employee</span>
 					</a>
 					<div class="dropdown-menu">
 						<a class="dropdown-item" href="profile.html">My Profile</a>
@@ -335,9 +310,6 @@
 					</div>
 				</li>
 			</ul>
-			<!-- /Header Menu -->
-
-			<!-- Mobile Menu -->
 			<div class="dropdown mobile-user-menu">
 				<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i
 						class="fa fa-ellipsis-v"></i></a>
@@ -347,12 +319,7 @@
 					<a class="dropdown-item" href="login.html">Logout</a>
 				</div>
 			</div>
-			<!-- /Mobile Menu -->
-
 		</div>
-		<!-- /Header -->
-
-		<!-- Sidebar -->
 		<div class="sidebar" id="sidebar">
 			<div class="sidebar-inner slimscroll">
 				<div id="sidebar-menu" class="sidebar-menu">
@@ -380,7 +347,7 @@
 							<a href="#" class="noti-dot"><i class="la la-user"></i> <span> Employees</span> <span
 									class="menu-arrow"></span></a>
 							<ul style="display: none;">
-								<li><a class="active" href="employees.html">All Employees</a></li>
+								<li><a href="employees.html">All Employees</a></li>
 								<li><a href="leaves.html">Leaves (Admin) <span
 											class="badge badge-pill bg-primary float-right">1</span></a></li>
 								<li><a href="leaves-employee.html">Leaves (Employee)</a></li>
@@ -540,9 +507,6 @@
 				</div>
 			</div>
 		</div>
-		<!-- /Sidebar -->
-
-		<!-- Page Wrapper -->
 		<div class="page-wrapper">
 
 			<!-- Page Content -->
@@ -599,7 +563,7 @@
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-3">
-						<a href="#" class="btn btn-success btn-block"> Search </a>
+						<a href="#" class="btn btn-outline-purple btn-block"> Search </a>
 					</div>
 				</div>
 				<!-- Search Filter -->
@@ -862,7 +826,7 @@
 				<div class="modal-dialog modal-dialog-centered modal-lg">
 					<div class="modal-content">
 						<div class="modal-header">
-							<h5 class="modal-title">Thêm nhân viên mới</h5>
+							<h5 class="modal-title">Add new employee</h5>
 							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
@@ -873,15 +837,15 @@
 									<!-- Thông tin cá nhân -->
 									<div class="col-sm-6">
 										<div class="form-group">
-											<label class="col-form-label">Họ và tên <span
+											<label class="col-form-label">Full name <span
 													class="text-danger">*</span></label>
 											<input class="form-control" type="text" id="fullName" required>
-											<div class="invalid-feedback">Vui lòng nhập họ tên</div>
+											<div class="invalid-feedback">Please enter full name</div>
 										</div>
 									</div>
 									<div class="col-sm-6">
 										<div class="form-group">
-											<label class="col-form-label">Mã nhân viên</label>
+											<label class="col-form-label">Employee ID</label>
 											<input type="text" class="form-control" id="employeeId" readonly>
 										</div>
 									</div>
@@ -890,79 +854,80 @@
 											<label class="col-form-label">Email <span
 													class="text-danger">*</span></label>
 											<input class="form-control" type="email" id="email" required>
-											<div class="invalid-feedback">Vui lòng nhập email hợp lệ</div>
+											<div class="invalid-feedback">Please enter correct email</div>
 										</div>
 									</div>
 									<div class="col-sm-6">
 										<div class="form-group">
-											<label class="col-form-label">Số điện thoại <span
+											<label class="col-form-label">Phone number <span
 													class="text-danger">*</span></label>
 											<input class="form-control" type="tel" id="phone" pattern="[0-9]{10,11}"
 												required>
-											<div class="invalid-feedback">Vui lòng nhập số điện thoại (10-11 số)</div>
+											<div class="invalid-feedback">Please enter correct number (10-11)</div>
 										</div>
 									</div>
 
 									<!-- Thông tin công việc -->
 									<div class="col-md-6">
 										<div class="form-group">
-											<label>Phòng ban <span class="text-danger">*</span></label>
+											<label>Departments <span class="text-danger">*</span></label>
 											<select class="form-control select" id="department" required>
-												<option value="">Chọn phòng ban</option>
-												<option value="IT">Công nghệ thông tin</option>
-												<option value="HR">Nhân sự</option>
-												<option value="FINANCE">Tài chính</option>
+												<option value="">Select department</option>
+												<option value="IT">Information Technologies</option>
+												<option value="HR">Human Resources</option>
+												<option value="FINANCE">Finaces</option>
 												<option value="MARKETING">Marketing</option>
-												<option value="SALES">Kinh doanh</option>
+												<option value="SALES">Sales</option>
 											</select>
-											<div class="invalid-feedback">Vui lòng chọn phòng ban</div>
+											<div class="invalid-feedback">Please select department</div>
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="form-group">
-											<label>Chức vụ <span class="text-danger">*</span></label>
+											<label>Position <span class="text-danger">*</span></label>
 											<select class="form-control select" id="position" required>
-												<option value="">Chọn chức vụ</option>
-												<option value="STAFF">Nhân viên</option>
-												<option value="LEADER">Trưởng nhóm</option>
-												<option value="MANAGER">Quản lý</option>
-												<option value="DIRECTOR">Giám đốc</option>
+												<option value="">Select position</option>
+												<option value="STAFF">Staff</option>
+												<option value="LEADER">Team Leader</option>
+												<option value="MANAGER">Manager</option>
+												<option value="DIRECTOR">Director</option>
 											</select>
-											<div class="invalid-feedback">Vui lòng chọn chức vụ</div>
+											<div class="invalid-feedback">Please select a position</div>
 										</div>
 									</div>
 									<div class="col-sm-6">
 										<div class="form-group">
-											<label class="col-form-label">Ngày vào làm <span
+											<label class="col-form-label">Start Date <span
 													class="text-danger">*</span></label>
 											<input class="form-control" type="date" id="startDate" required>
-											<div class="invalid-feedback">Vui lòng chọn ngày vào làm</div>
+											<div class="invalid-feedback">Please select a start date</div>
 										</div>
 									</div>
 									<div class="col-sm-6">
 										<div class="form-group">
-											<label class="col-form-label">Trạng thái</label>
+											<label class="col-form-label">Status</label>
 											<select class="form-control select" id="status">
-												<option value="ACTIVE">Đang làm việc</option>
-												<option value="INACTIVE">Tạm nghỉ</option>
-												<option value="RESIGNED">Đã nghỉ việc</option>
+												<option value="ACTIVE">Active</option>
+												<option value="INACTIVE">On Leave</option>
+												<option value="RESIGNED">Resigned</option>
 											</select>
 										</div>
 									</div>
 
-									<!-- Địa chỉ -->
+									<!-- Address -->
 									<div class="col-sm-12">
 										<div class="form-group">
-											<label class="col-form-label">Địa chỉ</label>
+											<label class="col-form-label">Address</label>
 											<textarea class="form-control" id="address" rows="2"
-												placeholder="Địa chỉ thường trú"></textarea>
+												placeholder="Permanent address"></textarea>
 										</div>
 									</div>
 								</div>
 
 								<div class="submit-section">
-									<button class="btn btn-primary submit-btn" type="submit">Lưu nhân viên</button>
+									<button class="btn btn-primary submit-btn" type="submit">Save Employee</button>
 								</div>
+
 							</form>
 						</div>
 					</div>
@@ -984,15 +949,15 @@
 								<div class="row">
 									<div class="col-sm-6">
 										<div class="form-group">
-											<label class="col-form-label">Họ và tên <span
+											<label class="col-form-label">Full Name <span
 													class="text-danger">*</span></label>
 											<input class="form-control" type="text" id="editFullName" required>
-											<div class="invalid-feedback">Vui lòng nhập họ tên</div>
+											<div class="invalid-feedback">Please enter full name</div>
 										</div>
 									</div>
 									<div class="col-sm-6">
 										<div class="form-group">
-											<label class="col-form-label">Mã nhân viên</label>
+											<label class="col-form-label">Employee ID</label>
 											<input type="text" class="form-control" id="editEmployeeId" readonly>
 										</div>
 									</div>
@@ -1001,74 +966,76 @@
 											<label class="col-form-label">Email <span
 													class="text-danger">*</span></label>
 											<input class="form-control" type="email" id="editEmail" required>
-											<div class="invalid-feedback">Vui lòng nhập email hợp lệ</div>
+											<div class="invalid-feedback">Please enter a valid email</div>
 										</div>
 									</div>
 									<div class="col-sm-6">
 										<div class="form-group">
-											<label class="col-form-label">Số điện thoại <span
+											<label class="col-form-label">Phone Number <span
 													class="text-danger">*</span></label>
 											<input class="form-control" type="tel" id="editPhone" pattern="[0-9]{10,11}"
 												required>
-											<div class="invalid-feedback">Vui lòng nhập số điện thoại (10-11 số)</div>
+											<div class="invalid-feedback">Please enter a valid phone number (10–11
+												digits)</div>
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="form-group">
-											<label>Phòng ban <span class="text-danger">*</span></label>
+											<label>Department <span class="text-danger">*</span></label>
 											<select class="form-control select" id="editDepartment" required>
-												<option value="">Chọn phòng ban</option>
-												<option value="IT">Công nghệ thông tin</option>
-												<option value="HR">Nhân sự</option>
-												<option value="FINANCE">Tài chính</option>
+												<option value="">Select department</option>
+												<option value="IT">Information Technology</option>
+												<option value="HR">Human Resources</option>
+												<option value="FINANCE">Finance</option>
 												<option value="MARKETING">Marketing</option>
-												<option value="SALES">Kinh doanh</option>
+												<option value="SALES">Sales</option>
 											</select>
-											<div class="invalid-feedback">Vui lòng chọn phòng ban</div>
+											<div class="invalid-feedback">Please select a department</div>
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="form-group">
-											<label>Chức vụ <span class="text-danger">*</span></label>
+											<label>Position <span class="text-danger">*</span></label>
 											<select class="form-control select" id="editPosition" required>
-												<option value="">Chọn chức vụ</option>
-												<option value="STAFF">Nhân viên</option>
-												<option value="LEADER">Trưởng nhóm</option>
-												<option value="MANAGER">Quản lý</option>
-												<option value="DIRECTOR">Giám đốc</option>
+												<option value="">Select position</option>
+												<option value="STAFF">Staff</option>
+												<option value="LEADER">Team Leader</option>
+												<option value="MANAGER">Manager</option>
+												<option value="DIRECTOR">Director</option>
 											</select>
-											<div class="invalid-feedback">Vui lòng chọn chức vụ</div>
+											<div class="invalid-feedback">Please select a position</div>
 										</div>
 									</div>
 									<div class="col-sm-6">
 										<div class="form-group">
-											<label class="col-form-label">Ngày vào làm <span
+											<label class="col-form-label">Date of Joining <span
 													class="text-danger">*</span></label>
 											<input class="form-control" type="date" id="editStartDate" required>
-											<div class="invalid-feedback">Vui lòng chọn ngày vào làm</div>
+											<div class="invalid-feedback">Please select date of joining</div>
 										</div>
 									</div>
 									<div class="col-sm-6">
 										<div class="form-group">
-											<label class="col-form-label">Trạng thái</label>
+											<label class="col-form-label">Employment Status</label>
 											<select class="form-control select" id="editStatus">
-												<option value="ACTIVE">Đang làm việc</option>
-												<option value="INACTIVE">Tạm nghỉ</option>
-												<option value="RESIGNED">Đã nghỉ việc</option>
+												<option value="ACTIVE">Active</option>
+												<option value="INACTIVE">On Leave</option>
+												<option value="RESIGNED">Resigned</option>
 											</select>
 										</div>
 									</div>
 									<div class="col-sm-12">
 										<div class="form-group">
-											<label class="col-form-label">Địa chỉ</label>
+											<label class="col-form-label">Address</label>
 											<textarea class="form-control" id="editAddress" rows="2"></textarea>
 										</div>
 									</div>
 								</div>
 
 								<div class="submit-section">
-									<button class="btn btn-primary submit-btn" type="submit">Cập nhật</button>
+									<button class="btn btn-primary submit-btn" type="submit">Update</button>
 								</div>
+
 							</form>
 						</div>
 					</div>
