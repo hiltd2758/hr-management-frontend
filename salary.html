@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="vi">
   <head>
     <meta charset="utf-8" />
@@ -1423,5 +1423,16 @@
         $('.table-avatar a').removeAttr('href');
       });
     </script>
-  </body>
+  
+	<!-- i18n Internationalization -->
+	<script src="assets/js/i18n.js"></script>
+	<script>
+		// Initialize i18n when DOM is loaded
+		document.addEventListener('DOMContentLoaded', function() {
+			const i18n = new I18n();
+		});
+	</script>
+
+</body>
 </html>
+

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -79,13 +79,14 @@
 				</li>
 				<li class="nav-item dropdown has-arrow flag-nav">
 					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">
-						<img src="assets/img/flags/us.png" alt="" height="20"> <span>English</span>
+						<img id="current-flag" src="assets/img/flags/us.png" alt="" height="20"> <span
+							id="current-lang-text">English</span>
 					</a>
 					<div class="dropdown-menu dropdown-menu-right">
-						<a href="javascript:void(0);" class="dropdown-item">
+						<a href="javascript:void(0);" class="dropdown-item" onclick="switchLanguage('en')">
 							<img src="assets/img/flags/us.png" alt="" height="16"> English
 						</a>
-						<a href="javascript:void(0);" class="dropdown-item">
+						<a href="javascript:void(0);" class="dropdown-item" onclick="switchLanguage('vi')">
 							<img src="assets/img/flags/vietnam.png" alt="" height="18"> Tiếng Việt
 						</a>
 					</div>
@@ -516,15 +517,17 @@
 				<div class="page-header">
 					<div class="row align-items-center">
 						<div class="col">
-							<h3 class="page-title">Employee</h3>
+							<h3 class="page-title" data-i18n="page.title">Employee</h3>
 							<ul class="breadcrumb">
-								<li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-								<li class="breadcrumb-item active">Employee</li>
+								<li class="breadcrumb-item"><a href="index.html"
+										data-i18n="common.dashboard">Dashboard</a></li>
+								<li class="breadcrumb-item active" data-i18n="page.title">Employee</li>
 							</ul>
 						</div>
 						<div class="col-auto float-right ml-auto">
 							<a href="#" class="btn add-btn" data-toggle="modal" data-target="#add_employee"><i
-									class="fa fa-plus"></i> Add Employee</a>
+									class="fa fa-plus"></i> <span data-i18n="common.add_employee">Add
+									Employee</span></a>
 							<div class="view-icons">
 								<a href="employees.html" class="grid-view btn btn-link active"><i
 										class="fa fa-th"></i></a>
@@ -1093,6 +1096,42 @@
 
 	<!-- Custom JS -->
 	<script src="assets/js/app.js"></script>
+
+
+	<!-- i18n Internationalization -->
+	<script src="assets/js/i18n.js"></script>
+	<script>
+		// Initialize i18n when DOM is loaded
+		let i18nInstance;
+
+		document.addEventListener('DOMContentLoaded', function () {
+			i18nInstance = new I18n();
+
+			// Set initial language display
+			updateLanguageDisplay();
+		});
+
+		function switchLanguage(lang) {
+			if (i18nInstance) {
+				i18nInstance.setLanguage(lang);
+				updateLanguageDisplay();
+			}
+		}
+
+		function updateLanguageDisplay() {
+			const currentLang = localStorage.getItem('language') || 'en';
+			const flagElement = document.getElementById('current-flag');
+			const textElement = document.getElementById('current-lang-text');
+
+			if (currentLang === 'vi') {
+				if (flagElement) flagElement.src = 'assets/img/flags/vietnam.png';
+				if (textElement) textElement.textContent = 'Tiếng Việt';
+			} else {
+				if (flagElement) flagElement.src = 'assets/img/flags/us.png';
+				if (textElement) textElement.textContent = 'English';
+			}
+		}
+	</script>
 
 </body>
 

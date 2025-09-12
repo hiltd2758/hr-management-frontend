@@ -1,0 +1,47 @@
+﻿{
+    "common":  {
+                   "confirm":  "Confirm",
+                   "loading":  "Loading...",
+                   "import":  "Import",
+                   "no":  "No",
+                   "reset":  "Reset",
+                   "cancel":  "Cancel",
+                   "back":  "Back",
+                   "download":  "Download",
+                   "save":  "Save",
+                   "delete":  "Delete",
+                   "next":  "Next",
+                   "edit":  "Edit",
+                   "filter":  "Filter",
+                   "close":  "Close",
+                   "add":  "Add",
+                   "view":  "View",
+                   "search":  "Search",
+                   "export":  "Export",
+                   "previous":  "Previous",
+                   "upload":  "Upload",
+                   "submit":  "Submit",
+                   "yes":  "Yes"
+               },
+    "table":  {
+                  "previous":  "Previous",
+                  "entries":  "entries",
+                  "no_data":  "No data available",
+                  "showing":  "Showing",
+                  "search":  "Search:",
+                  "first":  "First",
+                  "last":  "Last",
+                  "next":  "Next"
+              },
+    "form":  {
+                 "choose_file":  "Choose file",
+                 "password_mismatch":  "Passwords do not match",
+                 "required_field":  "This field is required",
+                 "invalid_email":  "Please enter a valid email",
+                 "please_select":  "Please select"
+             },
+    "page":  {
+                 "description":  "Page description for estimate-view",
+                 "title":  "estimate view"
+             }
+}

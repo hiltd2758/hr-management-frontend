@@ -1,0 +1,59 @@
+{
+  "common": {
+    "confirm": "Xác nhận",
+    "loading": "Đang tải...",
+    "import": "Nhập",
+    "no": "Không",
+    "reset": "Đặt lại",
+    "cancel": "Hủy",
+    "back": "Quay lại",
+    "download": "Tải xuống",
+    "save": "Lưu",
+    "delete": "Xóa",
+    "next": "Tiếp theo",
+    "edit": "Sửa",
+    "filter": "Lọc",
+    "close": "Đóng",
+    "add": "Thêm",
+    "view": "Xem",
+    "search": "Tìm kiếm",
+    "export": "Xuất",
+    "previous": "Trước",
+    "upload": "Tải lên",
+    "submit": "Gửi",
+    "yes": "Có",
+    "dashboard": "Bảng điều khiển",
+    "add_employee": "Thêm nhân viên"
+  },
+  "table": {
+    "previous": "Trước",
+    "entries": "mục",
+    "no_data": "Không có dữ liệu",
+    "showing": "Hiển thị",
+    "to": "tới",
+    "of": "của",
+    "total": "Tổng số",
+    "next": "Tiếp theo"
+  },
+  "header": {
+    "name": "Tên",
+    "actions": "Thao tác",
+    "date_created": "Ngày tạo",
+    "status": "Trạng thái",
+    "search_placeholder": "Tìm kiếm..."
+  },
+  "form": {
+    "first_name": "Tên",
+    "last_name": "Họ",
+    "email": "Email",
+    "phone": "Số điện thoại",
+    "department": "Phòng ban",
+    "position": "Chức vụ",
+    "start_date": "Ngày bắt đầu",
+    "salary": "Lương"
+  },
+  "page": {
+    "title": "Nhân viên",
+    "description": "Quản lý thông tin nhân viên"
+  }
+}

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -841,8 +841,19 @@ $('.first').click(function(){
   $('#myWizard a:first').tab('show')
 });
 		</script>
-    </body>
+    
+	<!-- i18n Internationalization -->
+	<script src="assets/js/i18n.js"></script>
+	<script>
+		// Initialize i18n when DOM is loaded
+		document.addEventListener('DOMContentLoaded', function() {
+			const i18n = new I18n();
+		});
+	</script>
+
+</body>
 </html>
+
 
 
 
