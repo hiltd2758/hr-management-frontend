@@ -1,47 +1,47 @@
-﻿{
-    "common":  {
-                   "confirm":  "XÃ¡c nháº­n",
-                   "loading":  "Äang táº£i...",
-                   "import":  "Nháº­p",
-                   "no":  "KhÃ´ng",
-                   "reset":  "Äáº·t láº¡i",
-                   "cancel":  "Há»§y",
-                   "back":  "Quay láº¡i",
-                   "download":  "Táº£i xuá»‘ng",
-                   "save":  "LÆ°u",
-                   "delete":  "XÃ³a",
-                   "next":  "Tiáº¿p theo",
-                   "edit":  "Sá»­a",
-                   "filter":  "Lá»c",
-                   "close":  "ÄÃ³ng",
-                   "add":  "ThÃªm",
-                   "view":  "Xem",
-                   "search":  "TÃ¬m kiáº¿m",
-                   "export":  "Xuáº¥t",
-                   "previous":  "TrÆ°á»›c",
-                   "upload":  "Táº£i lÃªn",
-                   "submit":  "Gá»­i",
-                   "yes":  "CÃ³"
-               },
-    "table":  {
-                  "previous":  "TrÆ°á»›c",
-                  "entries":  "má»¥c",
-                  "no_data":  "KhÃ´ng cÃ³ dá»¯ liá»‡u",
-                  "showing":  "Hiá»ƒn thá»‹",
-                  "search":  "TÃ¬m kiáº¿m:",
-                  "first":  "Äáº§u",
-                  "last":  "Cuá»‘i",
-                  "next":  "Tiáº¿p theo"
-              },
-    "form":  {
-                 "choose_file":  "Chá»n tá»‡p",
-                 "password_mismatch":  "Máº­t kháº©u khÃ´ng khá»›p",
-                 "required_field":  "TrÆ°á»ng nÃ y lÃ  báº¯t buá»™c",
-                 "invalid_email":  "Vui lÃ²ng nháº­p email há»£p lá»‡",
-                 "please_select":  "Vui lÃ²ng chá»n"
-             },
-    "page":  {
-                 "description":  "MÃ´ táº£ trang cho visited-jobs",
-                 "title":  "visited jobs"
-             }
+{
+  "common": {
+    "confirm": "Xác nhận",
+    "loading": "Đang tải...",
+    "import": "Nhập",
+    "no": "Không",
+    "reset": "Đặt lại",
+    "cancel": "Hủy",
+    "back": "Quay lại",
+    "download": "Tải xuống",
+    "save": "Lưu",
+    "delete": "Xóa",
+    "next": "Tiếp theo",
+    "edit": "Sửa",
+    "filter": "Lọc",
+    "close": "Đóng",
+    "add": "Thêm",
+    "view": "Xem",
+    "search": "Tìm kiếm",
+    "export": "Xuất",
+    "previous": "Trước",
+    "upload": "Tải lên",
+    "submit": "Gửi",
+    "yes": "Có"
+  },
+  "table": {
+    "previous": "Trước",
+    "entries": "mục",
+    "no_data": "Không có dữ liệu",
+    "showing": "Hiển thị",
+    "search": "Tìm kiếm:",
+    "first": "Đầu",
+    "last": "Cuối",
+    "next": "Tiếp theo"
+  },
+  "form": {
+    "choose_file": "Chọn tệp",
+    "password_mismatch": "Mật khẩu không khớp",
+    "required_field": "Trường này là bắt buộc",
+    "invalid_email": "Vui lòng nhập email hợp lệ",
+    "please_select": "Vui lòng chọn"
+  },
+  "page": {
+    "description": "Mô tả trang cho visited-jobs",
+    "title": "visited jobs"
+  }
 }
