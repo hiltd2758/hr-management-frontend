@@ -40,7 +40,7 @@
 				</span>
 			</a>
 			<div class="page-title-box">
-				<h3>CMC Global</h3>
+				<h3 data-i18n="header.title">CMC Global</h3>
 			</div>
 			<a id="mobile_btn" class="mobile_btn" href="#sidebar"><i class="fa fa-bars"></i></a>
 			<ul class="nav user-menu">
@@ -50,7 +50,8 @@
 							<i class="fa fa-search"></i>
 						</a>
 						<form action="search.html">
-							<input class="form-control" type="text" placeholder="Search here">
+							<input class="form-control" type="text" data-i18n="header.search_placeholder"
+								data-i18n-attr="placeholder:header.search_placeholder" placeholder="Search here">
 							<button class="btn" type="submit"><i class="fa fa-search"></i></button>
 						</form>
 					</div>
@@ -60,10 +61,10 @@
 						<img src="assets/img/flags/us.png" alt="" height="20"> <span>English</span>
 					</a>
 					<div class="dropdown-menu dropdown-menu-right">
-						<a href="javascript:void(0);" class="dropdown-item">
+						<a href="javascript:void(0);" class="dropdown-item" data-lang="en">
 							<img src="assets/img/flags/us.png" alt="" height="16"> English
 						</a>
-						<a href="javascript:void(0);" class="dropdown-item">
+						<a href="javascript:void(0);" class="dropdown-item" data-lang="vi">
 							<img src="assets/img/flags/vietnam.png" alt="" height="18"> Tiếng Việt
 						</a>
 					</div>
@@ -74,8 +75,8 @@
 					</a>
 					<div class="dropdown-menu notifications">
 						<div class="topnav-dropdown-header">
-							<span class="notification-title">Notifications</span>
-							<a href="javascript:void(0)" class="clear-noti"> Clear All </a>
+							<span class="notification-title" data-i18n="header.notifications">Notifications</span>
+							<a href="javascript:void(0)" class="clear-noti" data-i18n="header.clear_all"> Clear All </a>
 						</div>
 						<div class="noti-content">
 							<ul class="notification-list">
@@ -86,10 +87,13 @@
 												<img alt="" src="assets/img/profiles/avatar-02.jpg">
 											</span>
 											<div class="media-body">
-												<p class="noti-details"><span class="noti-title">John Doe</span> added
-													new task <span class="noti-title">Patient appointment booking</span>
+												<p class="noti-details"><span class="noti-title">John Doe</span> <span
+														data-i18n="notifications.john_doe_task">added
+														new task</span> <span class="noti-title">Patient appointment
+														booking</span>
 												</p>
-												<p class="noti-time"><span class="notification-time">4 mins ago</span>
+												<p class="noti-time"><span class="notification-time"
+														data-i18n="notifications.time_4_mins">4 mins ago</span>
 												</p>
 											</div>
 										</div>
@@ -103,9 +107,12 @@
 											</span>
 											<div class="media-body">
 												<p class="noti-details"><span class="noti-title">Tarah Shropshire</span>
-													changed the task name <span class="noti-title">Appointment booking
-														with payment gateway</span></p>
-												<p class="noti-time"><span class="notification-time">6 mins ago</span>
+													<span data-i18n="notifications.tarah_task">changed the task
+														name</span> <span class="noti-title">Appointment booking
+														with payment gateway</span>
+												</p>
+												<p class="noti-time"><span class="notification-time"
+														data-i18n="notifications.time_6_mins">6 mins ago</span>
 												</p>
 											</div>
 										</div>
@@ -119,10 +126,13 @@
 											</span>
 											<div class="media-body">
 												<p class="noti-details"><span class="noti-title">Misty Tison</span>
-													added <span class="noti-title">Domenic Houston</span> and <span
+													<span data-i18n="notifications.misty_project">added</span> <span
+														class="noti-title">Domenic Houston</span> and <span
 														class="noti-title">Claire Mapes</span> to project <span
-														class="noti-title">Doctor available module</span></p>
-												<p class="noti-time"><span class="notification-time">8 mins ago</span>
+														class="noti-title">Doctor available module</span>
+												</p>
+												<p class="noti-time"><span class="notification-time"
+														data-i18n="notifications.time_8_mins">8 mins ago</span>
 												</p>
 											</div>
 										</div>
@@ -136,9 +146,12 @@
 											</span>
 											<div class="media-body">
 												<p class="noti-details"><span class="noti-title">Rolland Webber</span>
-													completed task <span class="noti-title">Patient and Doctor video
-														conferencing</span></p>
-												<p class="noti-time"><span class="notification-time">12 mins ago</span>
+													<span data-i18n="notifications.rolland_completed">completed
+														task</span> <span class="noti-title">Patient and Doctor video
+														conferencing</span>
+												</p>
+												<p class="noti-time"><span class="notification-time"
+														data-i18n="notifications.time_12_mins">12 mins ago</span>
 												</p>
 											</div>
 										</div>
@@ -152,9 +165,11 @@
 											</span>
 											<div class="media-body">
 												<p class="noti-details"><span class="noti-title">Bernardo Galaviz</span>
-													added new task <span class="noti-title">Private chat module</span>
+													<span data-i18n="notifications.bernardo_task">added new task</span>
+													<span class="noti-title">Private chat module</span>
 												</p>
-												<p class="noti-time"><span class="notification-time">2 days ago</span>
+												<p class="noti-time"><span class="notification-time"
+														data-i18n="notifications.time_2_days">2 days ago</span>
 												</p>
 											</div>
 										</div>
@@ -163,7 +178,8 @@
 							</ul>
 						</div>
 						<div class="topnav-dropdown-footer">
-							<a href="activities.html">View all Notifications</a>
+							<a href="activities.html" data-i18n="header.view_all_notifications">View all
+								Notifications</a>
 						</div>
 					</div>
 				</li>
@@ -173,8 +189,8 @@
 					</a>
 					<div class="dropdown-menu notifications">
 						<div class="topnav-dropdown-header">
-							<span class="notification-title">Messages</span>
-							<a href="javascript:void(0)" class="clear-noti"> Clear All </a>
+							<span class="notification-title" data-i18n="header.messages">Messages</span>
+							<a href="javascript:void(0)" class="clear-noti" data-i18n="header.clear_all"> Clear All </a>
 						</div>
 						<div class="noti-content">
 							<ul class="notification-list">
@@ -190,7 +206,8 @@
 												<span class="message-author">Richard Miles </span>
 												<span class="message-time">12:28 AM</span>
 												<div class="clearfix"></div>
-												<span class="message-content">Lorem ipsum dolor sit amet, consectetur
+												<span class="message-content" data-i18n="messages.richard_message">Lorem
+													ipsum dolor sit amet, consectetur
 													adipiscing</span>
 											</div>
 										</div>
@@ -208,7 +225,8 @@
 												<span class="message-author">John Doe</span>
 												<span class="message-time">6 Mar</span>
 												<div class="clearfix"></div>
-												<span class="message-content">Lorem ipsum dolor sit amet, consectetur
+												<span class="message-content" data-i18n="messages.john_message">Lorem
+													ipsum dolor sit amet, consectetur
 													adipiscing</span>
 											</div>
 										</div>
@@ -226,7 +244,8 @@
 												<span class="message-author"> Tarah Shropshire </span>
 												<span class="message-time">5 Mar</span>
 												<div class="clearfix"></div>
-												<span class="message-content">Lorem ipsum dolor sit amet, consectetur
+												<span class="message-content" data-i18n="messages.tarah_message">Lorem
+													ipsum dolor sit amet, consectetur
 													adipiscing</span>
 											</div>
 										</div>
@@ -244,7 +263,8 @@
 												<span class="message-author">Mike Litorus</span>
 												<span class="message-time">3 Mar</span>
 												<div class="clearfix"></div>
-												<span class="message-content">Lorem ipsum dolor sit amet, consectetur
+												<span class="message-content" data-i18n="messages.mike_message">Lorem
+													ipsum dolor sit amet, consectetur
 													adipiscing</span>
 											</div>
 										</div>
@@ -262,7 +282,9 @@
 												<span class="message-author"> Catherine Manseau </span>
 												<span class="message-time">27 Feb</span>
 												<div class="clearfix"></div>
-												<span class="message-content">Lorem ipsum dolor sit amet, consectetur
+												<span class="message-content"
+													data-i18n="messages.catherine_message">Lorem ipsum dolor sit amet,
+													consectetur
 													adipiscing</span>
 											</div>
 										</div>
@@ -271,7 +293,7 @@
 							</ul>
 						</div>
 						<div class="topnav-dropdown-footer">
-							<a href="chat.html">View all Messages</a>
+							<a href="chat.html" data-i18n="header.view_all_messages">View all Messages</a>
 						</div>
 					</div>
 				</li>
@@ -282,9 +304,9 @@
 						<span>Employee</span>
 					</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="profile.html">My Profile</a>
-						<a class="dropdown-item" href="settings.html">Settings</a>
-						<a class="dropdown-item" href="login.html">Logout</a>
+						<a class="dropdown-item" href="profile.html" data-i18n="header.profile">My Profile</a>
+						<a class="dropdown-item" href="settings.html" data-i18n="header.settings">Settings</a>
+						<a class="dropdown-item" href="login.html" data-i18n="header.logout">Logout</a>
 					</div>
 				</li>
 			</ul>
@@ -292,9 +314,9 @@
 				<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i
 						class="fa fa-ellipsis-v"></i></a>
 				<div class="dropdown-menu dropdown-menu-right">
-					<a class="dropdown-item" href="profile.html">My Profile</a>
-					<a class="dropdown-item" href="settings.html">Settings</a>
-					<a class="dropdown-item" href="login.html">Logout</a>
+					<a class="dropdown-item" href="profile.html" data-i18n="header.profile">My Profile</a>
+					<a class="dropdown-item" href="settings.html" data-i18n="header.settings">Settings</a>
+					<a class="dropdown-item" href="login.html" data-i18n="header.logout">Logout</a>
 				</div>
 			</div>
 		</div>
@@ -303,58 +325,65 @@
 				<div id="sidebar-menu" class="sidebar-menu">
 					<ul>
 						<li class="menu-title">
-							<span>Main</span>
+							<span data-i18n="sidebar.main">Main</span>
 						</li>
 						<li>
-							<a class="active" href="index.html"><i class="la la-dashboard"></i> <span>
+							<a class="active" href="index.html"><i class="la la-dashboard"></i> <span
+									data-i18n="sidebar.dashboard">
 									Dashboard</span></a>
 						</li>
 						<li class="submenu">
-							<a href="#"><i class="la la-cube"></i> <span> Apps</span> <span
+							<a href="#"><i class="la la-cube"></i> <span data-i18n="sidebar.apps"> Apps</span> <span
 									class="menu-arrow"></span></a>
 							<ul style="display: none;">
-								<li><a href="chat.html">Chat</a></li>
-
-								<li><a href="inbox.html">Email</a></li>
+								<li><a href="chat.html" data-i18n="sidebar.chat">Chat</a></li>
+								<li><a href="inbox.html" data-i18n="sidebar.email">Email</a></li>
 							</ul>
 						</li>
 						<li class="menu-title">
-							<span>Employees</span>
+							<span data-i18n="sidebar.employees">Employees</span>
 						</li>
 						<li class="submenu">
-							<a href="#" class="noti-dot"><i class="la la-user"></i> <span> Employees</span> <span
-									class="menu-arrow"></span></a>
+							<a href="#" class="noti-dot"><i class="la la-user"></i> <span data-i18n="sidebar.employees">
+									Employees</span> <span class="menu-arrow"></span></a>
 							<ul style="display: none;">
-								<li><a href="employees.html">All Employees</a></li>
-								<li><a href="leaves.html">Leaves (Admin) <span
+								<li><a href="employees.html" data-i18n="sidebar.all_employees">All Employees</a></li>
+								<li><a href="leaves.html" data-i18n="sidebar.leaves_admin">Leaves (Admin) <span
 											class="badge badge-pill bg-primary float-right">1</span></a></li>
-								<li><a href="leaves-employee.html">Leaves (Employee)</a></li>
-								<li><a href="leave-settings.html">Leave Settings</a></li>
-								<li><a href="attendance.html">Attendance (Admin)</a></li>
-								<li><a href="attendance-employee.html">Attendance (Employee)</a></li>
-								<li><a href="departments.html">Departments</a></li>
-								<li><a href="designations.html">Designations</a></li>
-								<li><a href="timesheet.html">Timesheet</a></li>
-								<li><a href="shift-scheduling.html">Shift & Schedule</a></li>
-								<li><a href="overtime.html">Overtime</a></li>
+								<li><a href="leaves-employee.html" data-i18n="sidebar.leaves_employee">Leaves
+										(Employee)</a></li>
+								<li><a href="leave-settings.html" data-i18n="sidebar.leave_settings">Leave Settings</a>
+								</li>
+								<li><a href="attendance.html" data-i18n="sidebar.attendance_admin">Attendance
+										(Admin)</a></li>
+								<li><a href="attendance-employee.html"
+										data-i18n="sidebar.attendance_employee">Attendance (Employee)</a></li>
+								<li><a href="departments.html" data-i18n="sidebar.departments">Departments</a></li>
+								<li><a href="designations.html" data-i18n="sidebar.designations">Designations</a></li>
+								<li><a href="timesheet.html" data-i18n="sidebar.timesheet">Timesheet</a></li>
+								<li><a href="shift-scheduling.html" data-i18n="sidebar.shift_schedule">Shift &
+										Schedule</a></li>
+								<li><a href="overtime.html" data-i18n="sidebar.overtime">Overtime</a></li>
 							</ul>
 						</li>
 						<li class="submenu">
-							<a href="#"><i class="la la-rocket"></i> <span> Tasks</span> <span
+							<a href="#"><i class="la la-rocket"></i> <span data-i18n="sidebar.tasks"> Tasks</span> <span
 									class="menu-arrow"></span></a>
 							<ul style="display: none;">
-								<li><a href="tasks.html">Tasks</a></li>
-								<li><a href="task-board.html">Task Board</a></li>
+								<li><a href="tasks.html" data-i18n="sidebar.tasks">Tasks</a></li>
+								<li><a href="task-board.html" data-i18n="sidebar.task_board">Task Board</a></li>
 							</ul>
 						</li>
 						<li>
-							<a href="leads.html"><i class="la la-user-secret"></i> <span>Leads</span></a>
+							<a href="leads.html"><i class="la la-user-secret"></i> <span
+									data-i18n="sidebar.leads">Leads</span></a>
 						</li>
 						<li>
-							<a href="tickets.html"><i class="la la-ticket"></i> <span>Tickets</span></a>
+							<a href="tickets.html"><i class="la la-ticket"></i> <span
+									data-i18n="sidebar.tickets">Tickets</span></a>
 						</li>
 						<li class="menu-title">
-							<span>HR</span>
+							<span data-i18n="sidebar.hr">HR</span>
 						</li>
 						<li class="submenu">
 							<a href="#"><i class="la la-files-o"></i> <span> Sales </span> <span
@@ -388,7 +417,8 @@
 							</ul>
 						</li>
 						<li>
-							<a href="policies.html"><i class="la la-file-pdf-o"></i> <span>Policies</span></a>
+							<a href="policies.html"><i class="la la-file-pdf-o"></i> <span
+									data-i18n="sidebar.policies">Policies</span></a>
 						</li>
 						<li class="submenu">
 							<a href="#"><i class="la la-pie-chart"></i> <span> Reports </span> <span
@@ -408,7 +438,7 @@
 							</ul>
 						</li>
 						<li class="menu-title">
-							<span>Performance</span>
+							<span data-i18n="sidebar.performance">Performance</span>
 						</li>
 						<li class="submenu">
 							<a href="#"><i class="la la-graduation-cap"></i> <span> Performance </span> <span
@@ -436,16 +466,19 @@
 								<li><a href="training-type.html"> Training Type </a></li>
 							</ul>
 						</li>
-						<li><a href="promotion.html"><i class="la la-bullhorn"></i> <span>Promotion</span></a></li>
+						<li><a href="promotion.html"><i class="la la-bullhorn"></i> <span
+									data-i18n="sidebar.promotion">Promotion</span></a></li>
 						<li><a href="resignation.html"><i class="la la-external-link-square"></i>
-								<span>Resignation</span></a></li>
-						<li><a href="termination.html"><i class="la la-times-circle"></i> <span>Termination</span></a>
+								<span data-i18n="sidebar.resignation">Resignation</span></a></li>
+						<li><a href="termination.html"><i class="la la-times-circle"></i> <span
+									data-i18n="sidebar.termination">Termination</span></a>
 						</li>
 						<li class="menu-title">
-							<span>Administration</span>
+							<span data-i18n="sidebar.administration">Administration</span>
 						</li>
 						<li>
-							<a href="assets.html"><i class="la la-object-ungroup"></i> <span>Assets</span></a>
+							<a href="assets.html"><i class="la la-object-ungroup"></i> <span
+									data-i18n="sidebar.assets">Assets</span></a>
 						</li>
 						<li class="submenu">
 							<a href="#"><i class="la la-briefcase"></i> <span> Jobs </span> <span
@@ -488,219 +521,188 @@
 		<div class="page-wrapper">
 			<div class="content container-fluid">
 				<div class="page-header">
-					<div class="row">
-						<div class="col-sm-12">
-							<h3 class="page-title">Project Reports</h3>
-							<ul class="breadcrumb">
-								<li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-								<li class="breadcrumb-item">Project Reports</li>
-							</ul>
-						</div>
-					</div>
+<div class="row">
+    <div class="col-sm-12">
+        <h3 class="page-title" data-i18n="projects.reports.pageTitle">Project Reports</h3>
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html" data-i18n="projects.dashboard">Dashboard</a></li>
+            <li class="breadcrumb-item" data-i18n="projects.reports.pageTitle">Project Reports</li>
+        </ul>
+    </div>
+</div>
 				</div>
 				<div class="row filter-row">
-					<div class="col-sm-6 col-md-3">
-						<div class="form-group form-focus">
-							<div class="cal-icon">
-								<select class="form-control floating select">
-									<option>
-										Name1
-									</option>
-									<option>
-										Name2
-									</option>
-								</select>
-							</div>
-							<label class="focus-label">Project Name</label>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-3">
-						<div class="form-group form-focus">
-							<div class="cal-icon">
-								<select class="form-control floating select">
-									<option>
-										Active
-									</option>
-									<option>
-										Pending
-									</option>
-								</select>
-							</div>
-							<label class="focus-label">Status</label>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-3">
-						<a href="#" class="btn btn-success btn-block"> Search </a>
-					</div>
-				</div>
+    <div class="col-sm-6 col-md-3">
+        <div class="form-group form-focus">
+            <div class="cal-icon">
+                <select class="form-control floating select">
+                    <option data-i18n="projects.filters.name1">Name1</option>
+                    <option data-i18n="projects.filters.name2">Name2</option>
+                </select>
+            </div>
+            <label class="focus-label" data-i18n="projects.form.projectName">Project Name</label>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="form-group form-focus">
+            <div class="cal-icon">
+                <select class="form-control floating select">
+                    <option data-i18n="projects.status.active">Active</option>
+                    <option data-i18n="projects.status.pending">Pending</option>
+                </select>
+            </div>
+            <label class="focus-label" data-i18n="projects.form.status">Status</label>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <a href="#" class="btn btn-success btn-block" data-i18n="common.search">Search</a>
+    </div>
+</div>
 				<div class="row">
-					<div class="col-md-12">
-						<div class="table-responsive">
-							<table class="table table-striped custom-table mb-0 datatable">
-								<thead>
-									<tr>
-										<th>#</th>
-										<th>Project Title</th>
-										<th>Client Name</th>
-										<th>Start Date</th>
-										<th>End Date</th>
-										<th>Status</th>
-										<th>Team</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>1</td>
-										<td>
-											<a href="project-view.html">Hospital Administration</a>
-										</td>
-										<td>
-											<h2 class="table-avatar">
-												<a href="client-profile.html" class="avatar"><img
-														src="assets/img/profiles/avatar-19.jpg" alt=""></a>
-												<a href="client-profile.html">Global Technologies</a>
-											</h2>
-										</td>
-										<td>9 Jan 2021</td>
-										<td>10 Apr 2021</td>
-										<td>
-											<div class="dropdown action-label">
-												<a href="#" class="btn btn-white btn-sm btn-rounded"><i
-														class="fa fa-dot-circle-o text-success"></i> Active </a>
-											</div>
-										</td>
-										<td>
-											<ul class="team-members">
-												<li>
-													<a href="#" title="" data-toggle="tooltip"
-														data-original-title="John Doe"><img alt=""
-															src="assets/img/profiles/avatar-02.jpg"></a>
-												</li>
-												<li>
-													<a href="#" title="" data-toggle="tooltip"
-														data-original-title="Richard Miles"><img alt=""
-															src="assets/img/profiles/avatar-09.jpg"></a>
-												</li>
-												<li>
-													<a href="#" title="" data-toggle="tooltip"
-														data-original-title="John Smith"><img alt=""
-															src="assets/img/profiles/avatar-10.jpg"></a>
-												</li>
-												<li>
-													<a href="#" title="" data-toggle="tooltip"
-														data-original-title="Mike Litorus"><img alt=""
-															src="assets/img/profiles/avatar-05.jpg"></a>
-												</li>
-												<li>
-													<a href="#" class="all-users">+15</a>
-												</li>
-											</ul>
-										</td>
-									</tr>
-									<tr>
-										<td>2</td>
-										<td>
-											<a href="project-view.html">Office Management</a>
-										</td>
-										<td>
-											<h2 class="table-avatar">
-												<a href="client-profile.html" class="avatar"><img
-														src="assets/img/profiles/avatar-29.jpg" alt=""></a>
-												<a href="client-profile.html">Delta Infotech</a>
-											</h2>
-										</td>
-										<td>10 Dec 2021</td>
-										<td>2 May 2021</td>
-										<td>
-											<div class="action-label">
-												<a href="" class="btn btn-white btn-sm btn-rounded"><i
-														class="fa fa-dot-circle-o text-success"></i> Active </a>
-											</div>
-										</td>
-										<td>
-											<ul class="team-members text-nowrap">
-												<li>
-													<a href="#" title="" data-toggle="tooltip"
-														data-original-title="John Doe"><img alt=""
-															src="assets/img/profiles/avatar-02.jpg"></a>
-												</li>
-												<li>
-													<a href="#" title="" data-toggle="tooltip"
-														data-original-title="Richard Miles"><img alt=""
-															src="assets/img/profiles/avatar-09.jpg"></a>
-												</li>
-												<li>
-													<a href="#" title="" data-toggle="tooltip"
-														data-original-title="John Smith"><img alt=""
-															src="assets/img/profiles/avatar-10.jpg"></a>
-												</li>
-												<li>
-													<a href="#" title="" data-toggle="tooltip"
-														data-original-title="Mike Litorus"><img alt=""
-															src="assets/img/profiles/avatar-05.jpg"></a>
-												</li>
-												<li class="dropdown avatar-dropdown">
-													<a href="#" class="all-users dropdown-toggle" data-toggle="dropdown"
-														aria-expanded="false">+15</a>
-													<div class="dropdown-menu dropdown-menu-right">
-														<div class="avatar-group">
-															<a class="avatar avatar-xs" href="#">
-																<img alt="" src="assets/img/profiles/avatar-02.jpg">
-															</a>
-															<a class="avatar avatar-xs" href="#">
-																<img alt="" src="assets/img/profiles/avatar-09.jpg">
-															</a>
-															<a class="avatar avatar-xs" href="#">
-																<img alt="" src="assets/img/profiles/avatar-10.jpg">
-															</a>
-															<a class="avatar avatar-xs" href="#">
-																<img alt="" src="assets/img/profiles/avatar-05.jpg">
-															</a>
-															<a class="avatar avatar-xs" href="#">
-																<img alt="" src="assets/img/profiles/avatar-11.jpg">
-															</a>
-															<a class="avatar avatar-xs" href="#">
-																<img alt="" src="assets/img/profiles/avatar-12.jpg">
-															</a>
-															<a class="avatar avatar-xs" href="#">
-																<img alt="" src="assets/img/profiles/avatar-13.jpg">
-															</a>
-															<a class="avatar avatar-xs" href="#">
-																<img alt="" src="assets/img/profiles/avatar-01.jpg">
-															</a>
-															<a class="avatar avatar-xs" href="#">
-																<img alt="" src="assets/img/profiles/avatar-16.jpg">
-															</a>
-														</div>
-														<div class="avatar-pagination">
-															<ul class="pagination">
-																<li class="page-item">
-																	<a class="page-link" href="#" aria-label="Previous">
-																		<span aria-hidden="true">«</span>
-																		<span class="sr-only">Previous</span>
-																	</a>
-																</li>
-																<li class="page-item"><a class="page-link"
-																		href="#">1</a></li>
-																<li class="page-item"><a class="page-link"
-																		href="#">2</a></li>
-																<li class="page-item">
-																	<a class="page-link" href="#" aria-label="Next">
-																		<span aria-hidden="true">»</span>
-																		<span class="sr-only">Next</span>
-																	</a>
-																</li>
-															</ul>
-														</div>
-													</div>
-												</li>
-											</ul>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
+<div class="col-md-12">
+    <div class="table-responsive">
+        <table class="table table-striped custom-table mb-0 datatable">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th data-i18n="projects.table.headers.projectTitle">Project Title</th>
+                    <th data-i18n="projects.table.headers.clientName">Client Name</th>
+                    <th data-i18n="projects.table.headers.startDate">Start Date</th>
+                    <th data-i18n="projects.table.headers.endDate">End Date</th>
+                    <th data-i18n="projects.table.headers.status">Status</th>
+                    <th data-i18n="projects.table.headers.team">Team</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <a href="project-view.html" data-i18n="projects.items.hospitalAdministration">Hospital Administration</a>
+                    </td>
+                    <td>
+                        <h2 class="table-avatar">
+                            <a href="client-profile.html" class="avatar"><img src="assets/img/profiles/avatar-19.jpg" alt=""></a>
+                            <a href="client-profile.html" data-i18n="projects.clients.globalTechnologies">Global Technologies</a>
+                        </h2>
+                    </td>
+                    <td>9 Jan 2021</td>
+                    <td>10 Apr 2021</td>
+                    <td>
+                        <div class="dropdown action-label">
+                            <a href="#" class="btn btn-white btn-sm btn-rounded"><i class="fa fa-dot-circle-o text-success"></i> <span data-i18n="projects.status.active">Active</span> </a>
+                        </div>
+                    </td>
+                    <td>
+                        <ul class="team-members">
+                            <li>
+                                <a href="#" title="" data-toggle="tooltip" data-original-title="John Doe"><img alt="" src="assets/img/profiles/avatar-02.jpg"></a>
+                            </li>
+                            <li>
+                                <a href="#" title="" data-toggle="tooltip" data-original-title="Richard Miles"><img alt="" src="assets/img/profiles/avatar-09.jpg"></a>
+                            </li>
+                            <li>
+                                <a href="#" title="" data-toggle="tooltip" data-original-title="John Smith"><img alt="" src="assets/img/profiles/avatar-10.jpg"></a>
+                            </li>
+                            <li>
+                                <a href="#" title="" data-toggle="tooltip" data-original-title="Mike Litorus"><img alt="" src="assets/img/profiles/avatar-05.jpg"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="all-users">+15</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <a href="project-view.html" data-i18n="projects.items.officeManagement">Office Management</a>
+                    </td>
+                    <td>
+                        <h2 class="table-avatar">
+                            <a href="client-profile.html" class="avatar"><img src="assets/img/profiles/avatar-29.jpg" alt=""></a>
+                            <a href="client-profile.html" data-i18n="projects.clients.deltaInfotech">Delta Infotech</a>
+                        </h2>
+                    </td>
+                    <td>10 Dec 2021</td>
+                    <td>2 May 2021</td>
+                    <td>
+                        <div class="action-label">
+                            <a href="" class="btn btn-white btn-sm btn-rounded"><i class="fa fa-dot-circle-o text-success"></i> <span data-i18n="projects.status.active">Active</span> </a>
+                        </div>
+                    </td>
+                    <td>
+                        <ul class="team-members text-nowrap">
+                            <li>
+                                <a href="#" title="" data-toggle="tooltip" data-original-title="John Doe"><img alt="" src="assets/img/profiles/avatar-02.jpg"></a>
+                            </li>
+                            <li>
+                                <a href="#" title="" data-toggle="tooltip" data-original-title="Richard Miles"><img alt="" src="assets/img/profiles/avatar-09.jpg"></a>
+                            </li>
+                            <li>
+                                <a href="#" title="" data-toggle="tooltip" data-original-title="John Smith"><img alt="" src="assets/img/profiles/avatar-10.jpg"></a>
+                            </li>
+                            <li>
+                                <a href="#" title="" data-toggle="tooltip" data-original-title="Mike Litorus"><img alt="" src="assets/img/profiles/avatar-05.jpg"></a>
+                            </li>
+                            <li class="dropdown avatar-dropdown">
+                                <a href="#" class="all-users dropdown-toggle" data-toggle="dropdown" aria-expanded="false">+15</a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <div class="avatar-group">
+                                        <a class="avatar avatar-xs" href="#">
+                                            <img alt="" src="assets/img/profiles/avatar-02.jpg">
+                                        </a>
+                                        <a class="avatar avatar-xs" href="#">
+                                            <img alt="" src="assets/img/profiles/avatar-09.jpg">
+                                        </a>
+                                        <a class="avatar avatar-xs" href="#">
+                                            <img alt="" src="assets/img/profiles/avatar-10.jpg">
+                                        </a>
+                                        <a class="avatar avatar-xs" href="#">
+                                            <img alt="" src="assets/img/profiles/avatar-05.jpg">
+                                        </a>
+                                        <a class="avatar avatar-xs" href="#">
+                                            <img alt="" src="assets/img/profiles/avatar-11.jpg">
+                                        </a>
+                                        <a class="avatar avatar-xs" href="#">
+                                            <img alt="" src="assets/img/profiles/avatar-12.jpg">
+                                        </a>
+                                        <a class="avatar avatar-xs" href="#">
+                                            <img alt="" src="assets/img/profiles/avatar-13.jpg">
+                                        </a>
+                                        <a class="avatar avatar-xs" href="#">
+                                            <img alt="" src="assets/img/profiles/avatar-01.jpg">
+                                        </a>
+                                        <a class="avatar avatar-xs" href="#">
+                                            <img alt="" src="assets/img/profiles/avatar-16.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="avatar-pagination">
+                                        <ul class="pagination">
+                                            <li class="page-item">
+                                                <a class="page-link" href="#" aria-label="Previous">
+                                                    <span aria-hidden="true">«</span>
+                                                    <span class="sr-only" data-i18n="common.previous">Previous</span>
+                                                </a>
+                                            </li>
+                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item">
+                                                <a class="page-link" href="#" aria-label="Next">
+                                                    <span aria-hidden="true">»</span>
+                                                    <span class="sr-only" data-i18n="common.next">Next</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
 				</div>
 			</div>
 		</div>

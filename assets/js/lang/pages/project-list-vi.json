@@ -1,38 +1,211 @@
 ﻿{
-    "common":  {
-                   "confirm":  "XÃ¡c nháº­n",
-                   "loading":  "Äang táº£i...",
-                   "import":  "Nháº­p",
-                   "no":  "KhÃ´ng",
-                   "reset":  "Äáº·t láº¡i",
-                   "cancel":  "Há»§y",
-                   "back":  "Quay láº¡i",
-                   "download":  "Táº£i xuá»‘ng",
-                   "save":  "LÆ°u",
-                   "delete":  "XÃ³a",
-                   "next":  "Tiáº¿p theo",
-                   "edit":  "Sá»­a",
-                   "filter":  "Lá»c",
-                   "close":  "ÄÃ³ng",
-                   "add":  "ThÃªm",
-                   "view":  "Xem",
-                   "search":  "TÃ¬m kiáº¿m",
-                   "export":  "Xuáº¥t",
-                   "previous":  "TrÆ°á»›c",
-                   "upload":  "Táº£i lÃªn",
-                   "submit":  "Gá»­i",
-                   "yes":  "CÃ³"
-               },
-    "table":  {
-                  "previous":  "TrÆ°á»›c",
-                  "entries":  "má»¥c",
-                  "no_data":  "KhÃ´ng cÃ³ dá»¯ liá»‡u",
-                  "showing":  "Hiá»ƒn thá»‹",
-                  "search":  "TÃ¬m kiáº¿m:",
-                  "first":  "Äáº§u",
-                  "last":  "Cuá»‘i",
-                  "next":  "Tiáº¿p theo"
-              },
+   "header": {
+    "title": "CMC Global",
+    "search_placeholder": "Tìm kiếm tại đây",
+    "notifications": "Thông báo",
+    "clear_all": "Xóa tất cả",
+    "messages": "Tin nhắn",
+    "profile": "Hồ sơ của tôi",
+    "settings": "Cài đặt",
+    "logout": "Đăng xuất",
+    "view_all_notifications": "Xem tất cả thông báo",
+    "view_all_messages": "Xem tất cả tin nhắn"
+  },
+  "sidebar": {
+    "main": "Chính",
+    "dashboard": "Bảng điều khiển",
+    "apps": "Ứng dụng",
+    "chat": "Trò chuyện",
+    "email": "Email",
+    "employees": "Nhân viên",
+    "all_employees": "Tất cả nhân viên",
+    "leaves_admin": "Nghỉ phép (Quản trị)",
+    "leaves_employee": "Nghỉ phép (Nhân viên)",
+    "leave_settings": "Cài đặt nghỉ phép",
+    "attendance_admin": "Chấm công (Quản trị)",
+    "attendance_employee": "Chấm công (Nhân viên)",
+    "departments": "Phòng ban",
+    "designations": "Chức vụ",
+    "timesheet": "Bảng chấm công",
+    "shift_schedule": "Ca làm & Lịch trình",
+    "overtime": "Làm thêm giờ",
+    "tasks": "Công việc",
+    "task_board": "Bảng công việc",
+    "leads": "Khách hàng tiềm năng",
+    "tickets": "Phiếu hỗ trợ",
+    "hr": "Nhân sự",
+    "performance": "Hiệu suất",
+    "goals": "Mục tiêu",
+    "training": "Đào tạo",
+    "promotion": "Thăng chức",
+    "resignation": "Từ chức",
+    "termination": "Chấm dứt hợp đồng",
+    "administration": "Quản trị",
+    "assets": "Tài sản",
+    "jobs": "Công việc",
+    "profile": "Hồ sơ",
+    "subscriptions": "Đăng ký",
+    "policies": "Chính sách",
+    "reports": "Báo cáo"
+  },
+  "common": {
+    "confirm": "Xác nhận",
+    "loading": "Đang tải...",
+    "import": "Nhập",
+    "no": "Không",
+    "reset": "Đặt lại",
+    "cancel": "Hủy",
+    "back": "Quay lại",
+    "download": "Tải xuống",
+    "save": "Lưu",
+    "delete": "Xóa",
+    "next": "Tiếp theo",
+    "edit": "Sửa",
+    "filter": "Lọc",
+    "close": "Đóng",
+    "add": "Thêm",
+    "view": "Xem",
+    "search": "Tìm kiếm",
+    "export": "Xuất",
+    "previous": "Trước",
+    "upload": "Tải lên",
+    "submit": "Gửi",
+    "yes": "Có",
+    "dashboard": "Bảng điều khiển"
+  },
+"projects": {
+  "filters": {
+    "projectName": "Tên dự án",
+    "projectNamePlaceholder": "Nhập tên dự án",
+    "employeeName": "Tên nhân viên",
+    "employeeNamePlaceholder": "Nhập tên nhân viên",
+    "role": "Vai trò",
+    "selectRole": "Chọn vai trò"
+  },
+  "roles": {
+    "webDeveloper": "Lập trình viên Web",
+    "webDesigner": "Nhà thiết kế Web",
+    "androidDeveloper": "Lập trình viên Android",
+    "iosDeveloper": "Lập trình viên iOS"
+  },
+  "pageTitle": "Dự án",
+  "createProject": "Tạo dự án",
+  "viewOptions": {
+    "gridView": "Xem dạng lưới",
+    "listView": "Xem dạng danh sách"
+  },
+  "table": {
+    "headers": {
+      "project": "Dự án",
+      "projectId": "Mã dự án",
+      "leader": "Trưởng nhóm",
+      "team": "Nhóm",
+      "deadline": "Hạn chót",
+      "priority": "Ưu tiên",
+      "status": "Trạng thái",
+      "action": "Thao tác"
+    }
+  },
+  "items": {
+    "officeManagement": "Quản lý văn phòng",
+    "projectManagement": "Quản lý dự án",
+    "videoCallingApp": "Ứng dụng gọi video",
+    "hospitalAdministration": "Quản lý bệnh viện"
+  },
+  "priority": {
+    "high": "Cao",
+    "medium": "Trung bình",
+    "low": "Thấp"
+  },
+  "status": {
+    "active": "Hoạt động",
+    "inactive": "Không hoạt động"
+  },
+  "actions": {
+    "edit": "Chỉnh sửa",
+    "delete": "Xóa"
+  },
+  "search": "Tìm kiếm",
+    "previous": "Trước",
+    "next": "Tiếp theo",
+    "modal": {
+  "createProject": "Tạo dự án",
+  "editProject": "Chỉnh sửa dự án"
+},
+"form": {
+  "projectName": "Tên dự án",
+  "projectNamePlaceholder": "Nhập tên dự án",
+  "client": "Khách hàng",
+  "startDate": "Ngày bắt đầu",
+  "selectStartDate": "Chọn ngày bắt đầu",
+  "endDate": "Ngày kết thúc",
+  "selectEndDate": "Chọn ngày kết thúc",
+  "rate": "Chi phí",
+  "ratePlaceholder": "$50",
+  "priority": "Ưu tiên",
+  "addProjectLeader": "Thêm trưởng dự án",
+  "searchProjectLeader": "Tìm trưởng dự án",
+  "teamLeader": "Trưởng nhóm",
+  "addTeam": "Thêm thành viên",
+  "searchTeamMembers": "Tìm thành viên nhóm",
+  "teamMembers": "Thành viên nhóm",
+  "description": "Mô tả",
+  "descriptionPlaceholder": "Nhập tin nhắn tại đây",
+  "uploadFiles": "Tải lên tệp",
+  "rateTypes": {
+    "hourly": "Theo giờ",
+    "fixed": "Cố định"
+  }
+},
+"clients": {
+  "globalTechnologies": "Công nghệ Toàn cầu",
+  "deltaInfotech": "Delta Infotech"
+}
+
+},
+"roles": {
+  "webDeveloper": "Lập trình viên Web",
+  "webDesigner": "Thiết kế Web",
+  "androidDeveloper": "Lập trình viên Android",
+  "iosDeveloper": "Lập trình viên iOS",
+    "pageTitle": "Dự án",
+"createProject": "Tạo Dự án", 
+"viewOptions": {
+  "gridView": "Chế độ Lưới",
+  "listView": "Chế độ Danh sách",
+  "table": {
+    "headers": {
+      "project": "Dự án",
+      "projectId": "Mã dự án",
+      "leader": "Trưởng dự án",
+      "team": "Nhóm",
+      "deadline": "Hạn chót",
+      "priority": "Ưu tiên",
+      "status": "Trạng thái",
+      "action": "Hành động"
+    },
+    "search": "Tìm kiếm"
+  },
+  "items": {
+    "officeManagement": "Quản lý Văn phòng",
+    "projectManagement": "Quản lý Dự án",
+    "videoCallingApp": "Ứng dụng Gọi Video",
+    "hospitalAdministration": "Quản lý Bệnh viện"
+  },
+  "priority": {
+    "high": "Cao",
+    "medium": "Trung bình",
+    "low": "Thấp"
+  },
+  "status": {
+    "active": "Hoạt động",
+    "inactive": "Không hoạt động"
+  },
+  "actions": {
+    "edit": "Chỉnh sửa",
+    "delete": "Xóa"
+  },
+    
     "form":  {
                  "choose_file":  "Chá»n tá»‡p",
                  "password_mismatch":  "Máº­t kháº©u khÃ´ng khá»›p",
@@ -45,3 +218,4 @@
                  "title":  "project list"
              }
 }
+  }}

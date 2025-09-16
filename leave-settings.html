@@ -52,21 +52,25 @@
 							<i class="fa fa-search"></i>
 						</a>
 						<form action="search.html">
-							<input class="form-control" type="text" placeholder="Search here">
+							<input class="form-control" type="text" data-i18n-placeholder="header.search_placeholder"
+								placeholder="Search here">
 							<button class="btn" type="submit"><i class="fa fa-search"></i></button>
 						</form>
 					</div>
 				</li>
 				<li class="nav-item dropdown has-arrow flag-nav">
 					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">
-						<img src="assets/img/flags/us.png" alt="" height="20"> <span>English</span>
+						<img src="assets/img/flags/us.png" alt="" height="20"> <span
+							data-i18n="common.english">English</span>
 					</a>
 					<div class="dropdown-menu dropdown-menu-right">
-						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="assets/img/flags/us.png" alt="" height="16"> English
+						<a href="javascript:void(0);" class="dropdown-item" data-lang="en">
+							<img src="assets/img/flags/us.png" alt="" height="16"> <span
+								data-i18n="common.english">English</span>
 						</a>
-						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="assets/img/flags/vietnam.png" alt="" height="18"> Tiếng Việt
+						<a href="javascript:void(0);" class="dropdown-item" data-lang="vi">
+							<img src="assets/img/flags/vietnam.png" alt="" height="18"> <span
+								data-i18n="common.vietnamese">Tiếng Việt</span>
 						</a>
 					</div>
 				</li>
@@ -76,7 +80,7 @@
 					</a>
 					<div class="dropdown-menu notifications">
 						<div class="topnav-dropdown-header">
-							<span class="notification-title">Notifications</span>
+							<span class="notification-title" data-i18n="header.notifications">Notifications</span>
 							<a href="javascript:void(0)" class="clear-noti"> Clear All </a>
 						</div>
 						<div class="noti-content">
@@ -165,7 +169,8 @@
 							</ul>
 						</div>
 						<div class="topnav-dropdown-footer">
-							<a href="activities.html">View all Notifications</a>
+							<a href="activities.html" data-i18n="header.view_all_notifications">View all
+								Notifications</a>
 						</div>
 					</div>
 				</li>
@@ -175,7 +180,7 @@
 					</a>
 					<div class="dropdown-menu notifications">
 						<div class="topnav-dropdown-header">
-							<span class="notification-title">Messages</span>
+							<span class="notification-title" data-i18n="header.messages">Messages</span>
 							<a href="javascript:void(0)" class="clear-noti"> Clear All </a>
 						</div>
 						<div class="noti-content">
@@ -273,7 +278,7 @@
 							</ul>
 						</div>
 						<div class="topnav-dropdown-footer">
-							<a href="chat.html">View all Messages</a>
+							<a href="chat.html" data-i18n="header.view_all_messages">View all Messages</a>
 						</div>
 					</div>
 				</li>
@@ -284,9 +289,10 @@
 						<span>Employee</span>
 					</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="profile.html">My Profile</a>
-						<a class="dropdown-item" href="settings.html">Settings</a>
-						<a class="dropdown-item" href="login.html">Logout</a>
+						<a class="dropdown-item" href="profile.html" data-i18n="header.profile">My
+							Profile</a>
+						<a class="dropdown-item" href="settings.html" data-i18n="header.settings">Settings</a>
+						<a class="dropdown-item" href="login.html" data-i18n="header.logout">Logout</a>
 					</div>
 				</li>
 			</ul>
@@ -294,9 +300,9 @@
 				<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i
 						class="fa fa-ellipsis-v"></i></a>
 				<div class="dropdown-menu dropdown-menu-right">
-					<a class="dropdown-item" href="profile.html">My Profile</a>
-					<a class="dropdown-item" href="settings.html">Settings</a>
-					<a class="dropdown-item" href="login.html">Logout</a>
+					<a class="dropdown-item" href="profile.html" data-i18n="header.profile">My Profile</a>
+					<a class="dropdown-item" href="settings.html" data-i18n="header.settings">Settings</a>
+					<a class="dropdown-item" href="login.html" data-i18n="header.logout">Logout</a>
 				</div>
 			</div>
 		</div>
@@ -305,11 +311,11 @@
 				<div id="sidebar-menu" class="sidebar-menu">
 					<ul>
 						<li class="menu-title">
-							<span>Main</span>
+							<span data-i18n="sidebar.main">Main</span>
 						</li>
 						<li>
-							<a class="active" href="index.html"><i class="la la-dashboard"></i> <span>
-									Dashboard</span></a>
+							<a class="active" href="index.html"><i class="la la-dashboard"></i> <span
+									data-i18n="sidebar.dashboard">Dashboard</span></a>
 						</li>
 						<li class="submenu">
 							<a href="#"><i class="la la-cube"></i> <span> Apps</span> <span
@@ -321,166 +327,221 @@
 							</ul>
 						</li>
 						<li class="menu-title">
-							<span>Employees</span>
+							<span data-i18n="sidebar.employees">Employees</span>
 						</li>
 						<li class="submenu">
-							<a href="#" class="noti-dot"><i class="la la-user"></i> <span> Employees</span> <span
-									class="menu-arrow"></span></a>
+							<a href="#" class="noti-dot"><i class="la la-user"></i> <span
+									data-i18n="sidebar.employees">Employees</span> <span class="menu-arrow"></span></a>
 							<ul style="display: none;">
-								<li><a href="employees.html">All Employees</a></li>
-								<li><a href="leaves.html">Leaves (Admin) <span
+								<li><a href="employees.html" data-i18n="sidebar.all_employees">All
+										Employees</a></li>
+								<li><a href="leaves.html"><span data-i18n="sidebar.leaves_admin">Leaves
+											(Admin)</span> <span
 											class="badge badge-pill bg-primary float-right">1</span></a></li>
-								<li><a href="leaves-employee.html">Leaves (Employee)</a></li>
-								<li><a href="leave-settings.html">Leave Settings</a></li>
-								<li><a href="attendance.html">Attendance (Admin)</a></li>
-								<li><a href="attendance-employee.html">Attendance (Employee)</a></li>
-								<li><a href="departments.html">Departments</a></li>
-								<li><a href="designations.html">Designations</a></li>
-								<li><a href="timesheet.html">Timesheet</a></li>
-								<li><a href="shift-scheduling.html">Shift & Schedule</a></li>
-								<li><a href="overtime.html">Overtime</a></li>
+								<li><a href="leaves-employee.html" data-i18n="sidebar.leaves_employee">Leaves
+										(Employee)</a></li>
+								<li><a href="leave-settings.html" data-i18n="sidebar.leave_settings">Leave
+										Settings</a></li>
+								<li><a href="attendance.html" data-i18n="sidebar.attendance_admin">Attendance
+										(Admin)</a></li>
+								<li><a href="attendance-employee.html"
+										data-i18n="sidebar.attendance_employee">Attendance (Employee)</a></li>
+								<li><a href="departments.html" data-i18n="sidebar.departments">Departments</a>
+								</li>
+								<li><a href="designations.html" data-i18n="sidebar.departments">Designations</a></li>
+								<li><a href="timesheet.html" data-i18n="sidebar.departments">Timesheet</a></li>
+								<li><a href="shift-scheduling.html" data-i18n="sidebar.departments">Shift
+										& Schedule</a></li>
+								<li><a href="overtime.html" data-i18n="sidebar.departments">Overtime</a></li>
 							</ul>
 						</li>
 						<li class="submenu">
-							<a href="#"><i class="la la-rocket"></i> <span> Tasks</span> <span
-									class="menu-arrow"></span></a>
+							<a href="#"><i class="la la-rocket"></i> <span data-i18n="sidebar.tasks">Tasks</span>
+								<span class="menu-arrow"></span></a>
 							<ul style="display: none;">
-								<li><a href="tasks.html">Tasks</a></li>
-								<li><a href="task-board.html">Task Board</a></li>
+								<li><a href="tasks.html" data-i18n="sidebar.tasks">Tasks</a></li>
+								<li><a href="task-board.html" data-i18n="sidebar.task_board">Task Board</a></li>
 							</ul>
 						</li>
 						<li>
-							<a href="leads.html"><i class="la la-user-secret"></i> <span>Leads</span></a>
+							<a href="leads.html"><i class="la la-user-secret"></i> <span
+									data-i18n="sidebar.leads">Leads</span></a>
 						</li>
 						<li>
-							<a href="tickets.html"><i class="la la-ticket"></i> <span>Tickets</span></a>
+							<a href="tickets.html"><i class="la la-ticket"></i> <span
+									data-i18n="sidebar.tickets">Tickets</span></a>
 						</li>
 						<li class="menu-title">
-							<span>HR</span>
+							<span data-i18n="sidebar.hr">HR</span>
 						</li>
 						<li class="submenu">
-							<a href="#"><i class="la la-files-o"></i> <span> Sales </span> <span
+							<a href="#"><i class="la la-files-o"></i> <span data-i18n="sidebar.sales">Sales</span> <span
 									class="menu-arrow"></span></a>
 							<ul style="display: none;">
-								<li><a href="estimates.html">Estimates</a></li>
-								<li><a href="invoices.html">Invoices</a></li>
-								<li><a href="payments.html">Payments</a></li>
-								<li><a href="expenses.html">Expenses</a></li>
-								<li><a href="provident-fund.html">Provident Fund</a></li>
-								<li><a href="taxes.html">Taxes</a></li>
+								<li><a href="estimates.html" data-i18n="sidebar.estimates">Estimates</a></li>
+								<li><a href="invoices.html" data-i18n="sidebar.invoices">Invoices</a></li>
+								<li><a href="payments.html" data-i18n="sidebar.payments">Payments</a></li>
+								<li><a href="expenses.html" data-i18n="sidebar.expenses">Expenses</a></li>
+								<li><a href="provident-fund.html" data-i18n="sidebar.provident_fund">Provident
+										Fund</a></li>
+								<li><a href="taxes.html" data-i18n="sidebar.taxes">Taxes</a></li>
 							</ul>
 						</li>
 						<li class="submenu">
-							<a href="#"><i class="la la-files-o"></i> <span> Accounting </span> <span
+							<a href="#"><i class="la la-files-o"></i> <span
+									data-i18n="sidebar.accounting">Accounting</span> <span
 									class="menu-arrow"></span></a>
 							<ul style="display: none;">
-								<li><a href="categories.html">Categories</a></li>
-								<li><a href="budgets.html">Budgets</a></li>
-								<li><a href="budget-expenses.html">Budget Expenses</a></li>
-								<li><a href="budget-revenues.html">Budget Revenues</a></li>
+								<li><a href="categories.html" data-i18n="sidebar.categories">Categories</a>
+								</li>
+								<li><a href="budgets.html" data-i18n="sidebar.budgets">Budgets</a></li>
+								<li><a href="budget-expenses.html" data-i18n="sidebar.accounting">Budget
+										Expenses</a></li>
+								<li><a href="budget-revenues.html" data-i18n="sidebar.accounting">Budget
+										Revenues</a></li>
 							</ul>
 						</li>
 						<li class="submenu">
-							<a href="#"><i class="la la-money"></i> <span> Payroll </span> <span
-									class="menu-arrow"></span></a>
+							<a href="#"><i class="la la-money"></i> <span data-i18n="sidebar.payroll"> Payroll </span>
+								<span class="menu-arrow"></span></a>
 							<ul style="display: none;">
-								<li><a href="salary.html"> Employee Salary </a></li>
-								<li><a href="salary-view.html"> Payslip </a></li>
-								<li><a href="payroll-items.html"> Payroll Items </a></li>
+								<li><a href="salary.html" data-i18n="sidebar.employee_salary">Employee Salary</a>
+								</li>
+								<li><a href="salary-view.html" data-i18n="sidebar.payslip">Payslip</a></li>
+								<li><a href="payroll-items.html" data-i18n="sidebar.payroll_items">Payroll
+										Items</a></li>
 							</ul>
 						</li>
 						<li>
-							<a href="policies.html"><i class="la la-file-pdf-o"></i> <span>Policies</span></a>
+							<a href="policies.html"><i class="la la-file-pdf-o"></i> <span
+									data-i18n="sidebar.policies">Policies</span></a>
 						</li>
 						<li class="submenu">
-							<a href="#"><i class="la la-pie-chart"></i> <span> Reports </span> <span
-									class="menu-arrow"></span></a>
+							<a href="#"><i class="la la-pie-chart"></i> <span data-i18n="sidebar.reports"> Reports
+								</span> <span class="menu-arrow"></span></a>
 							<ul style="display: none;">
-								<li><a href="expense-reports.html"> Expense Report </a></li>
-								<li><a href="invoice-reports.html"> Invoice Report </a></li>
-								<li><a href="payments-reports.html"> Payments Report </a></li>
-								<li><a href="project-reports.html"> Project Report </a></li>
-								<li><a href="task-reports.html"> Task Report </a></li>
-								<li><a href="user-reports.html"> User Report </a></li>
-								<li><a href="employee-reports.html"> Employee Report </a></li>
-								<li><a href="payslip-reports.html"> Payslip Report </a></li>
-								<li><a href="attendance-reports.html"> Attendance Report </a></li>
-								<li><a href="leave-reports.html"> Leave Report </a></li>
-								<li><a href="daily-reports.html"> Daily Report </a></li>
+								<li><a href="expense-reports.html" data-i18n="sidebar.expense_report"> Expense Report
+									</a></li>
+								<li><a href="invoice-reports.html" data-i18n="sidebar.invoice_report"> Invoice Report
+									</a></li>
+								<li><a href="payments-reports.html" data-i18n="sidebar.payments_report"> Payments Report
+									</a></li>
+								<li><a href="project-reports.html" data-i18n="sidebar.project_report"> Project Report
+									</a></li>
+								<li><a href="task-reports.html" data-i18n="sidebar.task_report"> Task Report </a></li>
+								<li><a href="user-reports.html" data-i18n="sidebar.user_report"> User Report </a></li>
+								<li><a href="employee-reports.html" data-i18n="sidebar.employee_report"> Employee Report
+									</a></li>
+								<li><a href="payslip-reports.html" data-i18n="sidebar.payslip_report"> Payslip Report
+									</a></li>
+								<li><a href="attendance-reports.html" data-i18n="sidebar.attendance_report"> Attendance
+										Report </a></li>
+								<li><a href="leave-reports.html" data-i18n="sidebar.leave_report"> Leave Report </a>
+								</li>
+								<li><a href="daily-reports.html" data-i18n="sidebar.daily_report"> Daily Report </a>
+								</li>
 							</ul>
 						</li>
 						<li class="menu-title">
-							<span>Performance</span>
+							<span data-i18n="sidebar.performance">Performance</span>
 						</li>
 						<li class="submenu">
-							<a href="#"><i class="la la-graduation-cap"></i> <span> Performance </span> <span
+							<a href="#"><i class="la la-graduation-cap"></i> <span
+									data-i18n="sidebar.performance">Performance</span> <span
 									class="menu-arrow"></span></a>
 							<ul style="display: none;">
-								<li><a href="performance-indicator.html"> Performance Indicator </a></li>
-								<li><a href="performance.html"> Performance Review </a></li>
-								<li><a href="performance-appraisal.html"> Performance Appraisal </a></li>
+								<li><a href="performance-indicator.html"
+										data-i18n="sidebar.performance_indicator">Performance
+										Indicator</a>
+								</li>
+								<li><a href="performance.html" data-i18n="sidebar.performance_review">Performance
+										Review</a>
+								</li>
+								<li><a href="performance-appraisal.html"
+										data-i18n="sidebar.performance_appraisal">Performance
+										Appraisal</a>
+								</li>
 							</ul>
 						</li>
 						<li class="submenu">
-							<a href="#"><i class="la la-crosshairs"></i> <span> Goals </span> <span
-									class="menu-arrow"></span></a>
+							<a href="#"><i class="la la-crosshairs"></i> <span data-i18n="sidebar.goals"> Goals </span>
+								<span class="menu-arrow"></span></a>
 							<ul style="display: none;">
-								<li><a href="goal-tracking.html"> Goal List </a></li>
-								<li><a href="goal-type.html"> Goal Type </a></li>
+								<li><a href="goal-tracking.html" data-i18n="sidebar.goal_list"> Goal List </a></li>
+								<li><a href="goal-type.html" data-i18n="sidebar.goal_type"> Goal Type </a></li>
 							</ul>
 						</li>
 						<li class="submenu">
-							<a href="#"><i class="la la-edit"></i> <span> Training </span> <span
-									class="menu-arrow"></span></a>
+							<a href="#"><i class="la la-edit"></i> <span data-i18n="sidebar.training"> Training </span>
+								<span class="menu-arrow"></span></a>
 							<ul style="display: none;">
-								<li><a href="training.html"> Training List </a></li>
-								<li><a href="trainers.html"> Trainers</a></li>
-								<li><a href="training-type.html"> Training Type </a></li>
+								<li><a href="training.html" data-i18n="sidebar.training_list"> Training List </a></li>
+								<li><a href="trainers.html" data-i18n="sidebar.trainers"> Trainers</a></li>
+								<li><a href="training-type.html" data-i18n="sidebar.training_type"> Training Type </a>
+								</li>
 							</ul>
 						</li>
-						<li><a href="promotion.html"><i class="la la-bullhorn"></i> <span>Promotion</span></a></li>
+						<li><a href="promotion.html"><i class="la la-bullhorn"></i> <span
+									data-i18n="sidebar.promotion">Promotion</span></a></li>
 						<li><a href="resignation.html"><i class="la la-external-link-square"></i>
-								<span>Resignation</span></a></li>
-						<li><a href="termination.html"><i class="la la-times-circle"></i> <span>Termination</span></a>
+								<span data-i18n="sidebar.resignation">Resignation</span></a></li>
+						<li><a href="termination.html"><i class="la la-times-circle"></i> <span
+									data-i18n="sidebar.termination">Termination</span></a>
 						</li>
 						<li class="menu-title">
-							<span>Administration</span>
+							<span data-i18n="sidebar.administration">Administration</span>
 						</li>
 						<li>
-							<a href="assets.html"><i class="la la-object-ungroup"></i> <span>Assets</span></a>
+							<a href="assets.html"><i class="la la-object-ungroup"></i> <span
+									data-i18n="sidebar.assets">Assets</span></a>
 						</li>
 						<li class="submenu">
-							<a href="#"><i class="la la-briefcase"></i> <span> Jobs </span> <span
-									class="menu-arrow"></span></a>
+							<a href="#"><i class="la la-briefcase"></i> <span data-i18n="sidebar.jobs"> Jobs </span>
+								<span class="menu-arrow"></span></a>
 							<ul style="display: none;">
-								<li><a href="user-dashboard.html"> User Dasboard </a></li>
-								<li><a href="jobs-dashboard.html"> Jobs Dasboard </a></li>
-								<li><a href="jobs.html"> Manage Jobs </a></li>
-								<li><a href="manage-resumes.html"> Manage Resumes </a></li>
-								<li><a href="shortlist-candidates.html"> Shortlist Candidates </a></li>
-								<li><a href="interview-questions.html"> Interview Questions </a></li>
-								<li><a href="offer_approvals.html"> Offer Approvals </a></li>
-								<li><a href="experiance-level.html"> Experience Level </a></li>
-								<li><a href="candidates.html"> Candidates List </a></li>
-								<li><a href="schedule-timing.html"> Schedule timing </a></li>
-								<li><a href="apptitude-result.html"> Aptitude Results </a></li>
+								<li><a href="user-dashboard.html" data-i18n="sidebar.user_dashboard"> User Dashboard
+									</a></li>
+								<li><a href="jobs-dashboard.html" data-i18n="sidebar.jobs_dashboard"> Jobs Dashboard
+									</a></li>
+								<li><a href="jobs.html" data-i18n="sidebar.manage_jobs"> Manage Jobs </a></li>
+								<li><a href="manage-resumes.html" data-i18n="sidebar.manage_resumes"> Manage Resumes
+									</a></li>
+								<li><a href="shortlist-candidates.html" data-i18n="sidebar.shortlist_candidates">
+										Shortlist Candidates </a></li>
+								<li><a href="interview-questions.html" data-i18n="sidebar.interview_questions">
+										Interview Questions </a></li>
+								<li><a href="offer_approvals.html" data-i18n="sidebar.offer_approvals"> Offer Approvals
+									</a></li>
+								<li><a href="experiance-level.html" data-i18n="sidebar.experience_level"> Experience
+										Level </a></li>
+								<li><a href="candidates.html" data-i18n="sidebar.candidates_list"> Candidates List </a>
+								</li>
+								<li><a href="schedule-timing.html" data-i18n="sidebar.schedule_timing"> Schedule Timing
+									</a></li>
+								<li><a href="apptitude-result.html" data-i18n="sidebar.aptitude_results"> Aptitude
+										Results </a></li>
 							</ul>
 						</li>
 						<li class="submenu">
-							<a href="#"><i class="la la-user"></i> <span> Profile </span> <span
-									class="menu-arrow"></span></a>
+							<a href="#"><i class="la la-user"></i> <span data-i18n="sidebar.profile"> Profile </span>
+								<span class="menu-arrow"></span></a>
 							<ul style="display: none;">
-								<li><a href="profile.html"> Employee Profile </a></li>
-								<li><a href="client-profile.html"> Client Profile </a></li>
+								<li><a href="profile.html" data-i18n="sidebar.employee_profile"> Employee Profile </a>
+								</li>
+								<li><a href="client-profile.html" data-i18n="sidebar.client_profile"> Client Profile
+									</a></li>
 							</ul>
 						</li>
 						<li class="submenu">
-							<a href="#"><i class="la la-hand-o-up"></i> <span> Subscriptions </span> <span
-									class="menu-arrow"></span></a>
+							<a href="#"><i class="la la-hand-o-up"></i> <span data-i18n="sidebar.subscriptions">
+									Subscriptions </span> <span class="menu-arrow"></span></a>
 							<ul style="display: none;">
-								<li><a href="subscriptions.html"> Subscriptions (Admin) </a></li>
-								<li><a href="subscriptions-company.html"> Subscriptions (Company) </a></li>
-								<li><a href="subscribed-companies.html"> Subscribed Companies</a></li>
+								<li><a href="subscriptions.html" data-i18n="sidebar.subscriptions_admin"> Subscriptions
+										(Admin) </a></li>
+								<li><a href="subscriptions-company.html" data-i18n="sidebar.subscriptions_company">
+										Subscriptions (Company) </a></li>
+								<li><a href="subscribed-companies.html" data-i18n="sidebar.subscribed_companies">
+										Subscribed Companies</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -488,608 +549,612 @@
 			</div>
 		</div>
 		<div class="page-wrapper">
-			<div class="content container-fluid">
-				<div class="page-header">
-					<div class="row">
-						<div class="col-sm-12">
-							<h3 class="page-title">Leave Settings</h3>
-							<ul class="breadcrumb">
-								<li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-								<li class="breadcrumb-item">Leave Settings</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<div class="card leave-box" id="leave_annual">
-							<div class="card-body">
-								<div class="h3 card-title with-switch">
-									Annual
-									<div class="onoffswitch">
-										<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
-											id="switch_annual" checked>
-										<label class="onoffswitch-label" for="switch_annual">
-											<span class="onoffswitch-inner"></span>
-											<span class="onoffswitch-switch"></span>
-										</label>
-									</div>
-								</div>
-								<div class="leave-item">
-									<div class="leave-row">
-										<div class="leave-left">
-											<div class="input-box">
-												<div class="form-group">
-													<label>Days</label>
-													<input type="text" class="form-control" disabled>
-												</div>
-											</div>
-										</div>
-										<div class="leave-right">
-											<button class="leave-edit-btn">Edit</button>
-										</div>
-									</div>
-									<div class="leave-row">
-										<div class="leave-left">
-											<div class="input-box">
-												<label class="d-block">Carry forward</label>
-												<div class="leave-inline-form">
-													<div class="form-check form-check-inline">
-														<input class="form-check-input" type="radio"
-															name="inlineRadioOptions" id="carry_no" value="option1"
-															disabled>
-														<label class="form-check-label" for="carry_no">No</label>
-													</div>
-													<div class="form-check form-check-inline">
-														<input class="form-check-input" type="radio"
-															name="inlineRadioOptions" id="carry_yes" value="option2"
-															disabled>
-														<label class="form-check-label" for="carry_yes">Yes</label>
-													</div>
-													<div class="input-group">
-														<div class="input-group-prepend">
-															<span class="input-group-text">Max</span>
-														</div>
-														<input type="text" class="form-control" disabled>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="leave-right">
-											<button class="leave-edit-btn">
-												Edit
-											</button>
-										</div>
-									</div>
-									<div class="leave-row">
-										<div class="leave-left">
-											<div class="input-box">
-												<label class="d-block">Earned leave</label>
-												<div class="leave-inline-form">
-													<div class="form-check form-check-inline">
-														<input class="form-check-input" type="radio"
-															name="inlineRadioOptions" id="earned_no" value="option1"
-															disabled>
-														<label class="form-check-label" for="earned_no">No</label>
-													</div>
-													<div class="form-check form-check-inline">
-														<input class="form-check-input" type="radio"
-															name="inlineRadioOptions" id="earned_yes" value="option2"
-															disabled>
-														<label class="form-check-label" for="earned_yes">Yes</label>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="leave-right">
-											<button class="leave-edit-btn">
-												Edit
-											</button>
-										</div>
-									</div>
-								</div>
-								<div class="custom-policy">
-									<div class="leave-header">
-										<div class="title">Custom policy</div>
-										<div class="leave-action">
-											<button class="btn btn-sm btn-primary" type="button" data-toggle="modal"
-												data-target="#add_custom_policy"><i class="fa fa-plus"></i> Add custom
-												policy</button>
-										</div>
-									</div>
-									<div class="table-responsive">
-										<table class="table table-hover table-nowrap leave-table mb-0">
-											<thead>
-												<tr>
-													<th class="l-name">Name</th>
-													<th class="l-days">Days</th>
-													<th class="l-assignee">Assignee</th>
-													<th></th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>5 Year Service </td>
-													<td>5</td>
-													<td>
-														<a href="#" class="avatar"><img alt=""
-																src="assets/img/profiles/avatar-02.jpg"></a>
-														<a href="#">John Doe</a>
-													</td>
-													<td class="text-right">
-														<div class="dropdown dropdown-action">
-															<a aria-expanded="false" data-toggle="dropdown"
-																class="action-icon dropdown-toggle" href="#"><i
-																	class="material-icons">more_vert</i></a>
-															<div class="dropdown-menu dropdown-menu-right">
-																<a href="#" class="dropdown-item" data-toggle="modal"
-																	data-target="#edit_custom_policy"><i
-																		class="fa fa-pencil m-r-5"></i> Edit</a>
-																<a href="#" class="dropdown-item" data-toggle="modal"
-																	data-target="#delete_custom_policy"><i
-																		class="fa fa-trash-o m-r-5"></i> Delete</a>
-															</div>
-														</div>
-													</td>
-												</tr>
-											</tbody>
-										</table>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="card leave-box" id="leave_sick">
-							<div class="card-body">
-								<div class="h3 card-title with-switch">
-									Sick
-									<div class="onoffswitch">
-										<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
-											id="switch_sick" checked>
-										<label class="onoffswitch-label" for="switch_sick">
-											<span class="onoffswitch-inner"></span>
-											<span class="onoffswitch-switch"></span>
-										</label>
-									</div>
-								</div>
-								<div class="leave-item">
-									<div class="leave-row">
-										<div class="leave-left">
-											<div class="input-box">
-												<div class="form-group">
-													<label>Days</label>
-													<input type="text" class="form-control" disabled>
-												</div>
-											</div>
-										</div>
-										<div class="leave-right">
-											<button class="leave-edit-btn">
-												Edit
-											</button>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="card leave-box" id="leave_hospitalisation">
-							<div class="card-body">
-								<div class="h3 card-title with-switch">
-									Hospitalisation
-									<div class="onoffswitch">
-										<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
-											id="switch_hospitalisation">
-										<label class="onoffswitch-label" for="switch_hospitalisation">
-											<span class="onoffswitch-inner"></span>
-											<span class="onoffswitch-switch"></span>
-										</label>
-									</div>
-								</div>
-								<div class="leave-item">
-									<div class="leave-row">
-										<div class="leave-left">
-											<div class="input-box">
-												<div class="form-group">
-													<label>Days</label>
-													<input type="text" class="form-control" disabled>
-												</div>
-											</div>
-										</div>
-										<div class="leave-right">
-											<button class="leave-edit-btn">
-												Edit
-											</button>
-										</div>
-									</div>
-								</div>
-								<div class="custom-policy">
-									<div class="leave-header">
-										<div class="title">Custom policy</div>
-										<div class="leave-action">
-											<button class="btn btn-sm btn-primary" type="button" data-toggle="modal"
-												data-target="#add_custom_policy"><i class="fa fa-plus"></i> Add custom
-												policy</button>
-										</div>
-									</div>
-									<div class="table-responsive">
-										<table class="table table-hover table-nowrap leave-table mb-0">
-											<thead>
-												<tr>
-													<th class="l-name">Name</th>
-													<th class="l-days">Days</th>
-													<th class="l-assignee">Assignee</th>
-													<th></th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>5 Year Service </td>
-													<td>5</td>
-													<td>
-														<a href="#" class="avatar"><img alt=""
-																src="assets/img/profiles/avatar-02.jpg"></a>
-														<a href="#">John Doe</a>
-													</td>
-													<td class="text-right">
-														<div class="dropdown dropdown-action">
-															<a aria-expanded="false" data-toggle="dropdown"
-																class="action-icon dropdown-toggle" href="#"><i
-																	class="material-icons">more_vert</i></a>
-															<div class="dropdown-menu dropdown-menu-right">
-																<a href="#" class="dropdown-item"><i
-																		class="fa fa-pencil m-r-5"></i> Edit</a>
-																<a href="#" class="dropdown-item"><i
-																		class="fa fa-trash-o m-r-5"></i> Delete</a>
-															</div>
-														</div>
-													</td>
-												</tr>
-											</tbody>
-										</table>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="card leave-box" id="leave_maternity">
-							<div class="card-body">
-								<div class="h3 card-title with-switch">
-									Maternity <span class="subtitle">Assigned to female only</span>
-									<div class="onoffswitch">
-										<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
-											id="switch_maternity" checked>
-										<label class="onoffswitch-label" for="switch_maternity">
-											<span class="onoffswitch-inner"></span>
-											<span class="onoffswitch-switch"></span>
-										</label>
-									</div>
-								</div>
-								<div class="leave-item">
-									<div class="leave-row">
-										<div class="leave-left">
-											<div class="input-box">
-												<div class="form-group">
-													<label>Days</label>
-													<input type="text" class="form-control" disabled>
-												</div>
-											</div>
-										</div>
-										<div class="leave-right">
-											<button class="leave-edit-btn">
-												Edit
-											</button>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="card leave-box" id="leave_paternity">
-							<div class="card-body">
-								<div class="h3 card-title with-switch">
-									Paternity <span class="subtitle">Assigned to male only</span>
-									<div class="onoffswitch">
-										<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
-											id="switch_paternity">
-										<label class="onoffswitch-label" for="switch_paternity">
-											<span class="onoffswitch-inner"></span>
-											<span class="onoffswitch-switch"></span>
-										</label>
-									</div>
-								</div>
-								<div class="leave-item">
-									<div class="leave-row">
-										<div class="leave-left">
-											<div class="input-box">
-												<div class="form-group">
-													<label>Days</label>
-													<input type="text" class="form-control" disabled>
-												</div>
-											</div>
-										</div>
-										<div class="leave-right">
-											<button class="leave-edit-btn">
-												Edit
-											</button>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="card leave-box mb-0" id="leave_custom01">
-							<div class="card-body">
-								<div class="h3 card-title with-switch">
-									LOP
-									<div class="onoffswitch">
-										<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
-											id="switch_custom01" checked>
-										<label class="onoffswitch-label" for="switch_custom01">
-											<span class="onoffswitch-inner"></span>
-											<span class="onoffswitch-switch"></span>
-										</label>
-									</div>
-									<button class="btn btn-danger leave-delete-btn" type="button">Delete</button>
-								</div>
-								<div class="leave-item">
-									<div class="leave-row">
-										<div class="leave-left">
-											<div class="input-box">
-												<div class="form-group">
-													<label>Days</label>
-													<input type="text" class="form-control" disabled>
-												</div>
-											</div>
-										</div>
-										<div class="leave-right">
-											<button class="leave-edit-btn">Edit</button>
-										</div>
-									</div>
-									<div class="leave-row">
-										<div class="leave-left">
-											<div class="input-box">
-												<label class="d-block">Carry forward</label>
-												<div class="leave-inline-form">
-													<div class="form-check form-check-inline">
-														<input class="form-check-input" type="radio" name="carryForward"
-															id="carry_no_01" value="option1" disabled>
-														<label class="form-check-label" for="carry_no_01">No</label>
-													</div>
-													<div class="form-check form-check-inline">
-														<input class="form-check-input" type="radio" name="carryForward"
-															id="carry_yes_01" value="option2" disabled>
-														<label class="form-check-label" for="carry_yes_01">Yes</label>
-													</div>
-													<div class="input-group">
-														<div class="input-group-prepend">
-															<span class="input-group-text">Max</span>
-														</div>
-														<input type="text" class="form-control" disabled>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="leave-right">
-											<button class="leave-edit-btn">
-												Edit
-											</button>
-										</div>
-									</div>
-									<div class="leave-row">
-										<div class="leave-left">
-											<div class="input-box">
-												<label class="d-block">Earned leave</label>
-												<div class="leave-inline-form">
-													<div class="form-check form-check-inline">
-														<input class="form-check-input" type="radio"
-															name="inlineRadioOptions" id="inlineRadio1" value="option1"
-															disabled>
-														<label class="form-check-label" for="inlineRadio1">No</label>
-													</div>
-													<div class="form-check form-check-inline">
-														<input class="form-check-input" type="radio"
-															name="inlineRadioOptions" id="inlineRadio2" value="option2"
-															disabled>
-														<label class="form-check-label" for="inlineRadio2">Yes</label>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="leave-right">
-											<button class="leave-edit-btn">
-												Edit
-											</button>
-										</div>
-									</div>
-								</div>
-								<div class="custom-policy">
-									<div class="leave-header">
-										<div class="title">Custom policy</div>
-										<div class="leave-action">
-											<button class="btn btn-sm btn-primary" type="button" data-toggle="modal"
-												data-target="#add_custom_policy"><i class="fa fa-plus"></i> Add custom
-												policy</button>
-										</div>
-									</div>
-									<div class="table-responsive">
-										<table class="table table-hover table-nowrap leave-table mb-0">
-											<thead>
-												<tr>
-													<th class="l-name">Name</th>
-													<th class="l-days">Days</th>
-													<th class="l-assignee">Assignee</th>
-													<th></th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>5 Year Service </td>
-													<td>5</td>
-													<td>
-														<a href="#" class="avatar"><img alt=""
-																src="assets/img/profiles/avatar-02.jpg"></a>
-														<a href="#">John Doe</a>
-													</td>
-													<td class="text-right">
-														<div class="dropdown dropdown-action">
-															<a aria-expanded="false" data-toggle="dropdown"
-																class="action-icon dropdown-toggle" href="#"><i
-																	class="material-icons">more_vert</i></a>
-															<div class="dropdown-menu dropdown-menu-right">
-																<a href="#" class="dropdown-item" data-toggle="modal"
-																	data-target="#edit_custom_policy"><i
-																		class="fa fa-pencil m-r-5"></i> Edit</a>
-																<a href="#" class="dropdown-item" data-toggle="modal"
-																	data-target="#delete_custom_policy"><i
-																		class="fa fa-trash-o m-r-5"></i> Delete</a>
-															</div>
-														</div>
-													</td>
-												</tr>
-											</tbody>
-										</table>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+	<div class="content container-fluid">
+		<div class="page-header">
+			<div class="row">
+				<div class="col-sm-12">
+					<h3 class="page-title" data-i18n="leave.settings.title">Leave Settings</h3>
+					<ul class="breadcrumb">
+						<li class="breadcrumb-item"><a href="index.html" data-i18n="common.dashboard">Dashboard</a></li>
+						<li class="breadcrumb-item" data-i18n="leave.settings.title">Leave Settings</li>
+					</ul>
 				</div>
 			</div>
-			<div id="add_custom_policy" class="modal custom-modal fade" role="dialog">
-				<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h5 class="modal-title">Add Custom Policy</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-							</button>
-						</div>
-						<div class="modal-body">
-							<form>
-								<div class="form-group">
-									<label>Policy Name <span class="text-danger">*</span></label>
-									<input type="text" class="form-control">
-								</div>
-								<div class="form-group">
-									<label>Days <span class="text-danger">*</span></label>
-									<input type="text" class="form-control">
-								</div>
-								<div class="form-group leave-duallist">
-									<label>Add employee</label>
-									<div class="row">
-										<div class="col-lg-5 col-sm-5">
-											<select name="customleave_from" id="customleave_select" class="form-control"
-												size="5" multiple="multiple">
-												<option value="1">Bernardo Galaviz </option>
-												<option value="2">Jeffrey Warden</option>
-												<option value="2">John Doe</option>
-												<option value="2">John Smith</option>
-												<option value="3">Mike Litorus</option>
-											</select>
-										</div>
-										<div class="multiselect-controls col-lg-2 col-sm-2">
-											<button type="button" id="customleave_select_rightAll"
-												class="btn btn-block btn-white"><i class="fa fa-forward"></i></button>
-											<button type="button" id="customleave_select_rightSelected"
-												class="btn btn-block btn-white"><i
-													class="fa fa-chevron-right"></i></button>
-											<button type="button" id="customleave_select_leftSelected"
-												class="btn btn-block btn-white"><i
-													class="fa fa-chevron-left"></i></button>
-											<button type="button" id="customleave_select_leftAll"
-												class="btn btn-block btn-white"><i class="fa fa-backward"></i></button>
-										</div>
-										<div class="col-lg-5 col-sm-5">
-											<select name="customleave_to" id="customleave_select_to"
-												class="form-control" size="8" multiple="multiple"></select>
-										</div>
-									</div>
-								</div>
-								<div class="submit-section">
-									<button class="btn btn-primary submit-btn">Submit</button>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="edit_custom_policy" class="modal custom-modal fade" role="dialog">
-				<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h5 class="modal-title">Edit Custom Policy</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-							</button>
-						</div>
-						<div class="modal-body">
-							<form>
-								<div class="form-group">
-									<label>Policy Name <span class="text-danger">*</span></label>
-									<input type="text" class="form-control" value="LOP">
-								</div>
-								<div class="form-group">
-									<label>Days <span class="text-danger">*</span></label>
-									<input type="text" class="form-control" value="4">
-								</div>
-								<div class="form-group leave-duallist">
-									<label>Add employee</label>
-									<div class="row">
-										<div class="col-lg-5 col-sm-5">
-											<select name="edit_customleave_from" id="edit_customleave_select"
-												class="form-control" size="5" multiple="multiple">
-												<option value="1">Bernardo Galaviz </option>
-												<option value="2">Jeffrey Warden</option>
-												<option value="2">John Doe</option>
-												<option value="2">John Smith</option>
-												<option value="3">Mike Litorus</option>
-											</select>
-										</div>
-										<div class="multiselect-controls col-lg-2 col-sm-2">
-											<button type="button" id="edit_customleave_select_rightAll"
-												class="btn btn-block btn-white"><i class="fa fa-forward"></i></button>
-											<button type="button" id="edit_customleave_select_rightSelected"
-												class="btn btn-block btn-white"><i
-													class="fa fa-chevron-right"></i></button>
-											<button type="button" id="edit_customleave_select_leftSelected"
-												class="btn btn-block btn-white"><i
-													class="fa fa-chevron-left"></i></button>
-											<button type="button" id="edit_customleave_select_leftAll"
-												class="btn btn-block btn-white"><i class="fa fa-backward"></i></button>
-										</div>
-										<div class="col-lg-5 col-sm-5">
-											<select name="customleave_to" id="edit_customleave_select_to"
-												class="form-control" size="8" multiple="multiple"></select>
-										</div>
-									</div>
-								</div>
-								<div class="submit-section">
-									<button class="btn btn-primary submit-btn">Submit</button>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="modal custom-modal fade" id="delete_custom_policy" role="dialog">
-				<div class="modal-dialog modal-dialog-centered">
-					<div class="modal-content">
-						<div class="modal-body">
-							<div class="form-header">
-								<h3>Delete Custom Policy</h3>
-								<p>Are you sure want to delete?</p>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card leave-box" id="leave_annual">
+					<div class="card-body">
+						<div class="h3 card-title with-switch">
+							<span data-i18n="leave.types.annual">Annual</span>
+							<div class="onoffswitch">
+								<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
+									id="switch_annual" checked>
+								<label class="onoffswitch-label" for="switch_annual">
+									<span class="onoffswitch-inner"></span>
+									<span class="onoffswitch-switch"></span>
+								</label>
 							</div>
-							<div class="modal-btn delete-action">
-								<div class="row">
-									<div class="col-6">
-										<a href="javascript:void(0);" class="btn btn-primary continue-btn">Delete</a>
-									</div>
-									<div class="col-6">
-										<a href="javascript:void(0);" data-dismiss="modal"
-											class="btn btn-primary cancel-btn">Cancel</a>
+						</div>
+						<div class="leave-item">
+							<div class="leave-row">
+								<div class="leave-left">
+									<div class="input-box">
+										<div class="form-group">
+											<label data-i18n="leave.fields.days">Days</label>
+											<input type="text" class="form-control" disabled>
+										</div>
 									</div>
 								</div>
+								<div class="leave-right">
+									<button class="leave-edit-btn" data-i18n="common.edit">Edit</button>
+								</div>
+							</div>
+							<div class="leave-row">
+								<div class="leave-left">
+									<div class="input-box">
+										<label class="d-block" data-i18n="leave.fields.carry_forward">Carry forward</label>
+										<div class="leave-inline-form">
+											<div class="form-check form-check-inline">
+												<input class="form-check-input" type="radio"
+													name="inlineRadioOptions" id="carry_no" value="option1"
+													disabled>
+												<label class="form-check-label" for="carry_no" data-i18n="common.no">No</label>
+											</div>
+											<div class="form-check form-check-inline">
+												<input class="form-check-input" type="radio"
+													name="inlineRadioOptions" id="carry_yes" value="option2"
+													disabled>
+												<label class="form-check-label" for="carry_yes" data-i18n="common.yes">Yes</label>
+											</div>
+											<div class="input-group">
+												<div class="input-group-prepend">
+													<span class="input-group-text" data-i18n="leave.fields.max">Max</span>
+												</div>
+												<input type="text" class="form-control" disabled>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="leave-right">
+									<button class="leave-edit-btn" data-i18n="common.edit">Edit</button>
+								</div>
+							</div>
+							<div class="leave-row">
+								<div class="leave-left">
+									<div class="input-box">
+										<label class="d-block" data-i18n="leave.fields.earned_leave">Earned leave</label>
+										<div class="leave-inline-form">
+											<div class="form-check form-check-inline">
+												<input class="form-check-input" type="radio"
+													name="inlineRadioOptions" id="earned_no" value="option1"
+													disabled>
+												<label class="form-check-label" for="earned_no" data-i18n="common.no">No</label>
+											</div>
+											<div class="form-check form-check-inline">
+												<input class="form-check-input" type="radio"
+													name="inlineRadioOptions" id="earned_yes" value="option2"
+													disabled>
+												<label class="form-check-label" for="earned_yes" data-i18n="common.yes">Yes</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="leave-right">
+									<button class="leave-edit-btn" data-i18n="common.edit">Edit</button>
+								</div>
+							</div>
+						</div>
+						<div class="custom-policy">
+							<div class="leave-header">
+								<div class="title" data-i18n="leave.custom_policy.title">Custom policy</div>
+								<div class="leave-action">
+									<button class="btn btn-sm btn-primary" type="button" data-toggle="modal"
+										data-target="#add_custom_policy">
+										<i class="fa fa-plus"></i> 
+										<span data-i18n="leave.custom_policy.add">Add custom policy</span>
+									</button>
+								</div>
+							</div>
+							<div class="table-responsive">
+								<table class="table table-hover table-nowrap leave-table mb-0">
+									<thead>
+										<tr>
+											<th class="l-name" data-i18n="common.name">Name</th>
+											<th class="l-days" data-i18n="leave.fields.days">Days</th>
+											<th class="l-assignee" data-i18n="leave.fields.assignee">Assignee</th>
+											<th></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>5 Year Service </td>
+											<td>5</td>
+											<td>
+												<a href="#" class="avatar"><img alt=""
+														src="assets/img/profiles/avatar-02.jpg"></a>
+												<a href="#">John Doe</a>
+											</td>
+											<td class="text-right">
+												<div class="dropdown dropdown-action">
+													<a aria-expanded="false" data-toggle="dropdown"
+														class="action-icon dropdown-toggle" href="#"><i
+															class="material-icons">more_vert</i></a>
+													<div class="dropdown-menu dropdown-menu-right">
+														<a href="#" class="dropdown-item" data-toggle="modal"
+															data-target="#edit_custom_policy">
+															<i class="fa fa-pencil m-r-5"></i> 
+															<span data-i18n="common.edit">Edit</span>
+														</a>
+														<a href="#" class="dropdown-item" data-toggle="modal"
+															data-target="#delete_custom_policy">
+															<i class="fa fa-trash-o m-r-5"></i> 
+															<span data-i18n="common.delete">Delete</span>
+														</a>
+													</div>
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card leave-box" id="leave_sick">
+					<div class="card-body">
+						<div class="h3 card-title with-switch">
+							<span data-i18n="leave.types.sick">Sick</span>
+							<div class="onoffswitch">
+								<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
+									id="switch_sick" checked>
+								<label class="onoffswitch-label" for="switch_sick">
+									<span class="onoffswitch-inner"></span>
+									<span class="onoffswitch-switch"></span>
+								</label>
+							</div>
+						</div>
+						<div class="leave-item">
+							<div class="leave-row">
+								<div class="leave-left">
+									<div class="input-box">
+										<div class="form-group">
+											<label data-i18n="leave.fields.days">Days</label>
+											<input type="text" class="form-control" disabled>
+										</div>
+									</div>
+								</div>
+								<div class="leave-right">
+									<button class="leave-edit-btn" data-i18n="common.edit">Edit</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card leave-box" id="leave_hospitalisation">
+					<div class="card-body">
+						<div class="h3 card-title with-switch">
+							<span data-i18n="leave.types.hospitalisation">Hospitalisation</span>
+							<div class="onoffswitch">
+								<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
+									id="switch_hospitalisation">
+								<label class="onoffswitch-label" for="switch_hospitalisation">
+									<span class="onoffswitch-inner"></span>
+									<span class="onoffswitch-switch"></span>
+								</label>
+							</div>
+						</div>
+						<div class="leave-item">
+							<div class="leave-row">
+								<div class="leave-left">
+									<div class="input-box">
+										<div class="form-group">
+											<label data-i18n="leave.fields.days">Days</label>
+											<input type="text" class="form-control" disabled>
+										</div>
+									</div>
+								</div>
+								<div class="leave-right">
+									<button class="leave-edit-btn" data-i18n="common.edit">Edit</button>
+								</div>
+							</div>
+						</div>
+						<div class="custom-policy">
+							<div class="leave-header">
+								<div class="title" data-i18n="leave.custom_policy.title">Custom policy</div>
+								<div class="leave-action">
+									<button class="btn btn-sm btn-primary" type="button" data-toggle="modal"
+										data-target="#add_custom_policy">
+										<i class="fa fa-plus"></i> 
+										<span data-i18n="leave.custom_policy.add">Add custom policy</span>
+									</button>
+								</div>
+							</div>
+							<div class="table-responsive">
+								<table class="table table-hover table-nowrap leave-table mb-0">
+									<thead>
+										<tr>
+											<th class="l-name" data-i18n="common.name">Name</th>
+											<th class="l-days" data-i18n="leave.fields.days">Days</th>
+											<th class="l-assignee" data-i18n="leave.fields.assignee">Assignee</th>
+											<th></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>5 Year Service </td>
+											<td>5</td>
+											<td>
+												<a href="#" class="avatar"><img alt=""
+														src="assets/img/profiles/avatar-02.jpg"></a>
+												<a href="#">John Doe</a>
+											</td>
+											<td class="text-right">
+												<div class="dropdown dropdown-action">
+													<a aria-expanded="false" data-toggle="dropdown"
+														class="action-icon dropdown-toggle" href="#"><i
+															class="material-icons">more_vert</i></a>
+													<div class="dropdown-menu dropdown-menu-right">
+														<a href="#" class="dropdown-item">
+															<i class="fa fa-pencil m-r-5"></i> 
+															<span data-i18n="common.edit">Edit</span>
+														</a>
+														<a href="#" class="dropdown-item">
+															<i class="fa fa-trash-o m-r-5"></i> 
+															<span data-i18n="common.delete">Delete</span>
+														</a>
+													</div>
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card leave-box" id="leave_maternity">
+					<div class="card-body">
+						<div class="h3 card-title with-switch">
+							<span data-i18n="leave.types.maternity">Maternity</span> 
+							<span class="subtitle" data-i18n="leave.gender.female_only">Assigned to female only</span>
+							<div class="onoffswitch">
+								<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
+									id="switch_maternity" checked>
+								<label class="onoffswitch-label" for="switch_maternity">
+									<span class="onoffswitch-inner"></span>
+									<span class="onoffswitch-switch"></span>
+								</label>
+							</div>
+						</div>
+						<div class="leave-item">
+							<div class="leave-row">
+								<div class="leave-left">
+									<div class="input-box">
+										<div class="form-group">
+											<label data-i18n="leave.fields.days">Days</label>
+											<input type="text" class="form-control" disabled>
+										</div>
+									</div>
+								</div>
+								<div class="leave-right">
+									<button class="leave-edit-btn" data-i18n="common.edit">Edit</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card leave-box" id="leave_paternity">
+					<div class="card-body">
+						<div class="h3 card-title with-switch">
+							<span data-i18n="leave.types.paternity">Paternity</span> 
+							<span class="subtitle" data-i18n="leave.gender.male_only">Assigned to male only</span>
+							<div class="onoffswitch">
+								<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
+									id="switch_paternity">
+								<label class="onoffswitch-label" for="switch_paternity">
+									<span class="onoffswitch-inner"></span>
+									<span class="onoffswitch-switch"></span>
+								</label>
+							</div>
+						</div>
+						<div class="leave-item">
+							<div class="leave-row">
+								<div class="leave-left">
+									<div class="input-box">
+										<div class="form-group">
+											<label data-i18n="leave.fields.days">Days</label>
+											<input type="text" class="form-control" disabled>
+										</div>
+									</div>
+								</div>
+								<div class="leave-right">
+									<button class="leave-edit-btn" data-i18n="common.edit">Edit</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card leave-box mb-0" id="leave_custom01">
+					<div class="card-body">
+						<div class="h3 card-title with-switch">
+							<span>LOP</span>
+							<div class="onoffswitch">
+								<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
+									id="switch_custom01" checked>
+								<label class="onoffswitch-label" for="switch_custom01">
+									<span class="onoffswitch-inner"></span>
+									<span class="onoffswitch-switch"></span>
+								</label>
+							</div>
+							<button class="btn btn-danger leave-delete-btn" type="button" data-i18n="common.delete">Delete</button>
+						</div>
+						<div class="leave-item">
+							<div class="leave-row">
+								<div class="leave-left">
+									<div class="input-box">
+										<div class="form-group">
+											<label data-i18n="leave.fields.days">Days</label>
+											<input type="text" class="form-control" disabled>
+										</div>
+									</div>
+								</div>
+								<div class="leave-right">
+									<button class="leave-edit-btn" data-i18n="common.edit">Edit</button>
+								</div>
+							</div>
+							<div class="leave-row">
+								<div class="leave-left">
+									<div class="input-box">
+										<label class="d-block" data-i18n="leave.fields.carry_forward">Carry forward</label>
+										<div class="leave-inline-form">
+											<div class="form-check form-check-inline">
+												<input class="form-check-input" type="radio" name="carryForward"
+													id="carry_no_01" value="option1" disabled>
+												<label class="form-check-label" for="carry_no_01" data-i18n="common.no">No</label>
+											</div>
+											<div class="form-check form-check-inline">
+												<input class="form-check-input" type="radio" name="carryForward"
+													id="carry_yes_01" value="option2" disabled>
+												<label class="form-check-label" for="carry_yes_01" data-i18n="common.yes">Yes</label>
+											</div>
+											<div class="input-group">
+												<div class="input-group-prepend">
+													<span class="input-group-text" data-i18n="leave.fields.max">Max</span>
+												</div>
+												<input type="text" class="form-control" disabled>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="leave-right">
+									<button class="leave-edit-btn" data-i18n="common.edit">Edit</button>
+								</div>
+							</div>
+							<div class="leave-row">
+								<div class="leave-left">
+									<div class="input-box">
+										<label class="d-block" data-i18n="leave.fields.earned_leave">Earned leave</label>
+										<div class="leave-inline-form">
+											<div class="form-check form-check-inline">
+												<input class="form-check-input" type="radio"
+													name="inlineRadioOptions" id="inlineRadio1" value="option1"
+													disabled>
+												<label class="form-check-label" for="inlineRadio1" data-i18n="common.no">No</label>
+											</div>
+											<div class="form-check form-check-inline">
+												<input class="form-check-input" type="radio"
+													name="inlineRadioOptions" id="inlineRadio2" value="option2"
+													disabled>
+												<label class="form-check-label" for="inlineRadio2" data-i18n="common.yes">Yes</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="leave-right">
+									<button class="leave-edit-btn" data-i18n="common.edit">Edit</button>
+								</div>
+							</div>
+						</div>
+						<div class="custom-policy">
+							<div class="leave-header">
+								<div class="title" data-i18n="leave.custom_policy.title">Custom policy</div>
+								<div class="leave-action">
+									<button class="btn btn-sm btn-primary" type="button" data-toggle="modal"
+										data-target="#add_custom_policy">
+										<i class="fa fa-plus"></i> 
+										<span data-i18n="leave.custom_policy.add">Add custom policy</span>
+									</button>
+								</div>
+							</div>
+							<div class="table-responsive">
+								<table class="table table-hover table-nowrap leave-table mb-0">
+									<thead>
+										<tr>
+											<th class="l-name" data-i18n="common.name">Name</th>
+											<th class="l-days" data-i18n="leave.fields.days">Days</th>
+											<th class="l-assignee" data-i18n="leave.fields.assignee">Assignee</th>
+											<th></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>5 Year Service </td>
+											<td>5</td>
+											<td>
+												<a href="#" class="avatar"><img alt=""
+														src="assets/img/profiles/avatar-02.jpg"></a>
+												<a href="#">John Doe</a>
+											</td>
+											<td class="text-right">
+												<div class="dropdown dropdown-action">
+													<a aria-expanded="false" data-toggle="dropdown"
+														class="action-icon dropdown-toggle" href="#"><i
+															class="material-icons">more_vert</i></a>
+													<div class="dropdown-menu dropdown-menu-right">
+														<a href="#" class="dropdown-item" data-toggle="modal"
+															data-target="#edit_custom_policy">
+															<i class="fa fa-pencil m-r-5"></i> 
+															<span data-i18n="common.edit">Edit</span>
+														</a>
+														<a href="#" class="dropdown-item" data-toggle="modal"
+															data-target="#delete_custom_policy">
+															<i class="fa fa-trash-o m-r-5"></i> 
+															<span data-i18n="common.delete">Delete</span>
+														</a>
+													</div>
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
+	<div id="add_custom_policy" class="modal custom-modal fade" role="dialog">
+		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" data-i18n="leave.custom_policy.add_title">Add Custom Policy</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label data-i18n="leave.modal.policy_name_required">Policy Name <span class="text-danger">*</span></label>
+							<input type="text" class="form-control">
+						</div>
+						<div class="form-group">
+							<label data-i18n="leave.modal.days_required">Days <span class="text-danger">*</span></label>
+							<input type="text" class="form-control">
+						</div>
+						<div class="form-group leave-duallist">
+							<label data-i18n="leave.modal.add_employee">Add employee</label>
+							<div class="row">
+								<div class="col-lg-5 col-sm-5">
+									<select name="customleave_from" id="customleave_select" class="form-control"
+										size="5" multiple="multiple">
+										<option value="1">Bernardo Galaviz </option>
+										<option value="2">Jeffrey Warden</option>
+										<option value="2">John Doe</option>
+										<option value="2">John Smith</option>
+										<option value="3">Mike Litorus</option>
+									</select>
+								</div>
+								<div class="multiselect-controls col-lg-2 col-sm-2">
+									<button type="button" id="customleave_select_rightAll"
+										class="btn btn-block btn-white"><i class="fa fa-forward"></i></button>
+									<button type="button" id="customleave_select_rightSelected"
+										class="btn btn-block btn-white"><i
+											class="fa fa-chevron-right"></i></button>
+									<button type="button" id="customleave_select_leftSelected"
+										class="btn btn-block btn-white"><i
+											class="fa fa-chevron-left"></i></button>
+									<button type="button" id="customleave_select_leftAll"
+										class="btn btn-block btn-white"><i class="fa fa-backward"></i></button>
+								</div>
+								<div class="col-lg-5 col-sm-5">
+									<select name="customleave_to" id="customleave_select_to"
+										class="form-control" size="8" multiple="multiple"></select>
+								</div>
+							</div>
+						</div>
+						<div class="submit-section">
+							<button class="btn btn-primary submit-btn" data-i18n="common.submit">Submit</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="edit_custom_policy" class="modal custom-modal fade" role="dialog">
+		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" data-i18n="leave.custom_policy.edit_title">Edit Custom Policy</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label data-i18n="leave.modal.policy_name_required">Policy Name <span class="text-danger">*</span></label>
+							<input type="text" class="form-control" value="LOP">
+						</div>
+						<div class="form-group">
+							<label data-i18n="leave.modal.days_required">Days <span class="text-danger">*</span></label>
+							<input type="text" class="form-control" value="4">
+						</div>
+						<div class="form-group leave-duallist">
+							<label data-i18n="leave.modal.add_employee">Add employee</label>
+							<div class="row">
+								<div class="col-lg-5 col-sm-5">
+									<select name="edit_customleave_from" id="edit_customleave_select"
+										class="form-control" size="5" multiple="multiple">
+										<option value="1">Bernardo Galaviz </option>
+										<option value="2">Jeffrey Warden</option>
+										<option value="2">John Doe</option>
+										<option value="2">John Smith</option>
+										<option value="3">Mike Litorus</option>
+									</select>
+								</div>
+								<div class="multiselect-controls col-lg-2 col-sm-2">
+									<button type="button" id="edit_customleave_select_rightAll"
+										class="btn btn-block btn-white"><i class="fa fa-forward"></i></button>
+									<button type="button" id="edit_customleave_select_rightSelected"
+										class="btn btn-block btn-white"><i
+											class="fa fa-chevron-right"></i></button>
+									<button type="button" id="edit_customleave_select_leftSelected"
+										class="btn btn-block btn-white"><i
+											class="fa fa-chevron-left"></i></button>
+									<button type="button" id="edit_customleave_select_leftAll"
+										class="btn btn-block btn-white"><i class="fa fa-backward"></i></button>
+								</div>
+								<div class="col-lg-5 col-sm-5">
+									<select name="customleave_to" id="edit_customleave_select_to"
+										class="form-control" size="8" multiple="multiple"></select>
+								</div>
+							</div>
+						</div>
+						<div class="submit-section">
+							<button class="btn btn-primary submit-btn" data-i18n="common.submit">Submit</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal custom-modal fade" id="delete_custom_policy" role="dialog">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-body">
+					<div class="form-header">
+						<h3 data-i18n="leave.custom_policy.delete_title">Delete Custom Policy</h3>
+						<p data-i18n="leave.modal.confirm_delete">Are you sure want to delete?</p>
+					</div>
+					<div class="modal-btn delete-action">
+						<div class="row">
+							<div class="col-6">
+								<a href="javascript:void(0);" class="btn btn-primary continue-btn" data-i18n="common.delete">Delete</a>
+							</div>
+							<div class="col-6">
+								<a href="javascript:void(0);" data-dismiss="modal"
+									class="btn btn-primary cancel-btn" data-i18n="common.cancel">Cancel</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 	</div>
 	<script src="assets/js/jquery-3.5.1.min.js"></script>
 	<script src="assets/js/popper.min.js"></script>
