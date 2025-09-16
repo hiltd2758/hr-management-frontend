@@ -1,0 +1,241 @@
+{
+  "header": {
+    "title": "CMC Global",
+    "search": {
+      "placeholder": "Search..."
+    },
+    "notifications": {
+      "title": "Notifications",
+      "viewAll": "View all notifications",
+      "items": {
+        "johnAssignedTask": "John Doe assigned a task to you",
+        "dueDateApproaching": "Task due date is approaching",
+        "newMessage": "You have received a new message"
+      }
+    },
+    "messages": {
+      "title": "Messages",
+      "viewAll": "View all messages",
+      "items": {
+        "johnSentMessage": "John Doe sent you a message",
+        "taskUpdate": "Task update from team",
+        "systemNotification": "System maintenance notification"
+      }
+    },
+    "userMenu": {
+      "myProfile": "My Profile",
+      "settings": "Settings",
+      "logout": "Logout"
+    },
+    "language": {
+      "english": "English",
+      "vietnamese": "Tiếng Việt"
+    }
+  },
+  "sidebar": {
+    "main": {
+      "title": "Main",
+      "dashboard": "Dashboard"
+    },
+    "employees": {
+      "title": "Employees",
+      "allEmployees": "All Employees",
+      "holidays": "Holidays",
+      "leaves": {
+        "admin": "Leaves (Admin)",
+        "employee": "Leaves (Employee)"
+      },
+      "leaveSettings": "Leave Settings",
+      "attendance": {
+        "admin": "Attendance (Admin)",
+        "employee": "Attendance (Employee)"
+      },
+      "departments": "Departments",
+      "designations": "Designations",
+      "timesheet": "Timesheet",
+      "shiftScheduling": "Shift & Schedule",
+      "overtime": "Overtime"
+    },
+    "hr": {
+      "title": "HR",
+      "accounts": "Accounts",
+      "jobs": "Jobs",
+      "jobsDashboard": "Jobs Dashboard",
+      "candidates": "Candidates",
+      "manageResumes": "Manage Resumes",
+      "shortlistCandidates": "Shortlist Candidates",
+      "interviewQuestions": "Interview Questions",
+      "offerApprovals": "Offer Approvals",
+      "experienceLevel": "Experience Level",
+      "candidatesList": "Candidates List",
+      "scheduleTimings": "Schedule Timings",
+      "interviewLevel": "Interview Level",
+      "aptitudeResult": "Aptitude Result"
+    },
+    "performance": {
+      "title": "Performance",
+      "performanceIndicator": "Performance Indicator",
+      "performance": "Performance",
+      "performanceReview": "Performance Review",
+      "goalTracking": "Goal Tracking",
+      "goalList": "Goal List",
+      "goalType": "Goal Type",
+      "training": "Training",
+      "trainers": "Trainers",
+      "trainingType": "Training Type",
+      "promotion": "Promotion",
+      "resignation": "Resignation",
+      "termination": "Termination"
+    },
+    "administration": {
+      "title": "Administration",
+      "assets": "Assets",
+      "users": "Users",
+      "providentFund": "Provident Fund",
+      "taxes": "Taxes",
+      "policies": "Policies"
+    },
+    "accounting": {
+      "title": "Accounting",
+      "sales": "Sales",
+      "expenses": "Expenses",
+      "provident": "Provident Fund",
+      "taxes": "Taxes"
+    },
+    "payroll": {
+      "title": "Payroll",
+      "employeeSalary": "Employee Salary",
+      "payslip": "Payslip",
+      "payrollItems": "Payroll Items"
+    },
+    "pages": {
+      "title": "Pages",
+      "profile": "Profile",
+      "searchResult": "Search Results",
+      "calendar": "Calendar",
+      "components": "Components",
+      "blankPage": "Blank Page",
+      "comingSoon": "Coming Soon",
+      "underMaintenance": "Under Maintenance",
+      "404Error": "404 Error"
+    }
+  },
+  "page": {
+    "title": "Assets",
+    "breadcrumb": {
+      "dashboard": "Dashboard",
+      "assets": "Assets"
+    },
+    "addAsset": "Add Asset"
+  },
+  "filters": {
+    "employeeName": {
+      "label": "Employee Name",
+      "placeholder": "Select Employee"
+    },
+    "status": {
+      "label": "Status",
+      "placeholder": "Select Status"
+    },
+    "from": {
+      "label": "From",
+      "placeholder": "DD/MM/YYYY"
+    },
+    "to": {
+      "label": "To",
+      "placeholder": "DD/MM/YYYY"
+    },
+    "search": "Search"
+  },
+  "table": {
+    "headers": {
+      "user": "User",
+      "assetName": "Asset Name",
+      "assetId": "Asset ID",
+      "purchaseDate": "Purchase Date",
+      "warranty": "Warranty",
+      "warrantyEnd": "Warranty End",
+      "amount": "Amount",
+      "status": "Status",
+      "action": "Action"
+    },
+    "status": {
+      "pending": "Pending",
+      "approved": "Approved",
+      "returned": "Returned"
+    },
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete"
+    }
+  },
+  "modal": {
+    "add": {
+      "title": "Add Asset",
+      "fields": {
+        "assetName": "Asset Name",
+        "assetId": "Asset Id",
+        "purchaseDate": "Purchase Date",
+        "purchaseFrom": "Purchase From",
+        "manufacturer": "Manufacturer",
+        "model": "Model",
+        "serialNumber": "Serial Number",
+        "supplier": "Supplier",
+        "condition": "Condition",
+        "warranty": "Warranty",
+        "warrantyPlaceholder": "In Months",
+        "value": "Value",
+        "valuePlaceholder": "$1800",
+        "assetUser": "Asset User",
+        "description": "Description",
+        "status": "Status"
+      },
+      "statusOptions": {
+        "pending": "Pending",
+        "approved": "Approved",
+        "deployed": "Deployed",
+        "damaged": "Damaged"
+      },
+      "submit": "Submit"
+    },
+    "edit": {
+      "title": "Edit Asset",
+      "fields": {
+        "assetName": "Asset Name",
+        "assetId": "Asset Id",
+        "purchaseDate": "Purchase Date",
+        "purchaseFrom": "Purchase From",
+        "manufacturer": "Manufacturer",
+        "model": "Model",
+        "serialNumber": "Serial Number",
+        "supplier": "Supplier",
+        "condition": "Condition",
+        "warranty": "Warranty",
+        "warrantyPlaceholder": "In Months",
+        "value": "Value",
+        "valuePlaceholder": "$1800",
+        "assetUser": "Asset User",
+        "description": "Description",
+        "status": "Status"
+      },
+      "statusOptions": {
+        "pending": "Pending",
+        "approved": "Approved",
+        "deployed": "Deployed",
+        "damaged": "Damaged"
+      },
+      "save": "Save"
+    },
+    "delete": {
+      "title": "Delete Asset",
+      "message": "Are you sure want to delete?",
+      "delete": "Delete",
+      "cancel": "Cancel"
+    }
+  },
+  "common": {
+    "close": "Close",
+    "loading": "Loading...",
+    "noData": "No data available"
+  }
+}
