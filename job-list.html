@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+	<meta name="content=width=device-width, initial-scale=1.0, user-scalable=0">
 	<meta name="description" content="Smarthr - Bootstrap Admin Template">
 	<meta name="keywords"
 		content="admin, estimates, bootstrap, business, corporate, creative, management, minimal, modern, accounts, invoice, html5, responsive, CRM, Projects">
@@ -35,7 +35,7 @@
 				</a>
 			</div>
 			<div class="page-title-box float-left">
-				<h3>CMC Global</h3>
+				<h3 data-i18n="header.title">CMC Global</h3>
 			</div>
 			<ul class="nav user-menu">
 				<li class="nav-item">
@@ -44,43 +44,39 @@
 							<i class="fa fa-search"></i>
 						</a>
 						<form action="search.html">
-							<input class="form-control" type="text" placeholder="Search here">
+							<input class="form-control" type="text" placeholder="Search here"
+								data-i18n="header.search_placeholder">
 							<button class="btn" type="submit"><i class="fa fa-search"></i></button>
 						</form>
 					</div>
 				</li>
 				<li class="nav-item dropdown has-arrow flag-nav">
 					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">
-						<img src="assets/img/flags/us.png" alt="" height="20"> <span>English</span>
+						<img src="assets/img/flags/us.png" alt="" height="20"> <span
+							data-i18n="header.language">English</span>
 					</a>
 					<div class="dropdown-menu dropdown-menu-right">
-						<a href="javascript:void(0);" class="dropdown-item">
+						<a href="javascript:void(0);" class="dropdown-item" data-lang="en">
 							<img src="assets/img/flags/us.png" alt="" height="16"> English
 						</a>
-						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="assets/img/flags/fr.png" alt="" height="16"> French
-						</a>
-						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="assets/img/flags/es.png" alt="" height="16"> Spanish
-						</a>
-						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="assets/img/flags/de.png" alt="" height="16"> German
+						<a href="javascript:void(0);" class="dropdown-item" data-lang="vi">
+							<img src="assets/img/flags/vn.png" alt="" height="16"> Tiếng Việt
 						</a>
 					</div>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="login.html">Login</a>
+					<a class="nav-link" href="login.html" data-i18n="header.login">Login</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="register.html">Register</a>
+					<a class="nav-link" href="register.html" data-i18n="header.register">Register</a>
 				</li>
 			</ul>
 			<div class="dropdown mobile-user-menu">
 				<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i
 						class="fa fa-ellipsis-v"></i></a>
 				<div class="dropdown-menu dropdown-menu-right">
-					<a class="dropdown-item" href="login.html">Login</a>
-					<a class="dropdown-item" href="register.html">Register</a>
+					<a class="dropdown-item" href="login.html" data-i18n="header.login">Login</a>
+					<a class="dropdown-item" href="register.html" data-i18n="header.register">Register</a>
 				</div>
 			</div>
 		</div>
@@ -102,18 +98,21 @@
 						<a class="job-list" href="job-view.html">
 							<div class="job-list-det">
 								<div class="job-list-desc">
-									<h3 class="job-list-title">Web Devloper</h3>
-									<h4 class="job-department">Development</h4>
+									<h3 class="job-list-title" data-i18n="job_list.web_developer">Web Developer</h3>
+									<h4 class="job-department" data-i18n="job_list.development">Development</h4>
 								</div>
 								<div class="job-type-info">
-									<span class="job-types">Full Time</span>
+									<span class="job-types" data-i18n="job_list.full_time">Full Time</span>
 								</div>
 							</div>
 							<div class="job-list-footer">
 								<ul>
-									<li><i class="fa fa-map-signs"></i> California</li>
-									<li><i class="fa fa-money"></i> $35000-$38000</li>
-									<li><i class="fa fa-clock-o"></i> 2 days ago</li>
+									<li><i class="fa fa-map-signs"></i> <span
+											data-i18n="job_list.california">California</span></li>
+									<li><i class="fa fa-money"></i> <span
+											data-i18n="job_list.salary_range">$35000-$38000</span></li>
+									<li><i class="fa fa-clock-o"></i> <span data-i18n="job_list.days_ago_2">2 days
+											ago</span></li>
 								</ul>
 							</div>
 						</a>
@@ -122,18 +121,22 @@
 						<a class="job-list" href="job-view.html">
 							<div class="job-list-det">
 								<div class="job-list-desc">
-									<h3 class="job-list-title">Android Devloper</h3>
-									<h4 class="job-department">App Development</h4>
+									<h3 class="job-list-title" data-i18n="job_list.android_developer">Android Developer
+									</h3>
+									<h4 class="job-department" data-i18n="job_list.app_development">App Development</h4>
 								</div>
 								<div class="job-type-info">
-									<span class="job-types">Part Time</span>
+									<span class="job-types" data-i18n="job_list.part_time">Part Time</span>
 								</div>
 							</div>
 							<div class="job-list-footer">
 								<ul>
-									<li><i class="fa fa-map-signs"></i> California</li>
-									<li><i class="fa fa-money"></i> $35000-$38000</li>
-									<li><i class="fa fa-clock-o"></i> 2 days ago</li>
+									<li><i class="fa fa-map-signs"></i> <span
+											data-i18n="job_list.california">California</span></li>
+									<li><i class="fa fa-money"></i> <span
+											data-i18n="job_list.salary_range">$35000-$38000</span></li>
+									<li><i class="fa fa-clock-o"></i> <span data-i18n="job_list.days_ago_2">2 days
+											ago</span></li>
 								</ul>
 							</div>
 						</a>
@@ -142,18 +145,21 @@
 						<a class="job-list" href="job-view.html">
 							<div class="job-list-det">
 								<div class="job-list-desc">
-									<h3 class="job-list-title">Web Devloper</h3>
-									<h4 class="job-department">Development</h4>
+									<h3 class="job-list-title" data-i18n="job_list.web_developer">Web Developer</h3>
+									<h4 class="job-department" data-i18n="job_list.development">Development</h4>
 								</div>
 								<div class="job-type-info">
-									<span class="job-types">Full Time</span>
+									<span class="job-types" data-i18n="job_list.full_time">Full Time</span>
 								</div>
 							</div>
 							<div class="job-list-footer">
 								<ul>
-									<li><i class="fa fa-map-signs"></i> California</li>
-									<li><i class="fa fa-money"></i> $35000-$38000</li>
-									<li><i class="fa fa-clock-o"></i> 2 days ago</li>
+									<li><i class="fa fa-map-signs"></i> <span
+											data-i18n="job_list.california">California</span></li>
+									<li><i class="fa fa-money"></i> <span
+											data-i18n="job_list.salary_range">$35000-$38000</span></li>
+									<li><i class="fa fa-clock-o"></i> <span data-i18n="job_list.days_ago_2">2 days
+											ago</span></li>
 								</ul>
 							</div>
 						</a>
@@ -162,18 +168,22 @@
 						<a class="job-list" href="job-view.html">
 							<div class="job-list-det">
 								<div class="job-list-desc">
-									<h3 class="job-list-title">Android Devloper</h3>
-									<h4 class="job-department">App Development</h4>
+									<h3 class="job-list-title" data-i18n="job_list.android_developer">Android Developer
+									</h3>
+									<h4 class="job-department" data-i18n="job_list.app_development">App Development</h4>
 								</div>
 								<div class="job-type-info">
-									<span class="job-types">Part Time</span>
+									<span class="job-types" data-i18n="job_list.part_time">Part Time</span>
 								</div>
 							</div>
 							<div class="job-list-footer">
 								<ul>
-									<li><i class="fa fa-map-signs"></i> California</li>
-									<li><i class="fa fa-money"></i> $35000-$38000</li>
-									<li><i class="fa fa-clock-o"></i> 2 days ago</li>
+									<li><i class="fa fa-map-signs"></i> <span
+											data-i18n="job_list.california">California</span></li>
+									<li><i class="fa fa-money"></i> <span
+											data-i18n="job_list.salary_range">$35000-$38000</span></li>
+									<li><i class="fa fa-clock-o"></i> <span data-i18n="job_list.days_ago_2">2 days
+											ago</span></li>
 								</ul>
 							</div>
 						</a>
@@ -182,18 +192,21 @@
 						<a class="job-list" href="job-view.html">
 							<div class="job-list-det">
 								<div class="job-list-desc">
-									<h3 class="job-list-title">Web Devloper</h3>
-									<h4 class="job-department">Development</h4>
+									<h3 class="job-list-title" data-i18n="job_list.web_developer">Web Developer</h3>
+									<h4 class="job-department" data-i18n="job_list.development">Development</h4>
 								</div>
 								<div class="job-type-info">
-									<span class="job-types">Full Time</span>
+									<span class="job-types" data-i18n="job_list.full_time">Full Time</span>
 								</div>
 							</div>
 							<div class="job-list-footer">
 								<ul>
-									<li><i class="fa fa-map-signs"></i> California</li>
-									<li><i class="fa fa-money"></i> $35000-$38000</li>
-									<li><i class="fa fa-clock-o"></i> 2 days ago</li>
+									<li><i class="fa fa-map-signs"></i> <span
+											data-i18n="job_list.california">California</span></li>
+									<li><i class="fa fa-money"></i> <span
+											data-i18n="job_list.salary_range">$35000-$38000</span></li>
+									<li><i class="fa fa-clock-o"></i> <span data-i18n="job_list.days_ago_2">2 days
+											ago</span></li>
 								</ul>
 							</div>
 						</a>
@@ -202,18 +215,22 @@
 						<a class="job-list" href="job-view.html">
 							<div class="job-list-det">
 								<div class="job-list-desc">
-									<h3 class="job-list-title">Android Devloper</h3>
-									<h4 class="job-department">App Development</h4>
+									<h3 class="job-list-title" data-i18n="job_list.android_developer">Android Developer
+									</h3>
+									<h4 class="job-department" data-i18n="job_list.app_development">App Development</h4>
 								</div>
 								<div class="job-type-info">
-									<span class="job-types">Part Time</span>
+									<span class="job-types" data-i18n="job_list.part_time">Part Time</span>
 								</div>
 							</div>
 							<div class="job-list-footer">
 								<ul>
-									<li><i class="fa fa-map-signs"></i> California</li>
-									<li><i class="fa fa-money"></i> $35000-$38000</li>
-									<li><i class="fa fa-clock-o"></i> 2 days ago</li>
+									<li><i class="fa fa-map-signs"></i> <span
+											data-i18n="job_list.california">California</span></li>
+									<li><i class="fa fa-money"></i> <span
+											data-i18n="job_list.salary_range">$35000-$38000</span></li>
+									<li><i class="fa fa-clock-o"></i> <span data-i18n="job_list.days_ago_2">2 days
+											ago</span></li>
 								</ul>
 							</div>
 						</a>
@@ -222,18 +239,21 @@
 						<a class="job-list" href="job-view.html">
 							<div class="job-list-det">
 								<div class="job-list-desc">
-									<h3 class="job-list-title">Web Devloper</h3>
-									<h4 class="job-department">Development</h4>
+									<h3 class="job-list-title" data-i18n="job_list.web_developer">Web Developer</h3>
+									<h4 class="job-department" data-i18n="job_list.development">Development</h4>
 								</div>
 								<div class="job-type-info">
-									<span class="job-types">Full Time</span>
+									<span class="job-types" data-i18n="job_list.full_time">Full Time</span>
 								</div>
 							</div>
 							<div class="job-list-footer">
 								<ul>
-									<li><i class="fa fa-map-signs"></i> California</li>
-									<li><i class="fa fa-money"></i> $35000-$38000</li>
-									<li><i class="fa fa-clock-o"></i> 2 days ago</li>
+									<li><i class="fa fa-map-signs"></i> <span
+											data-i18n="job_list.california">California</span></li>
+									<li><i class="fa fa-money"></i> <span
+											data-i18n="job_list.salary_range">$35000-$38000</span></li>
+									<li><i class="fa fa-clock-o"></i> <span data-i18n="job_list.days_ago_2">2 days
+											ago</span></li>
 								</ul>
 							</div>
 						</a>
@@ -242,18 +262,22 @@
 						<a class="job-list" href="job-view.html">
 							<div class="job-list-det">
 								<div class="job-list-desc">
-									<h3 class="job-list-title">Android Devloper</h3>
-									<h4 class="job-department">App Development</h4>
+									<h3 class="job-list-title" data-i18n="job_list.android_developer">Android Developer
+									</h3>
+									<h4 class="job-department" data-i18n="job_list.app_development">App Development</h4>
 								</div>
 								<div class="job-type-info">
-									<span class="job-types">Part Time</span>
+									<span class="job-types" data-i18n="job_list.part_time">Part Time</span>
 								</div>
 							</div>
 							<div class="job-list-footer">
 								<ul>
-									<li><i class="fa fa-map-signs"></i> California</li>
-									<li><i class="fa fa-money"></i> $35000-$38000</li>
-									<li><i class="fa fa-clock-o"></i> 2 days ago</li>
+									<li><i class="fa fa-map-signs"></i> <span
+											data-i18n="job_list.california">California</span></li>
+									<li><i class="fa fa-money"></i> <span
+											data-i18n="job_list.salary_range">$35000-$38000</span></li>
+									<li><i class="fa fa-clock-o"></i> <span data-i18n="job_list.days_ago_2">2 days
+											ago</span></li>
 								</ul>
 							</div>
 						</a>
@@ -277,7 +301,7 @@
 	<script src="assets/js/i18n.js"></script>
 	<script>
 		// Initialize i18n when DOM is loaded
-		document.addEventListener('DOMContentLoaded', function() {
+		document.addEventListener('DOMContentLoaded', function () {
 			const i18n = new I18n();
 		});
 	</script>

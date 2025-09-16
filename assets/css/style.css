@@ -446,9 +446,9 @@ table.dataTable thead > tr > td.sorting {
 .badge-primary {
   background-color: #7460ee !important;
 }
-.bg-success,
-.badge-success {
-  background-color: #55ce63 !important;
+
+.bg-success, .badge-success {
+  background: linear-gradient(135deg, #f39c12 0%, #7460ee 100%) !important;
 }
 .bg-info,
 .badge-info {
@@ -471,7 +471,7 @@ table.dataTable thead > tr > td.sorting {
 }
 .text-success,
 .dropdown-menu > li > a.text-success {
-  color: #55ce63 !important;
+  color: #f39c12 !important;
 }
 .text-danger,
 .dropdown-menu > li > a.text-danger {
@@ -702,21 +702,22 @@ table.dataTable thead > tr > td.sorting {
   color: #fff;
 }
 .btn-custom {
-  background: #f43b48;
-  background: -moz-linear-gradient(left, #f43b48 0%, #453a94 100%);
-  background: -webkit-linear-gradient(left, #f43b48 0%, #453a94 100%);
-  background: -ms-linear-gradient(left, #f43b48 0%, #453a94 100%);
-  background: linear-gradient(to right, #f43b48 0%, #453a94 100%);
+  background: #f39c12;
+  background: -moz-linear-gradient(left, #f39c12 0%, #7460ee 100%);
+  background: -webkit-linear-gradient(left, #f39c12 0%, #7460ee 100%);
+  background: -ms-linear-gradient(left, #f39c12 0%, #7460ee 100%);
+  background: linear-gradient(to right, #f39c12 0%, #7460ee 100%);
   color: #fff;
 }
+
 .btn-custom.focus,
 .btn-custom:focus,
 .btn-custom:hover {
-  background: #f43b48;
-  background: -moz-linear-gradient(left, #f43b48 0%, #453a94 100%);
-  background: -webkit-linear-gradient(left, #f43b48 0%, #453a94 100%);
-  background: -ms-linear-gradient(left, #f43b48 0%, #453a94 100%);
-  background: linear-gradient(to right, #f43b48 0%, #453a94 100%);
+  background: #f39c12;
+  background: -moz-linear-gradient(left, #f39c12 0%, #7460ee 100%);
+  background: -webkit-linear-gradient(left, #f39c12 0%, #7460ee 100%);
+  background: -ms-linear-gradient(left, #f39c12 0%, #7460ee 100%);
+  background: linear-gradient(to right, #f39c12 0%, #7460ee 100%);
   color: #fff;
 }
 .pagination > .active > a,

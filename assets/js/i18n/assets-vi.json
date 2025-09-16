@@ -1,0 +1,241 @@
+{
+  "header": {
+    "title": "CMC Global",
+    "search": {
+      "placeholder": "Tìm kiếm..."
+    },
+    "notifications": {
+      "title": "Thông báo",
+      "viewAll": "Xem tất cả thông báo",
+      "items": {
+        "johnAssignedTask": "John Doe đã giao một nhiệm vụ cho bạn",
+        "dueDateApproaching": "Hạn chót nhiệm vụ đang đến gần",
+        "newMessage": "Bạn có tin nhắn mới"
+      }
+    },
+    "messages": {
+      "title": "Tin nhắn",
+      "viewAll": "Xem tất cả tin nhắn",
+      "items": {
+        "johnSentMessage": "John Doe đã gửi tin nhắn cho bạn",
+        "taskUpdate": "Cập nhật nhiệm vụ từ nhóm",
+        "systemNotification": "Thông báo bảo trì hệ thống"
+      }
+    },
+    "userMenu": {
+      "myProfile": "Hồ sơ của tôi",
+      "settings": "Cài đặt",
+      "logout": "Đăng xuất"
+    },
+    "language": {
+      "english": "English",
+      "vietnamese": "Tiếng Việt"
+    }
+  },
+  "sidebar": {
+    "main": {
+      "title": "Chính",
+      "dashboard": "Trang chủ"
+    },
+    "employees": {
+      "title": "Nhân viên",
+      "allEmployees": "Tất cả nhân viên",
+      "holidays": "Ngày lễ",
+      "leaves": {
+        "admin": "Nghỉ phép (Quản trị)",
+        "employee": "Nghỉ phép (Nhân viên)"
+      },
+      "leaveSettings": "Cài đặt nghỉ phép",
+      "attendance": {
+        "admin": "Chấm công (Quản trị)",
+        "employee": "Chấm công (Nhân viên)"
+      },
+      "departments": "Phòng ban",
+      "designations": "Chức danh",
+      "timesheet": "Bảng chấm công",
+      "shiftScheduling": "Ca làm việc & Lịch trình",
+      "overtime": "Làm thêm giờ"
+    },
+    "hr": {
+      "title": "Nhân sự",
+      "accounts": "Tài khoản",
+      "jobs": "Việc làm",
+      "jobsDashboard": "Bảng điều khiển việc làm",
+      "candidates": "Ứng viên",
+      "manageResumes": "Quản lý hồ sơ",
+      "shortlistCandidates": "Danh sách ứng viên tiềm năng",
+      "interviewQuestions": "Câu hỏi phỏng vấn",
+      "offerApprovals": "Phê duyệt đề nghị",
+      "experienceLevel": "Mức độ kinh nghiệm",
+      "candidatesList": "Danh sách ứng viên",
+      "scheduleTimings": "Lịch phỏng vấn",
+      "interviewLevel": "Mức độ phỏng vấn",
+      "aptitudeResult": "Kết quả kiểm tra năng lực"
+    },
+    "performance": {
+      "title": "Hiệu suất",
+      "performanceIndicator": "Chỉ số hiệu suất",
+      "performance": "Hiệu suất",
+      "performanceReview": "Đánh giá hiệu suất",
+      "goalTracking": "Theo dõi mục tiêu",
+      "goalList": "Danh sách mục tiêu",
+      "goalType": "Loại mục tiêu",
+      "training": "Đào tạo",
+      "trainers": "Huấn luyện viên",
+      "trainingType": "Loại đào tạo",
+      "promotion": "Thăng chức",
+      "resignation": "Từ chức",
+      "termination": "Chấm dứt hợp đồng"
+    },
+    "administration": {
+      "title": "Quản trị",
+      "assets": "Tài sản",
+      "users": "Người dùng",
+      "providentFund": "Quỹ dự phòng",
+      "taxes": "Thuế",
+      "policies": "Chính sách"
+    },
+    "accounting": {
+      "title": "Kế toán",
+      "sales": "Bán hàng",
+      "expenses": "Chi phí",
+      "provident": "Quỹ dự phòng",
+      "taxes": "Thuế"
+    },
+    "payroll": {
+      "title": "Bảng lương",
+      "employeeSalary": "Lương nhân viên",
+      "payslip": "Phiếu lương",
+      "payrollItems": "Các mục bảng lương"
+    },
+    "pages": {
+      "title": "Trang",
+      "profile": "Hồ sơ",
+      "searchResult": "Kết quả tìm kiếm",
+      "calendar": "Lịch",
+      "components": "Thành phần",
+      "blankPage": "Trang trắng",
+      "comingSoon": "Sắp ra mắt",
+      "underMaintenance": "Đang bảo trì",
+      "404Error": "Lỗi 404"
+    }
+  },
+  "page": {
+    "title": "Tài sản",
+    "breadcrumb": {
+      "dashboard": "Trang chủ",
+      "assets": "Tài sản"
+    },
+    "addAsset": "Thêm tài sản"
+  },
+  "filters": {
+    "employeeName": {
+      "label": "Tên nhân viên",
+      "placeholder": "Chọn nhân viên"
+    },
+    "status": {
+      "label": "Trạng thái",
+      "placeholder": "Chọn trạng thái"
+    },
+    "from": {
+      "label": "Từ ngày",
+      "placeholder": "DD/MM/YYYY"
+    },
+    "to": {
+      "label": "Đến ngày",
+      "placeholder": "DD/MM/YYYY"
+    },
+    "search": "Tìm kiếm"
+  },
+  "table": {
+    "headers": {
+      "user": "Người dùng",
+      "assetName": "Tên tài sản",
+      "assetId": "Mã tài sản",
+      "purchaseDate": "Ngày mua",
+      "warranty": "Bảo hành",
+      "warrantyEnd": "Hết bảo hành",
+      "amount": "Số tiền",
+      "status": "Trạng thái",
+      "action": "Thao tác"
+    },
+    "status": {
+      "pending": "Chờ duyệt",
+      "approved": "Đã duyệt",
+      "returned": "Đã trả lại"
+    },
+    "actions": {
+      "edit": "Chỉnh sửa",
+      "delete": "Xóa"
+    }
+  },
+  "modal": {
+    "add": {
+      "title": "Thêm tài sản",
+      "fields": {
+        "assetName": "Tên tài sản",
+        "assetId": "Mã tài sản",
+        "purchaseDate": "Ngày mua",
+        "purchaseFrom": "Mua từ",
+        "manufacturer": "Nhà sản xuất",
+        "model": "Mẫu",
+        "serialNumber": "Số sê-ri",
+        "supplier": "Nhà cung cấp",
+        "condition": "Tình trạng",
+        "warranty": "Bảo hành",
+        "warrantyPlaceholder": "Tính theo tháng",
+        "value": "Giá trị",
+        "valuePlaceholder": "$1800",
+        "assetUser": "Người sử dụng tài sản",
+        "description": "Mô tả",
+        "status": "Trạng thái"
+      },
+      "statusOptions": {
+        "pending": "Chờ duyệt",
+        "approved": "Đã duyệt",
+        "deployed": "Đã triển khai",
+        "damaged": "Hỏng hóc"
+      },
+      "submit": "Gửi"
+    },
+    "edit": {
+      "title": "Chỉnh sửa tài sản",
+      "fields": {
+        "assetName": "Tên tài sản",
+        "assetId": "Mã tài sản",
+        "purchaseDate": "Ngày mua",
+        "purchaseFrom": "Mua từ",
+        "manufacturer": "Nhà sản xuất",
+        "model": "Mẫu",
+        "serialNumber": "Số sê-ri",
+        "supplier": "Nhà cung cấp",
+        "condition": "Tình trạng",
+        "warranty": "Bảo hành",
+        "warrantyPlaceholder": "Tính theo tháng",
+        "value": "Giá trị",
+        "valuePlaceholder": "$1800",
+        "assetUser": "Người sử dụng tài sản",
+        "description": "Mô tả",
+        "status": "Trạng thái"
+      },
+      "statusOptions": {
+        "pending": "Chờ duyệt",
+        "approved": "Đã duyệt",
+        "deployed": "Đã triển khai",
+        "damaged": "Hỏng hóc"
+      },
+      "save": "Lưu"
+    },
+    "delete": {
+      "title": "Xóa tài sản",
+      "message": "Bạn có chắc chắn muốn xóa?",
+      "delete": "Xóa",
+      "cancel": "Hủy"
+    }
+  },
+  "common": {
+    "close": "Đóng",
+    "loading": "Đang tải...",
+    "noData": "Không có dữ liệu"
+  }
+}
