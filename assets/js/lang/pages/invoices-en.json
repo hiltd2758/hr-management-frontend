@@ -1,28 +1,77 @@
 ﻿{
-    "common":  {
-                   "confirm":  "Confirm",
-                   "loading":  "Loading...",
-                   "import":  "Import",
-                   "no":  "No",
-                   "reset":  "Reset",
-                   "cancel":  "Cancel",
-                   "back":  "Back",
-                   "download":  "Download",
-                   "save":  "Save",
-                   "delete":  "Delete",
-                   "next":  "Next",
-                   "edit":  "Edit",
-                   "filter":  "Filter",
-                   "close":  "Close",
-                   "add":  "Add",
-                   "view":  "View",
-                   "search":  "Search",
-                   "export":  "Export",
-                   "previous":  "Previous",
-                   "upload":  "Upload",
-                   "submit":  "Submit",
-                   "yes":  "Yes"
-               },
+ "header": {
+    "title": "CMC Global",
+    "search_placeholder": "Search here",
+    "notifications": "Notifications",
+    "clear_all": "Clear All",
+    "messages": "Messages",
+    "profile": "My Profile",
+    "settings": "Settings",
+    "logout": "Logout",
+    "view_all_notifications": "View all Notifications",
+    "view_all_messages": "View all Messages"
+  },
+  "sidebar": {
+    "main": "Main",
+    "dashboard": "Dashboard",
+    "apps": "Apps",
+    "chat": "Chat",
+    "email": "Email",
+    "employees": "Employees",
+    "all_employees": "All Employees",
+    "leaves_admin": "Leaves (Admin)",
+    "leaves_employee": "Leaves (Employee)",
+    "leave_settings": "Leave Settings",
+    "attendance_admin": "Attendance (Admin)",
+    "attendance_employee": "Attendance (Employee)",
+    "departments": "Departments",
+    "designations": "Designations",
+    "timesheet": "Timesheet",
+    "shift_schedule": "Shift & Schedule",
+    "overtime": "Overtime",
+    "tasks": "Tasks",
+    "task_board": "Task Board",
+    "leads": "Leads",
+    "tickets": "Tickets",
+    "hr": "HR",
+    "performance": "Performance",
+    "goals": "Goals",
+    "training": "Training",
+    "promotion": "Promotion",
+    "resignation": "Resignation",
+    "termination": "Termination",
+    "administration": "Administration",
+    "assets": "Assets",
+    "jobs": "Jobs",
+    "profile": "Profile",
+    "subscriptions": "Subscriptions",
+    "policies": "Policies",
+    "reports": "Reports"
+  },
+  "common": {
+    "confirm": "Confirm",
+    "loading": "Loading...",
+    "import": "Import",
+    "no": "No",
+    "reset": "Reset",
+    "cancel": "Cancel",
+    "back": "Back",
+    "download": "Download",
+    "save": "Save",
+    "delete": "Delete",
+    "next": "Next",
+    "edit": "Edit",
+    "filter": "Filter",
+    "close": "Close",
+    "add": "Add",
+    "view": "View",
+    "search": "Search",
+    "export": "Export",
+    "previous": "Previous",
+    "upload": "Upload",
+    "submit": "Submit",
+    "yes": "Yes"
+  },
     "table":  {
                   "previous":  "Previous",
                   "entries":  "entries",
@@ -43,5 +92,44 @@
     "page":  {
                  "description":  "Page description for invoices",
                  "title":  "invoices"
-             }
+             },
+             "invoices": {
+    "title": "Invoices",
+    "createInvoice": "Create Invoice",
+    "search": "Search",
+    "breadcrumb": {
+      "dashboard": "Dashboard",
+      "invoices": "Invoices"
+    },
+    "filter": {
+      "from": "From",
+      "to": "To",
+      "status": "Status",
+      "selectStatus": "Select Status",
+      "fromPlaceholder": "Select from date",
+      "toPlaceholder": "Select to date"
+    },
+    "table": {
+      "number": "#",
+      "invoiceNumber": "Invoice Number",
+      "client": "Client",
+      "createdDate": "Created Date",
+      "dueDate": "Due Date",
+      "amount": "Amount",
+      "status": "Status",
+      "action": "Action"
+    },
+    "status": {
+      "pending": "Pending",
+      "paid": "Paid",
+      "partiallyPaid": "Partially Paid",
+      "sent": "Sent"
+    },
+    "actions": {
+      "edit": "Edit",
+      "view": "View",
+      "download": "Download",
+      "delete": "Delete"
+    }
+  }
 }

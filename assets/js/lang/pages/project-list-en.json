@@ -1,28 +1,168 @@
 ﻿{
-    "common":  {
-                   "confirm":  "Confirm",
-                   "loading":  "Loading...",
-                   "import":  "Import",
-                   "no":  "No",
-                   "reset":  "Reset",
-                   "cancel":  "Cancel",
-                   "back":  "Back",
-                   "download":  "Download",
-                   "save":  "Save",
-                   "delete":  "Delete",
-                   "next":  "Next",
-                   "edit":  "Edit",
-                   "filter":  "Filter",
-                   "close":  "Close",
-                   "add":  "Add",
-                   "view":  "View",
-                   "search":  "Search",
-                   "export":  "Export",
-                   "previous":  "Previous",
-                   "upload":  "Upload",
-                   "submit":  "Submit",
-                   "yes":  "Yes"
-               },
+     "header": {
+    "title": "CMC Global",
+    "search_placeholder": "Search here",
+    "notifications": "Notifications",
+    "clear_all": "Clear All",
+    "messages": "Messages",
+    "profile": "My Profile",
+    "settings": "Settings",
+    "logout": "Logout",
+    "view_all_notifications": "View all Notifications",
+    "view_all_messages": "View all Messages"
+  },
+  "sidebar": {
+    "main": "Main",
+    "dashboard": "Dashboard",
+    "apps": "Apps",
+    "chat": "Chat",
+    "email": "Email",
+    "employees": "Employees",
+    "all_employees": "All Employees",
+    "leaves_admin": "Leaves (Admin)",
+    "leaves_employee": "Leaves (Employee)",
+    "leave_settings": "Leave Settings",
+    "attendance_admin": "Attendance (Admin)",
+    "attendance_employee": "Attendance (Employee)",
+    "departments": "Departments",
+    "designations": "Designations",
+    "timesheet": "Timesheet",
+    "shift_schedule": "Shift & Schedule",
+    "overtime": "Overtime",
+    "tasks": "Tasks",
+    "task_board": "Task Board",
+    "leads": "Leads",
+    "tickets": "Tickets",
+    "hr": "HR",
+    "performance": "Performance",
+    "goals": "Goals",
+    "training": "Training",
+    "promotion": "Promotion",
+    "resignation": "Resignation",
+    "termination": "Termination",
+    "administration": "Administration",
+    "assets": "Assets",
+    "jobs": "Jobs",
+    "profile": "Profile",
+    "subscriptions": "Subscriptions",
+    "policies": "Policies",
+    "reports": "Reports"
+  },
+  "common": {
+    "confirm": "Confirm",
+    "loading": "Loading...",
+    "import": "Import",
+    "no": "No",
+    "reset": "Reset",
+    "cancel": "Cancel",
+    "back": "Back",
+    "download": "Download",
+    "save": "Save",
+    "delete": "Delete",
+    "next": "Next",
+    "edit": "Edit",
+    "filter": "Filter",
+    "close": "Close",
+    "add": "Add",
+    "view": "View",
+    "search": "Search",
+    "export": "Export",
+    "previous": "Previous",
+    "upload": "Upload",
+    "submit": "Submit",
+    "yes": "Yes",
+    "dashboard": "Dashboard"
+  },
+  "projects": {
+    "filters": {
+      "projectName": "Project Name",
+      "projectNamePlaceholder": "Enter project name",
+      "employeeName": "Employee Name", 
+      "employeeNamePlaceholder": "Enter employee name",
+      "role": "Role",
+      "selectRole": "Select Roll"
+    },
+    "roles": {
+      "webDeveloper": "Web Developer",
+      "webDesigner": "Web Designer",
+      "androidDeveloper": "Android Developer",
+      "iosDeveloper": "Ios Developer"
+    },
+    "pageTitle": "Projects",
+    "createProject": "Create Project", 
+    "viewOptions": {
+      "gridView": "Grid View",
+      "listView": "List View"
+    },
+    "table": {
+      "headers": {
+        "project": "Project",
+        "projectId": "Project Id",
+        "leader": "Leader", 
+        "team": "Team",
+        "deadline": "Deadline",
+        "priority": "Priority",
+        "status": "Status",
+        "action": "Action"
+      }
+    },
+    "items": {
+      "officeManagement": "Office Management",
+      "projectManagement": "Project Management",
+      "videoCallingApp": "Video Calling App", 
+      "hospitalAdministration": "Hospital Administration"
+    },
+    "priority": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "search": "Search",
+    "previous": "Previous",
+    "next": "Next",
+     "modal": {
+      "createProject": "Create Project",
+       "editProject": "Edit Project"
+    },
+    "form": {
+      "projectName": "Project Name",
+      "projectNamePlaceholder": "Enter project name",
+      "client": "Client",
+      "startDate": "Start Date",
+      "selectStartDate": "Select start date",
+      "endDate": "End Date", 
+      "selectEndDate": "Select end date",
+      "rate": "Rate",
+      "ratePlaceholder": "$50",
+      "priority": "Priority",
+      "addProjectLeader": "Add Project Leader",
+      "searchProjectLeader": "Search project leader",
+      "teamLeader": "Team Leader",
+      "addTeam": "Add Team",
+      "searchTeamMembers": "Search team members",
+      "teamMembers": "Team Members",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter your message here",
+      "uploadFiles": "Upload Files",
+      "rateTypes": {
+        "hourly": "Hourly",
+        "fixed": "Fixed"
+      }
+    },
+    "clients": {
+      "globalTechnologies": "Global Technologies",
+      "deltaInfotech": "Delta Infotech"
+    }
+
+  },
     "table":  {
                   "previous":  "Previous",
                   "entries":  "entries",

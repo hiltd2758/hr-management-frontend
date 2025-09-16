@@ -1,28 +1,77 @@
 ﻿{
-    "common":  {
-                   "confirm":  "XÃ¡c nháº­n",
-                   "loading":  "Äang táº£i...",
-                   "import":  "Nháº­p",
-                   "no":  "KhÃ´ng",
-                   "reset":  "Äáº·t láº¡i",
-                   "cancel":  "Há»§y",
-                   "back":  "Quay láº¡i",
-                   "download":  "Táº£i xuá»‘ng",
-                   "save":  "LÆ°u",
-                   "delete":  "XÃ³a",
-                   "next":  "Tiáº¿p theo",
-                   "edit":  "Sá»­a",
-                   "filter":  "Lá»c",
-                   "close":  "ÄÃ³ng",
-                   "add":  "ThÃªm",
-                   "view":  "Xem",
-                   "search":  "TÃ¬m kiáº¿m",
-                   "export":  "Xuáº¥t",
-                   "previous":  "TrÆ°á»›c",
-                   "upload":  "Táº£i lÃªn",
-                   "submit":  "Gá»­i",
-                   "yes":  "CÃ³"
-               },
+      "header": {
+    "title": "CMC Global",
+    "search_placeholder": "Tìm kiếm tại đây",
+    "notifications": "Thông báo",
+    "clear_all": "Xóa tất cả",
+    "messages": "Tin nhắn",
+    "profile": "Hồ sơ của tôi",
+    "settings": "Cài đặt",
+    "logout": "Đăng xuất",
+    "view_all_notifications": "Xem tất cả thông báo",
+    "view_all_messages": "Xem tất cả tin nhắn"
+  },
+  "sidebar": {
+    "main": "Chính",
+    "dashboard": "Bảng điều khiển",
+    "apps": "Ứng dụng",
+    "chat": "Trò chuyện",
+    "email": "Email",
+    "employees": "Nhân viên",
+    "all_employees": "Tất cả nhân viên",
+    "leaves_admin": "Nghỉ phép (Quản trị)",
+    "leaves_employee": "Nghỉ phép (Nhân viên)",
+    "leave_settings": "Cài đặt nghỉ phép",
+    "attendance_admin": "Chấm công (Quản trị)",
+    "attendance_employee": "Chấm công (Nhân viên)",
+    "departments": "Phòng ban",
+    "designations": "Chức vụ",
+    "timesheet": "Bảng chấm công",
+    "shift_schedule": "Ca làm & Lịch trình",
+    "overtime": "Làm thêm giờ",
+    "tasks": "Công việc",
+    "task_board": "Bảng công việc",
+    "leads": "Khách hàng tiềm năng",
+    "tickets": "Phiếu hỗ trợ",
+    "hr": "Nhân sự",
+    "performance": "Hiệu suất",
+    "goals": "Mục tiêu",
+    "training": "Đào tạo",
+    "promotion": "Thăng chức",
+    "resignation": "Từ chức",
+    "termination": "Chấm dứt hợp đồng",
+    "administration": "Quản trị",
+    "assets": "Tài sản",
+    "jobs": "Công việc",
+    "profile": "Hồ sơ",
+    "subscriptions": "Đăng ký",
+    "policies": "Chính sách",
+    "reports": "Báo cáo"
+  },
+  "common": {
+    "confirm": "Xác nhận",
+    "loading": "Đang tải...",
+    "import": "Nhập",
+    "no": "Không",
+    "reset": "Đặt lại",
+    "cancel": "Hủy",
+    "back": "Quay lại",
+    "download": "Tải xuống",
+    "save": "Lưu",
+    "delete": "Xóa",
+    "next": "Tiếp theo",
+    "edit": "Sửa",
+    "filter": "Lọc",
+    "close": "Đóng",
+    "add": "Thêm",
+    "view": "Xem",
+    "search": "Tìm kiếm",
+    "export": "Xuất",
+    "previous": "Trước",
+    "upload": "Tải lên",
+    "submit": "Gửi",
+    "yes": "Có"
+  },
     "table":  {
                   "previous":  "TrÆ°á»›c",
                   "entries":  "má»¥c",
@@ -43,5 +92,44 @@
     "page":  {
                  "description":  "MÃ´ táº£ trang cho invoices",
                  "title":  "invoices"
-             }
+             },
+             "invoices": {
+  "title": "Hóa đơn",
+  "createInvoice": "Tạo hóa đơn",
+  "search": "Tìm kiếm",
+  "breadcrumb": {
+    "dashboard": "Bảng điều khiển",
+    "invoices": "Hóa đơn"
+  },
+  "filter": {
+    "from": "Từ ngày",
+    "to": "Đến ngày",
+    "status": "Trạng thái",
+    "selectStatus": "Chọn trạng thái",
+    "fromPlaceholder": "Chọn ngày bắt đầu",
+    "toPlaceholder": "Chọn ngày kết thúc"
+  },
+  "table": {
+    "number": "#",
+    "invoiceNumber": "Mã hóa đơn",
+    "client": "Khách hàng",
+    "createdDate": "Ngày tạo",
+    "dueDate": "Hạn thanh toán",
+    "amount": "Số tiền",
+    "status": "Trạng thái",
+    "action": "Hành động"
+  },
+  "status": {
+    "pending": "Chờ xử lý",
+    "paid": "Đã thanh toán",
+    "partiallyPaid": "Thanh toán một phần",
+    "sent": "Đã gửi"
+  },
+  "actions": {
+    "edit": "Chỉnh sửa",
+    "view": "Xem",
+    "download": "Tải xuống",
+    "delete": "Xóa"
+  }
+}
 }

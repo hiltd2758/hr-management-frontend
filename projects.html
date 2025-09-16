@@ -39,7 +39,7 @@
 				</span>
 			</a>
 			<div class="page-title-box">
-				<h3>CMC Global</h3>
+				<h3 data-i18n="header.title">CMC Global</h3>
 			</div>
 			<a id="mobile_btn" class="mobile_btn" href="#sidebar"><i class="fa fa-bars"></i></a>
 			<ul class="nav user-menu">
@@ -49,7 +49,8 @@
 							<i class="fa fa-search"></i>
 						</a>
 						<form action="search.html">
-							<input class="form-control" type="text" placeholder="Search here">
+							<input class="form-control" type="text" data-i18n="header.search_placeholder"
+								data-i18n-attr="placeholder:header.search_placeholder" placeholder="Search here">
 							<button class="btn" type="submit"><i class="fa fa-search"></i></button>
 						</form>
 					</div>
@@ -59,10 +60,10 @@
 						<img src="assets/img/flags/us.png" alt="" height="20"> <span>English</span>
 					</a>
 					<div class="dropdown-menu dropdown-menu-right">
-						<a href="javascript:void(0);" class="dropdown-item">
+						<a href="javascript:void(0);" class="dropdown-item" data-lang="en">
 							<img src="assets/img/flags/us.png" alt="" height="16"> English
 						</a>
-						<a href="javascript:void(0);" class="dropdown-item">
+						<a href="javascript:void(0);" class="dropdown-item" data-lang="vi">
 							<img src="assets/img/flags/vietnam.png" alt="" height="18"> Tiếng Việt
 						</a>
 					</div>
@@ -73,8 +74,8 @@
 					</a>
 					<div class="dropdown-menu notifications">
 						<div class="topnav-dropdown-header">
-							<span class="notification-title">Notifications</span>
-							<a href="javascript:void(0)" class="clear-noti"> Clear All </a>
+							<span class="notification-title" data-i18n="header.notifications">Notifications</span>
+							<a href="javascript:void(0)" class="clear-noti" data-i18n="header.clear_all"> Clear All </a>
 						</div>
 						<div class="noti-content">
 							<ul class="notification-list">
@@ -85,10 +86,13 @@
 												<img alt="" src="assets/img/profiles/avatar-02.jpg">
 											</span>
 											<div class="media-body">
-												<p class="noti-details"><span class="noti-title">John Doe</span> added
-													new task <span class="noti-title">Patient appointment booking</span>
+												<p class="noti-details"><span class="noti-title">John Doe</span> <span
+														data-i18n="notifications.john_doe_task">added
+														new task</span> <span class="noti-title">Patient appointment
+														booking</span>
 												</p>
-												<p class="noti-time"><span class="notification-time">4 mins ago</span>
+												<p class="noti-time"><span class="notification-time"
+														data-i18n="notifications.time_4_mins">4 mins ago</span>
 												</p>
 											</div>
 										</div>
@@ -102,9 +106,12 @@
 											</span>
 											<div class="media-body">
 												<p class="noti-details"><span class="noti-title">Tarah Shropshire</span>
-													changed the task name <span class="noti-title">Appointment booking
-														with payment gateway</span></p>
-												<p class="noti-time"><span class="notification-time">6 mins ago</span>
+													<span data-i18n="notifications.tarah_task">changed the task
+														name</span> <span class="noti-title">Appointment booking
+														with payment gateway</span>
+												</p>
+												<p class="noti-time"><span class="notification-time"
+														data-i18n="notifications.time_6_mins">6 mins ago</span>
 												</p>
 											</div>
 										</div>
@@ -118,10 +125,13 @@
 											</span>
 											<div class="media-body">
 												<p class="noti-details"><span class="noti-title">Misty Tison</span>
-													added <span class="noti-title">Domenic Houston</span> and <span
+													<span data-i18n="notifications.misty_project">added</span> <span
+														class="noti-title">Domenic Houston</span> and <span
 														class="noti-title">Claire Mapes</span> to project <span
-														class="noti-title">Doctor available module</span></p>
-												<p class="noti-time"><span class="notification-time">8 mins ago</span>
+														class="noti-title">Doctor available module</span>
+												</p>
+												<p class="noti-time"><span class="notification-time"
+														data-i18n="notifications.time_8_mins">8 mins ago</span>
 												</p>
 											</div>
 										</div>
@@ -135,9 +145,12 @@
 											</span>
 											<div class="media-body">
 												<p class="noti-details"><span class="noti-title">Rolland Webber</span>
-													completed task <span class="noti-title">Patient and Doctor video
-														conferencing</span></p>
-												<p class="noti-time"><span class="notification-time">12 mins ago</span>
+													<span data-i18n="notifications.rolland_completed">completed
+														task</span> <span class="noti-title">Patient and Doctor video
+														conferencing</span>
+												</p>
+												<p class="noti-time"><span class="notification-time"
+														data-i18n="notifications.time_12_mins">12 mins ago</span>
 												</p>
 											</div>
 										</div>
@@ -151,9 +164,11 @@
 											</span>
 											<div class="media-body">
 												<p class="noti-details"><span class="noti-title">Bernardo Galaviz</span>
-													added new task <span class="noti-title">Private chat module</span>
+													<span data-i18n="notifications.bernardo_task">added new task</span>
+													<span class="noti-title">Private chat module</span>
 												</p>
-												<p class="noti-time"><span class="notification-time">2 days ago</span>
+												<p class="noti-time"><span class="notification-time"
+														data-i18n="notifications.time_2_days">2 days ago</span>
 												</p>
 											</div>
 										</div>
@@ -162,7 +177,8 @@
 							</ul>
 						</div>
 						<div class="topnav-dropdown-footer">
-							<a href="activities.html">View all Notifications</a>
+							<a href="activities.html" data-i18n="header.view_all_notifications">View all
+								Notifications</a>
 						</div>
 					</div>
 				</li>
@@ -172,8 +188,8 @@
 					</a>
 					<div class="dropdown-menu notifications">
 						<div class="topnav-dropdown-header">
-							<span class="notification-title">Messages</span>
-							<a href="javascript:void(0)" class="clear-noti"> Clear All </a>
+							<span class="notification-title" data-i18n="header.messages">Messages</span>
+							<a href="javascript:void(0)" class="clear-noti" data-i18n="header.clear_all"> Clear All </a>
 						</div>
 						<div class="noti-content">
 							<ul class="notification-list">
@@ -189,7 +205,8 @@
 												<span class="message-author">Richard Miles </span>
 												<span class="message-time">12:28 AM</span>
 												<div class="clearfix"></div>
-												<span class="message-content">Lorem ipsum dolor sit amet, consectetur
+												<span class="message-content" data-i18n="messages.richard_message">Lorem
+													ipsum dolor sit amet, consectetur
 													adipiscing</span>
 											</div>
 										</div>
@@ -207,7 +224,8 @@
 												<span class="message-author">John Doe</span>
 												<span class="message-time">6 Mar</span>
 												<div class="clearfix"></div>
-												<span class="message-content">Lorem ipsum dolor sit amet, consectetur
+												<span class="message-content" data-i18n="messages.john_message">Lorem
+													ipsum dolor sit amet, consectetur
 													adipiscing</span>
 											</div>
 										</div>
@@ -225,7 +243,8 @@
 												<span class="message-author"> Tarah Shropshire </span>
 												<span class="message-time">5 Mar</span>
 												<div class="clearfix"></div>
-												<span class="message-content">Lorem ipsum dolor sit amet, consectetur
+												<span class="message-content" data-i18n="messages.tarah_message">Lorem
+													ipsum dolor sit amet, consectetur
 													adipiscing</span>
 											</div>
 										</div>
@@ -243,7 +262,8 @@
 												<span class="message-author">Mike Litorus</span>
 												<span class="message-time">3 Mar</span>
 												<div class="clearfix"></div>
-												<span class="message-content">Lorem ipsum dolor sit amet, consectetur
+												<span class="message-content" data-i18n="messages.mike_message">Lorem
+													ipsum dolor sit amet, consectetur
 													adipiscing</span>
 											</div>
 										</div>
@@ -261,7 +281,9 @@
 												<span class="message-author"> Catherine Manseau </span>
 												<span class="message-time">27 Feb</span>
 												<div class="clearfix"></div>
-												<span class="message-content">Lorem ipsum dolor sit amet, consectetur
+												<span class="message-content"
+													data-i18n="messages.catherine_message">Lorem ipsum dolor sit amet,
+													consectetur
 													adipiscing</span>
 											</div>
 										</div>
@@ -270,7 +292,7 @@
 							</ul>
 						</div>
 						<div class="topnav-dropdown-footer">
-							<a href="chat.html">View all Messages</a>
+							<a href="chat.html" data-i18n="header.view_all_messages">View all Messages</a>
 						</div>
 					</div>
 				</li>
@@ -281,9 +303,9 @@
 						<span>Employee</span>
 					</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="profile.html">My Profile</a>
-						<a class="dropdown-item" href="settings.html">Settings</a>
-						<a class="dropdown-item" href="login.html">Logout</a>
+						<a class="dropdown-item" href="profile.html" data-i18n="header.profile">My Profile</a>
+						<a class="dropdown-item" href="settings.html" data-i18n="header.settings">Settings</a>
+						<a class="dropdown-item" href="login.html" data-i18n="header.logout">Logout</a>
 					</div>
 				</li>
 			</ul>
@@ -291,9 +313,9 @@
 				<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i
 						class="fa fa-ellipsis-v"></i></a>
 				<div class="dropdown-menu dropdown-menu-right">
-					<a class="dropdown-item" href="profile.html">My Profile</a>
-					<a class="dropdown-item" href="settings.html">Settings</a>
-					<a class="dropdown-item" href="login.html">Logout</a>
+					<a class="dropdown-item" href="profile.html" data-i18n="header.profile">My Profile</a>
+					<a class="dropdown-item" href="settings.html" data-i18n="header.settings">Settings</a>
+					<a class="dropdown-item" href="login.html" data-i18n="header.logout">Logout</a>
 				</div>
 			</div>
 		</div>
@@ -302,58 +324,65 @@
 				<div id="sidebar-menu" class="sidebar-menu">
 					<ul>
 						<li class="menu-title">
-							<span>Main</span>
+							<span data-i18n="sidebar.main">Main</span>
 						</li>
 						<li>
-							<a class="active" href="index.html"><i class="la la-dashboard"></i> <span>
+							<a class="active" href="index.html"><i class="la la-dashboard"></i> <span
+									data-i18n="sidebar.dashboard">
 									Dashboard</span></a>
 						</li>
 						<li class="submenu">
-							<a href="#"><i class="la la-cube"></i> <span> Apps</span> <span
+							<a href="#"><i class="la la-cube"></i> <span data-i18n="sidebar.apps"> Apps</span> <span
 									class="menu-arrow"></span></a>
 							<ul style="display: none;">
-								<li><a href="chat.html">Chat</a></li>
-
-								<li><a href="inbox.html">Email</a></li>
+								<li><a href="chat.html" data-i18n="sidebar.chat">Chat</a></li>
+								<li><a href="inbox.html" data-i18n="sidebar.email">Email</a></li>
 							</ul>
 						</li>
 						<li class="menu-title">
-							<span>Employees</span>
+							<span data-i18n="sidebar.employees">Employees</span>
 						</li>
 						<li class="submenu">
-							<a href="#" class="noti-dot"><i class="la la-user"></i> <span> Employees</span> <span
-									class="menu-arrow"></span></a>
+							<a href="#" class="noti-dot"><i class="la la-user"></i> <span data-i18n="sidebar.employees">
+									Employees</span> <span class="menu-arrow"></span></a>
 							<ul style="display: none;">
-								<li><a href="employees.html">All Employees</a></li>
-								<li><a href="leaves.html">Leaves (Admin) <span
+								<li><a href="employees.html" data-i18n="sidebar.all_employees">All Employees</a></li>
+								<li><a href="leaves.html" data-i18n="sidebar.leaves_admin">Leaves (Admin) <span
 											class="badge badge-pill bg-primary float-right">1</span></a></li>
-								<li><a href="leaves-employee.html">Leaves (Employee)</a></li>
-								<li><a href="leave-settings.html">Leave Settings</a></li>
-								<li><a href="attendance.html">Attendance (Admin)</a></li>
-								<li><a href="attendance-employee.html">Attendance (Employee)</a></li>
-								<li><a href="departments.html">Departments</a></li>
-								<li><a href="designations.html">Designations</a></li>
-								<li><a href="timesheet.html">Timesheet</a></li>
-								<li><a href="shift-scheduling.html">Shift & Schedule</a></li>
-								<li><a href="overtime.html">Overtime</a></li>
+								<li><a href="leaves-employee.html" data-i18n="sidebar.leaves_employee">Leaves
+										(Employee)</a></li>
+								<li><a href="leave-settings.html" data-i18n="sidebar.leave_settings">Leave Settings</a>
+								</li>
+								<li><a href="attendance.html" data-i18n="sidebar.attendance_admin">Attendance
+										(Admin)</a></li>
+								<li><a href="attendance-employee.html"
+										data-i18n="sidebar.attendance_employee">Attendance (Employee)</a></li>
+								<li><a href="departments.html" data-i18n="sidebar.departments">Departments</a></li>
+								<li><a href="designations.html" data-i18n="sidebar.designations">Designations</a></li>
+								<li><a href="timesheet.html" data-i18n="sidebar.timesheet">Timesheet</a></li>
+								<li><a href="shift-scheduling.html" data-i18n="sidebar.shift_schedule">Shift &
+										Schedule</a></li>
+								<li><a href="overtime.html" data-i18n="sidebar.overtime">Overtime</a></li>
 							</ul>
 						</li>
 						<li class="submenu">
-							<a href="#"><i class="la la-rocket"></i> <span> Tasks</span> <span
+							<a href="#"><i class="la la-rocket"></i> <span data-i18n="sidebar.tasks"> Tasks</span> <span
 									class="menu-arrow"></span></a>
 							<ul style="display: none;">
-								<li><a href="tasks.html">Tasks</a></li>
-								<li><a href="task-board.html">Task Board</a></li>
+								<li><a href="tasks.html" data-i18n="sidebar.tasks">Tasks</a></li>
+								<li><a href="task-board.html" data-i18n="sidebar.task_board">Task Board</a></li>
 							</ul>
 						</li>
 						<li>
-							<a href="leads.html"><i class="la la-user-secret"></i> <span>Leads</span></a>
+							<a href="leads.html"><i class="la la-user-secret"></i> <span
+									data-i18n="sidebar.leads">Leads</span></a>
 						</li>
 						<li>
-							<a href="tickets.html"><i class="la la-ticket"></i> <span>Tickets</span></a>
+							<a href="tickets.html"><i class="la la-ticket"></i> <span
+									data-i18n="sidebar.tickets">Tickets</span></a>
 						</li>
 						<li class="menu-title">
-							<span>HR</span>
+							<span data-i18n="sidebar.hr">HR</span>
 						</li>
 						<li class="submenu">
 							<a href="#"><i class="la la-files-o"></i> <span> Sales </span> <span
@@ -387,7 +416,8 @@
 							</ul>
 						</li>
 						<li>
-							<a href="policies.html"><i class="la la-file-pdf-o"></i> <span>Policies</span></a>
+							<a href="policies.html"><i class="la la-file-pdf-o"></i> <span
+									data-i18n="sidebar.policies">Policies</span></a>
 						</li>
 						<li class="submenu">
 							<a href="#"><i class="la la-pie-chart"></i> <span> Reports </span> <span
@@ -407,7 +437,7 @@
 							</ul>
 						</li>
 						<li class="menu-title">
-							<span>Performance</span>
+							<span data-i18n="sidebar.performance">Performance</span>
 						</li>
 						<li class="submenu">
 							<a href="#"><i class="la la-graduation-cap"></i> <span> Performance </span> <span
@@ -435,16 +465,19 @@
 								<li><a href="training-type.html"> Training Type </a></li>
 							</ul>
 						</li>
-						<li><a href="promotion.html"><i class="la la-bullhorn"></i> <span>Promotion</span></a></li>
+						<li><a href="promotion.html"><i class="la la-bullhorn"></i> <span
+									data-i18n="sidebar.promotion">Promotion</span></a></li>
 						<li><a href="resignation.html"><i class="la la-external-link-square"></i>
-								<span>Resignation</span></a></li>
-						<li><a href="termination.html"><i class="la la-times-circle"></i> <span>Termination</span></a>
+								<span data-i18n="sidebar.resignation">Resignation</span></a></li>
+						<li><a href="termination.html"><i class="la la-times-circle"></i> <span
+									data-i18n="sidebar.termination">Termination</span></a>
 						</li>
 						<li class="menu-title">
-							<span>Administration</span>
+							<span data-i18n="sidebar.administration">Administration</span>
 						</li>
 						<li>
-							<a href="assets.html"><i class="la la-object-ungroup"></i> <span>Assets</span></a>
+							<a href="assets.html"><i class="la la-object-ungroup"></i> <span
+									data-i18n="sidebar.assets">Assets</span></a>
 						</li>
 						<li class="submenu">
 							<a href="#"><i class="la la-briefcase"></i> <span> Jobs </span> <span
@@ -489,14 +522,14 @@
 					<div class="page-header">
 						<div class="row align-items-center">
 							<div class="col">
-								<h3 class="page-title">Projects</h3>
+								<h3 class="page-title" data-i18n="projects.title">Projects</h3>
 								<ul class="breadcrumb">
 									<li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
 									<li class="breadcrumb-item">Projects</li>
 								</ul>
 							</div>
 							<div class="col-auto float-right ml-auto">
-								<a href="#" class="btn add-btn" data-toggle="modal" data-target="#create_project"><i class="fa fa-plus"></i> Create Project</a>
+								<a href="#" class="btn add-btn" data-toggle="modal" data-i18n="projects.create_btn" data-target="#create_project"><i class="fa fa-plus"></i> Create Project</a>
 								<div class="view-icons">
 									<a class="" href="projects.html" class="grid-view btn btn-link"><i class="fa fa-th"></i></a>
 									<a href="project-list.html" class="list-view btn btn-link"><i class="fa fa-bars"></i></a>
@@ -505,749 +538,541 @@
 						</div>
 					</div>
 					<div class="row filter-row">
-						<div class="col-sm-6 col-md-3">  
-							<div class="form-group form-focus">
-								<input type="text" class="form-control floating">
-								<label class="focus-label">Project Name</label>
-							</div>
-						</div>
-						<div class="col-sm-6 col-md-3">  
-							<div class="form-group form-focus">
-								<input type="text" class="form-control floating">
-								<label class="focus-label">Employee Name</label>
-							</div>
-						</div>
-						<div class="col-sm-6 col-md-3"> 
-							<div class="form-group form-focus select-focus">
-								<select class="select floating"> 
-									<option>Select Roll</option>
-									<option>Web Developer</option>
-									<option>Web Designer</option>
-									<option>Android Developer</option>
-									<option>Ios Developer</option>
-								</select>
-								<label class="focus-label">Designation</label>
-							</div>
-						</div>
-						<div class="col-sm-6 col-md-3">  
-							<a href="#" class="btn btn-success btn-block"> Search </a>  
-						</div>     
+    <div class="col-sm-6 col-md-3">  
+        <div class="form-group form-focus">
+            <input type="text" class="form-control floating">
+            <label class="focus-label" data-i18n="projects.project_name">Project Name</label>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">  
+        <div class="form-group form-focus">
+            <input type="text" class="form-control floating">
+            <label class="focus-label" data-i18n="projects.employee_name">Employee Name</label>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3"> 
+        <div class="form-group form-focus select-focus">
+            <select class="select floating"> 
+                <option data-i18n="projects.select_role">Select Role</option>
+                <option data-i18n="roles.web_developer">Web Developer</option>
+                <option data-i18n="roles.web_designer">Web Designer</option>
+                <option data-i18n="roles.android_developer">Android Developer</option>
+                <option data-i18n="roles.ios_developer">iOS Developer</option>
+            </select>
+            <label class="focus-label" data-i18n="projects.designation">Designation</label>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">  
+        <a href="#" class="btn btn-success btn-block" data-i18n="projects.search">Search</a>  
+    </div>     
+</div>
+<div class="row">
+    <div class="col-lg-4 col-sm-6 col-md-4 col-xl-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="dropdown dropdown-action profile-action">
+                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        <i class="material-icons">more_vert</i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_project">
+                            <i class="fa fa-pencil m-r-5"></i> <span data-i18n="projects.edit"></span>
+                        </a>
+                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_project">
+                            <i class="fa fa-trash-o m-r-5"></i> <span data-i18n="projects.delete"></span>
+                        </a>
                     </div>
-					<div class="row">
-						<div class="col-lg-4 col-sm-6 col-md-4 col-xl-3">
-							<div class="card">
-								<div class="card-body">
-									<div class="dropdown dropdown-action profile-action">
-										<a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
-										<div class="dropdown-menu dropdown-menu-right">
-											<a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_project"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-											<a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_project"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-										</div>
-									</div>
-									<h4 class="project-title"><a href="project-view.html">Office Management</a></h4>
-									<small class="block text-ellipsis m-b-15">
-										<span class="text-xs">1</span> <span class="text-muted">open tasks, </span>
-										<span class="text-xs">9</span> <span class="text-muted">tasks completed</span>
-									</small>
-									<p class="text-muted">Lorem Ipsum is simply dummy text of the printing and
-										typesetting industry. When an unknown printer took a galley of type and
-										scrambled it...
-									</p>
-									<div class="pro-deadline m-b-15">
-										<div class="sub-title">
-											Deadline:
-										</div>
-										<div class="text-muted">
-											17 Apr 2019
-										</div>
-									</div>
-									<div class="project-members m-b-15">
-										<div>Project Leader :</div>
-										<ul class="team-members">
-											<li>
-												<a href="#" data-toggle="tooltip" title="Jeffery Lalor"><img alt="" src="assets/img/profiles/avatar-16.jpg"></a>
-											</li>
-										</ul>
-									</div>
-									<div class="project-members m-b-15">
-										<div>Team :</div>
-										<ul class="team-members">
-											<li>
-												<a href="#" data-toggle="tooltip" title="John Doe"><img alt="" src="assets/img/profiles/avatar-02.jpg"></a>
-											</li>
-											<li>
-												<a href="#" data-toggle="tooltip" title="Richard Miles"><img alt="" src="assets/img/profiles/avatar-09.jpg"></a>
-											</li>
-											<li>
-												<a href="#" data-toggle="tooltip" title="John Smith"><img alt="" src="assets/img/profiles/avatar-10.jpg"></a>
-											</li>
-											<li>
-												<a href="#" data-toggle="tooltip" title="Mike Litorus"><img alt="" src="assets/img/profiles/avatar-05.jpg"></a>
-											</li>
-											<li class="dropdown avatar-dropdown">
-												<a href="#" class="all-users dropdown-toggle" data-toggle="dropdown" aria-expanded="false">+15</a>
-												<div class="dropdown-menu dropdown-menu-right">
-													<div class="avatar-group">
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-02.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-09.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-10.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-05.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-11.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-12.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-13.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-01.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-16.jpg">
-														</a>
-													</div>
-													<div class="avatar-pagination">
-														<ul class="pagination">
-															<li class="page-item">
-																<a class="page-link" href="#" aria-label="Previous">
-																	<span aria-hidden="true">«</span>
-																	<span class="sr-only">Previous</span>
-																</a>
-															</li>
-															<li class="page-item"><a class="page-link" href="#">1</a></li>
-															<li class="page-item"><a class="page-link" href="#">2</a></li>
-															<li class="page-item">
-																<a class="page-link" href="#" aria-label="Next">
-																	<span aria-hidden="true">»</span>
-																<span class="sr-only">Next</span>
-																</a>
-															</li>
-														</ul>
-													</div>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<p class="m-b-5">Progress <span class="text-success float-right">40%</span></p>
-									<div class="progress progress-xs mb-0">
-										<div class="progress-bar bg-success" role="progressbar" data-toggle="tooltip" title="40%" style="width: 40%"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-sm-6 col-md-4 col-xl-3">
-							<div class="card">
-								<div class="card-body">
-									<div class="dropdown dropdown-action profile-action">
-										<a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
-										<div class="dropdown-menu dropdown-menu-right">
-											<a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_project"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-											<a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_project"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-										</div>
-									</div>
-									<h4 class="project-title"><a href="project-view.html">Project Management</a></h4>
-									<small class="block text-ellipsis m-b-15">
-										<span class="text-xs">2</span> <span class="text-muted">open tasks, </span>
-										<span class="text-xs">5</span> <span class="text-muted">tasks completed</span>
-									</small>
-									<p class="text-muted">Lorem Ipsum is simply dummy text of the printing and
-										typesetting industry. When an unknown printer took a galley of type and
-										scrambled it...
-									</p>
-									<div class="pro-deadline m-b-15">
-										<div class="sub-title">
-											Deadline:
-										</div>
-										<div class="text-muted">
-											17 Apr 2019
-										</div>
-									</div>
-									<div class="project-members m-b-15">
-										<div>Project Leader :</div>
-										<ul class="team-members">
-											<li>
-												<a href="#" data-toggle="tooltip" title="Jeffery Lalor"><img alt="" src="assets/img/profiles/avatar-16.jpg"></a>
-											</li>
-										</ul>
-									</div>
-									<div class="project-members m-b-15">
-										<div>Team :</div>
-										<ul class="team-members">
-											<li>
-												<a href="#" data-toggle="tooltip" title="John Doe"><img alt="" src="assets/img/profiles/avatar-02.jpg"></a>
-											</li>
-											<li>
-												<a href="#" data-toggle="tooltip" title="Richard Miles"><img alt="" src="assets/img/profiles/avatar-09.jpg"></a>
-											</li>
-											<li>
-												<a href="#" data-toggle="tooltip" title="John Smith"><img alt="" src="assets/img/profiles/avatar-10.jpg"></a>
-											</li>
-											<li>
-												<a href="#" data-toggle="tooltip" title="Mike Litorus"><img alt="" src="assets/img/profiles/avatar-05.jpg"></a>
-											</li>
-											<li class="dropdown avatar-dropdown">
-												<a href="#" class="all-users dropdown-toggle" data-toggle="dropdown" aria-expanded="false">+15</a>
-												<div class="dropdown-menu dropdown-menu-right">
-													<div class="avatar-group">
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-02.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-09.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-10.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-05.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-11.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-12.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-13.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-01.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-16.jpg">
-														</a>
-													</div>
-													<div class="avatar-pagination">
-														<ul class="pagination">
-															<li class="page-item">
-																<a class="page-link" href="#" aria-label="Previous">
-																	<span aria-hidden="true">«</span>
-																	<span class="sr-only">Previous</span>
-																</a>
-															</li>
-															<li class="page-item"><a class="page-link" href="#">1</a></li>
-															<li class="page-item"><a class="page-link" href="#">2</a></li>
-															<li class="page-item">
-																<a class="page-link" href="#" aria-label="Next">
-																	<span aria-hidden="true">»</span>
-																<span class="sr-only">Next</span>
-																</a>
-															</li>
-														</ul>
-													</div>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<p class="m-b-5">Progress <span class="text-success float-right">40%</span></p>
-									<div class="progress progress-xs mb-0">
-										<div class="progress-bar bg-success" role="progressbar" data-toggle="tooltip" title="40%" style="width: 40%"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-sm-6 col-md-4 col-xl-3">
-							<div class="card">
-								<div class="card-body">
-									<div class="dropdown dropdown-action profile-action">
-										<a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
-										<div class="dropdown-menu dropdown-menu-right">
-											<a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_project"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-											<a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_project"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-										</div>
-									</div>
-									<h4 class="project-title"><a href="project-view.html">Video Calling App</a></h4>
-									<small class="block text-ellipsis m-b-15">
-										<span class="text-xs">3</span> <span class="text-muted">open tasks, </span>
-										<span class="text-xs">3</span> <span class="text-muted">tasks completed</span>
-									</small>
-									<p class="text-muted">Lorem Ipsum is simply dummy text of the printing and
-										typesetting industry. When an unknown printer took a galley of type and
-										scrambled it...
-									</p>
-									<div class="pro-deadline m-b-15">
-										<div class="sub-title">
-											Deadline:
-										</div>
-										<div class="text-muted">
-											17 Apr 2019
-										</div>
-									</div>
-									<div class="project-members m-b-15">
-										<div>Project Leader :</div>
-										<ul class="team-members">
-											<li>
-												<a href="#" data-toggle="tooltip" title="Jeffery Lalor"><img alt="" src="assets/img/profiles/avatar-16.jpg"></a>
-											</li>
-										</ul>
-									</div>
-									<div class="project-members m-b-15">
-										<div>Team :</div>
-										<ul class="team-members">
-											<li>
-												<a href="#" data-toggle="tooltip" title="John Doe"><img alt="" src="assets/img/profiles/avatar-02.jpg"></a>
-											</li>
-											<li>
-												<a href="#" data-toggle="tooltip" title="Richard Miles"><img alt="" src="assets/img/profiles/avatar-09.jpg"></a>
-											</li>
-											<li>
-												<a href="#" data-toggle="tooltip" title="John Smith"><img alt="" src="assets/img/profiles/avatar-10.jpg"></a>
-											</li>
-											<li>
-												<a href="#" data-toggle="tooltip" title="Mike Litorus"><img alt="" src="assets/img/profiles/avatar-05.jpg"></a>
-											</li>
-											<li class="dropdown avatar-dropdown">
-												<a href="#" class="all-users dropdown-toggle" data-toggle="dropdown" aria-expanded="false">+15</a>
-												<div class="dropdown-menu dropdown-menu-right">
-													<div class="avatar-group">
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-02.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-09.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-10.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-05.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-11.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-12.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-13.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-01.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-16.jpg">
-														</a>
-													</div>
-													<div class="avatar-pagination">
-														<ul class="pagination">
-															<li class="page-item">
-																<a class="page-link" href="#" aria-label="Previous">
-																	<span aria-hidden="true">«</span>
-																	<span class="sr-only">Previous</span>
-																</a>
-															</li>
-															<li class="page-item"><a class="page-link" href="#">1</a></li>
-															<li class="page-item"><a class="page-link" href="#">2</a></li>
-															<li class="page-item">
-																<a class="page-link" href="#" aria-label="Next">
-																	<span aria-hidden="true">»</span>
-																<span class="sr-only">Next</span>
-																</a>
-															</li>
-														</ul>
-													</div>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<p class="m-b-5">Progress <span class="text-success float-right">40%</span></p>
-									<div class="progress progress-xs mb-0">
-										<div class="progress-bar bg-success" role="progressbar" data-toggle="tooltip" title="40%" style="width: 40%"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-sm-6 col-md-4 col-xl-3">
-							<div class="card">
-								<div class="card-body">
-									<div class="dropdown dropdown-action profile-action">
-										<a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
-										<div class="dropdown-menu dropdown-menu-right">
-											<a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_project"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-											<a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_project"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-										</div>
-									</div>
-									<h4 class="project-title"><a href="project-view.html">Hospital Administration</a></h4>
-									<small class="block text-ellipsis m-b-15">
-										<span class="text-xs">12</span> <span class="text-muted">open tasks, </span>
-										<span class="text-xs">4</span> <span class="text-muted">tasks completed</span>
-									</small>
-									<p class="text-muted">Lorem Ipsum is simply dummy text of the printing and
-										typesetting industry. When an unknown printer took a galley of type and
-										scrambled it...
-									</p>
-									<div class="pro-deadline m-b-15">
-										<div class="sub-title">
-											Deadline:
-										</div>
-										<div class="text-muted">
-											17 Apr 2019
-										</div>
-									</div>
-									<div class="project-members m-b-15">
-										<div>Project Leader :</div>
-										<ul class="team-members">
-											<li>
-												<a href="#" data-toggle="tooltip" title="Jeffery Lalor"><img alt="" src="assets/img/profiles/avatar-16.jpg"></a>
-											</li>
-										</ul>
-									</div>
-									<div class="project-members m-b-15">
-										<div>Team :</div>
-										<ul class="team-members">
-											<li>
-												<a href="#" data-toggle="tooltip" title="John Doe"><img alt="" src="assets/img/profiles/avatar-02.jpg"></a>
-											</li>
-											<li>
-												<a href="#" data-toggle="tooltip" title="Richard Miles"><img alt="" src="assets/img/profiles/avatar-09.jpg"></a>
-											</li>
-											<li>
-												<a href="#" data-toggle="tooltip" title="John Smith"><img alt="" src="assets/img/profiles/avatar-10.jpg"></a>
-											</li>
-											<li>
-												<a href="#" data-toggle="tooltip" title="Mike Litorus"><img alt="" src="assets/img/profiles/avatar-05.jpg"></a>
-											</li>
-											<li class="dropdown avatar-dropdown">
-												<a href="#" class="all-users dropdown-toggle" data-toggle="dropdown" aria-expanded="false">+15</a>
-												<div class="dropdown-menu dropdown-menu-right">
-													<div class="avatar-group">
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-02.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-09.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-10.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-05.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-11.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-12.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-13.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-01.jpg">
-														</a>
-														<a class="avatar avatar-xs" href="#">
-															<img alt="" src="assets/img/profiles/avatar-16.jpg">
-														</a>
-													</div>
-													<div class="avatar-pagination">
-														<ul class="pagination">
-															<li class="page-item">
-																<a class="page-link" href="#" aria-label="Previous">
-																	<span aria-hidden="true">«</span>
-																	<span class="sr-only">Previous</span>
-																</a>
-															</li>
-															<li class="page-item"><a class="page-link" href="#">1</a></li>
-															<li class="page-item"><a class="page-link" href="#">2</a></li>
-															<li class="page-item">
-																<a class="page-link" href="#" aria-label="Next">
-																	<span aria-hidden="true">»</span>
-																<span class="sr-only">Next</span>
-																</a>
-															</li>
-														</ul>
-													</div>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<p class="m-b-5">Progress <span class="text-success float-right">40%</span></p>
-									<div class="progress progress-xs mb-0">
-										<div class="progress-bar bg-success" role="progressbar" data-toggle="tooltip" title="40%" style="width: 40%"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+                </div>
+                <h4 class="project-title">
+                    <a href="project-view.html" data-i18n="projects.office_management"></a>
+                </h4>
+                <small class="block text-ellipsis m-b-15">
+                    <span class="text-xs">1</span> <span class="text-muted" data-i18n="projects.open_tasks"></span>,
+                    <span class="text-xs">9</span> <span class="text-muted" data-i18n="projects.tasks_completed"></span>
+                </small>
+                <p class="text-muted" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+</p>
+                <div class="pro-deadline m-b-15">
+                    <div class="sub-title" data-i18n="projects.deadline"></div>
+                    <div class="text-muted">17 Apr 2019</div>
+                </div>
+                <div class="project-members m-b-15">
+                    <div data-i18n="projects.project_leader"></div>
+                    <ul class="team-members">
+                        <li>
+                            <a href="#" data-toggle="tooltip" title="Jeffery Lalor">
+                                <img alt="" src="assets/img/profiles/avatar-16.jpg">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project-members m-b-15">
+                    <div data-i18n="projects.team"></div>
+                    <ul class="team-members">
+                        <li><a href="#" data-toggle="tooltip" title="John Doe"><img alt="" src="assets/img/profiles/avatar-02.jpg"></a></li>
+                        <li><a href="#" data-toggle="tooltip" title="Richard Miles"><img alt="" src="assets/img/profiles/avatar-09.jpg"></a></li>
+                        <li><a href="#" data-toggle="tooltip" title="John Smith"><img alt="" src="assets/img/profiles/avatar-10.jpg"></a></li>
+                        <li><a href="#" data-toggle="tooltip" title="Mike Litorus"><img alt="" src="assets/img/profiles/avatar-05.jpg"></a></li>
+                        <li class="dropdown avatar-dropdown">
+                            <a href="#" class="all-users dropdown-toggle" data-toggle="dropdown" aria-expanded="false">+15</a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="m-b-5"><span data-i18n="projects.progress"></span> <span class="text-success float-right">40%</span></p>
+                <div class="progress progress-xs mb-0">
+                    <div class="progress-bar bg-success" role="progressbar" data-toggle="tooltip" title="40%" style="width: 40%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 col-sm-6 col-md-4 col-xl-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="dropdown dropdown-action profile-action">
+                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        <i class="material-icons">more_vert</i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_project">
+                            <i class="fa fa-pencil m-r-5"></i> <span data-i18n="projects.edit"></span>
+                        </a>
+                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_project">
+                            <i class="fa fa-trash-o m-r-5"></i> <span data-i18n="projects.delete"></span>
+                        </a>
+                    </div>
+                </div>
+                <h4 class="project-title">
+                    <a href="project-view.html" data-i18n="projects.project_management"></a>
+                </h4>
+                <small class="block text-ellipsis m-b-15">
+                    <span class="text-xs">2</span> <span class="text-muted" data-i18n="projects.open_tasks"></span>,
+                    <span class="text-xs">5</span> <span class="text-muted" data-i18n="projects.tasks_completed"></span>
+                </small>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</p>
+                <div class="pro-deadline m-b-15">
+                    <div class="sub-title" data-i18n="projects.deadline"></div>
+                    <div class="text-muted">17 Apr 2019</div>
+                </div>
+                <div class="project-members m-b-15">
+                    <div data-i18n="projects.project_leader"></div>
+                    <ul class="team-members">
+                        <li>
+                            <a href="#" data-toggle="tooltip" title="Jeffery Lalor">
+                                <img alt="" src="assets/img/profiles/avatar-16.jpg">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project-members m-b-15">
+                    <div data-i18n="projects.team"></div>
+                    <ul class="team-members">
+                        <li><a href="#" data-toggle="tooltip" title="John Doe"><img alt="" src="assets/img/profiles/avatar-02.jpg"></a></li>
+                        <li><a href="#" data-toggle="tooltip" title="Richard Miles"><img alt="" src="assets/img/profiles/avatar-09.jpg"></a></li>
+                        <li><a href="#" data-toggle="tooltip" title="John Smith"><img alt="" src="assets/img/profiles/avatar-10.jpg"></a></li>
+                        <li><a href="#" data-toggle="tooltip" title="Mike Litorus"><img alt="" src="assets/img/profiles/avatar-05.jpg"></a></li>
+                        <li class="dropdown avatar-dropdown">
+                            <a href="#" class="all-users dropdown-toggle" data-toggle="dropdown" aria-expanded="false">+15</a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="m-b-5"><span data-i18n="projects.progress"></span> <span class="text-success float-right">40%</span></p>
+                <div class="progress progress-xs mb-0">
+                    <div class="progress-bar bg-success" role="progressbar" data-toggle="tooltip" title="40%" style="width: 40%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 col-sm-6 col-md-4 col-xl-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="dropdown dropdown-action profile-action">
+                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        <i class="material-icons">more_vert</i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_project">
+                            <i class="fa fa-pencil m-r-5"></i> <span data-i18n="projects.edit"></span>
+                        </a>
+                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_project">
+                            <i class="fa fa-trash-o m-r-5"></i> <span data-i18n="projects.delete"></span>
+                        </a>
+                    </div>
+                </div>
+                <h4 class="project-title">
+                    <a href="project-view.html" data-i18n="projects.video_calling_app"></a>
+                </h4>
+                <small class="block text-ellipsis m-b-15">
+                    <span class="text-xs">3</span> <span class="text-muted" data-i18n="projects.open_tasks"></span>,
+                    <span class="text-xs">3</span> <span class="text-muted" data-i18n="projects.tasks_completed"></span>
+                </small>
+                <p class="text-muted" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</p>
+                <div class="pro-deadline m-b-15">
+                    <div class="sub-title" data-i18n="projects.deadline"></div>
+                    <div class="text-muted">17 Apr 2019</div>
+                </div>
+                <div class="project-members m-b-15">
+                    <div data-i18n="projects.project_leader"></div>
+                    <ul class="team-members">
+                        <li>
+                            <a href="#" data-toggle="tooltip" title="Jeffery Lalor">
+                                <img alt="" src="assets/img/profiles/avatar-16.jpg">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project-members m-b-15">
+                    <div data-i18n="projects.team"></div>
+                    <ul class="team-members">
+                        <li><a href="#" data-toggle="tooltip" title="John Doe"><img alt="" src="assets/img/profiles/avatar-02.jpg"></a></li>
+                        <li><a href="#" data-toggle="tooltip" title="Richard Miles"><img alt="" src="assets/img/profiles/avatar-09.jpg"></a></li>
+                        <li><a href="#" data-toggle="tooltip" title="John Smith"><img alt="" src="assets/img/profiles/avatar-10.jpg"></a></li>
+                        <li><a href="#" data-toggle="tooltip" title="Mike Litorus"><img alt="" src="assets/img/profiles/avatar-05.jpg"></a></li>
+                        <li class="dropdown avatar-dropdown">
+                            <a href="#" class="all-users dropdown-toggle" data-toggle="dropdown" aria-expanded="false">+15</a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="m-b-5"><span data-i18n="projects.progress"></span> <span class="text-success float-right">40%</span></p>
+                <div class="progress progress-xs mb-0">
+                    <div class="progress-bar bg-success" role="progressbar" data-toggle="tooltip" title="40%" style="width: 40%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 col-sm-6 col-md-4 col-xl-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="dropdown dropdown-action profile-action">
+                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        <i class="material-icons">more_vert</i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#edit_project">
+                            <i class="fa fa-pencil m-r-5"></i> <span data-i18n="projects.edit"></span>
+                        </a>
+                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_project">
+                            <i class="fa fa-trash-o m-r-5"></i> <span data-i18n="projects.delete"></span>
+                        </a>
+                    </div>
+                </div>
+                <h4 class="project-title">
+                    <a href="project-view.html" data-i18n="projects.hospital_administration"></a>
+                </h4>
+                <small class="block text-ellipsis m-b-15">
+                    <span class="text-xs">12</span> <span class="text-muted" data-i18n="projects.open_tasks"></span>,
+                    <span class="text-xs">4</span> <span class="text-muted" data-i18n="projects.tasks_completed"></span>
+                </small>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</p>
+                <div class="pro-deadline m-b-15">
+                    <div class="sub-title" data-i18n="projects.deadline"></div>
+                    <div class="text-muted">17 Apr 2019</div>
+                </div>
+                <div class="project-members m-b-15">
+                    <div data-i18n="projects.project_leader"></div>
+                    <ul class="team-members">
+                        <li>
+                            <a href="#" data-toggle="tooltip" title="Jeffery Lalor">
+                                <img alt="" src="assets/img/profiles/avatar-16.jpg">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project-members m-b-15">
+                    <div data-i18n="projects.team"></div>
+                    <ul class="team-members">
+                        <li><a href="#" data-toggle="tooltip" title="John Doe"><img alt="" src="assets/img/profiles/avatar-02.jpg"></a></li>
+                        <li><a href="#" data-toggle="tooltip" title="Richard Miles"><img alt="" src="assets/img/profiles/avatar-09.jpg"></a></li>
+                        <li><a href="#" data-toggle="tooltip" title="John Smith"><img alt="" src="assets/img/profiles/avatar-10.jpg"></a></li>
+                        <li><a href="#" data-toggle="tooltip" title="Mike Litorus"><img alt="" src="assets/img/profiles/avatar-05.jpg"></a></li>
+                        <li class="dropdown avatar-dropdown">
+                            <a href="#" class="all-users dropdown-toggle" data-toggle="dropdown" aria-expanded="false">+15</a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="m-b-5"><span data-i18n="projects.progress"></span> <span class="text-success float-right">40%</span></p>
+                <div class="progress progress-xs mb-0">
+                    <div class="progress-bar bg-success" role="progressbar" data-toggle="tooltip" title="40%" style="width: 40%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
                 </div>
 				<div id="create_project" class="modal custom-modal fade" role="dialog">
 					<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-								<h5 class="modal-title">Create Project</h5>
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-									<span aria-hidden="true">&times;</span>
-								</button>
-							</div>
-							<div class="modal-body">
-								<form>
-									<div class="row">
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label>Project Name</label>
-												<input class="form-control" type="text">
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label>Client</label>
-												<select class="select">
-													<option>Global Technologies</option>
-													<option>Delta Infotech</option>
-												</select>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label>Start Date</label>
-												<div class="cal-icon">
-													<input class="form-control datetimepicker" type="text">
-												</div>
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label>End Date</label>
-												<div class="cal-icon">
-													<input class="form-control datetimepicker" type="text">
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-sm-3">
-											<div class="form-group">
-												<label>Rate</label>
-												<input placeholder="$50" class="form-control" type="text">
-											</div>
-										</div>
-										<div class="col-sm-3">
-											<div class="form-group">
-												<label>&nbsp;</label>
-												<select class="select">
-													<option>Hourly</option>
-													<option>Fixed</option>
-												</select>
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label>Priority</label>
-												<select class="select">
-													<option>High</option>
-													<option>Medium</option>
-													<option>Low</option>
-												</select>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label>Add Project Leader</label>
-												<input class="form-control" type="text">
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label>Team Leader</label>
-												<div class="project-members">
-													<a href="#" data-toggle="tooltip" title="Jeffery Lalor" class="avatar">
-														<img src="assets/img/profiles/avatar-16.jpg" alt="">
-													</a>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label>Add Team</label>
-												<input class="form-control" type="text">
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label>Team Members</label>
-												<div class="project-members">
-													<a href="#" data-toggle="tooltip" title="John Doe" class="avatar">
-														<img src="assets/img/profiles/avatar-16.jpg" alt="">
-													</a>
-													<a href="#" data-toggle="tooltip" title="Richard Miles" class="avatar">
-														<img src="assets/img/profiles/avatar-09.jpg" alt="">
-													</a>
-													<a href="#" data-toggle="tooltip" title="John Smith" class="avatar">
-														<img src="assets/img/profiles/avatar-10.jpg" alt="">
-													</a>
-													<a href="#" data-toggle="tooltip" title="Mike Litorus" class="avatar">
-														<img src="assets/img/profiles/avatar-05.jpg" alt="">
-													</a>
-													<span class="all-team">+2</span>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="form-group">
-										<label>Description</label>
-										<textarea rows="4" class="form-control summernote" placeholder="Enter your message here"></textarea>
-									</div>
-									<div class="form-group">
-										<label>Upload Files</label>
-										<input class="form-control" type="file">
-									</div>
-									<div class="submit-section">
-										<button class="btn btn-primary submit-btn">Submit</button>
-									</div>
-								</form>
-							</div>
+<div class="modal-content">
+	<div class="modal-header">
+		<h5 class="modal-title" data-i18n="projects.create_project">Create Project</h5>
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+	</div>
+	<div class="modal-body">
+		<form>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label data-i18n="projects.project_name">Project Name</label>
+						<input class="form-control" type="text">
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label data-i18n="projects.client">Client</label>
+						<select class="select">
+							<option>Global Technologies</option>
+							<option>Delta Infotech</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label data-i18n="projects.start_date">Start Date</label>
+						<div class="cal-icon">
+							<input class="form-control datetimepicker" type="text">
 						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label data-i18n="projects.end_date">End Date</label>
+						<div class="cal-icon">
+							<input class="form-control datetimepicker" type="text">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="form-group">
+						<label data-i18n="projects.rate">Rate</label>
+						<input placeholder="$50" class="form-control" type="text">
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="form-group">
+						<label>&nbsp;</label>
+						<select class="select">
+							<option data-i18n="projects.hourly">Hourly</option>
+							<option data-i18n="projects.fixed">Fixed</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label data-i18n="projects.priority">Priority</label>
+						<select class="select">
+							<option data-i18n="projects.high">High</option>
+							<option data-i18n="projects.medium">Medium</option>
+							<option data-i18n="projects.low">Low</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label data-i18n="projects.add_project_leader">Add Project Leader</label>
+						<input class="form-control" type="text">
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label data-i18n="projects.team_leader">Team Leader</label>
+						<div class="project-members">
+							<a href="#" data-toggle="tooltip" title="Jeffery Lalor" class="avatar">
+								<img src="assets/img/profiles/avatar-16.jpg" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label data-i18n="projects.add_team">Add Team</label>
+						<input class="form-control" type="text">
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label data-i18n="projects.team_members">Team Members</label>
+						<div class="project-members">
+							<a href="#" data-toggle="tooltip" title="John Doe" class="avatar">
+								<img src="assets/img/profiles/avatar-16.jpg" alt="">
+							</a>
+							<a href="#" data-toggle="tooltip" title="Richard Miles" class="avatar">
+								<img src="assets/img/profiles/avatar-09.jpg" alt="">
+							</a>
+							<a href="#" data-toggle="tooltip" title="John Smith" class="avatar">
+								<img src="assets/img/profiles/avatar-10.jpg" alt="">
+							</a>
+							<a href="#" data-toggle="tooltip" title="Mike Litorus" class="avatar">
+								<img src="assets/img/profiles/avatar-05.jpg" alt="">
+							</a>
+							<span class="all-team">+2</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<label data-i18n="projects.description">Description</label>
+				<textarea rows="4" class="form-control summernote" data-i18n-placeholder="projects.enter_message"></textarea>
+			</div>
+			<div class="form-group">
+				<label data-i18n="projects.upload_files">Upload Files</label>
+				<input class="form-control" type="file">
+			</div>
+			<div class="submit-section">
+				<button class="btn btn-primary submit-btn" data-i18n="projects.submit_btn">Submit</button>
+			</div>
+		</form>
+	</div>
+</div>
 					</div>
 				</div>
 				<div id="edit_project" class="modal custom-modal fade" role="dialog">
 					<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-								<h5 class="modal-title">Edit Project</h5>
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-									<span aria-hidden="true">&times;</span>
-								</button>
-							</div>
-							<div class="modal-body">
-								<form>
-									<div class="row">
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label>Project Name</label>
-												<input class="form-control" value="Project Management" type="text">
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label>Client</label>
-												<select class="select">
-													<option>Global Technologies</option>
-													<option>Delta Infotech</option>
-												</select>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label>Start Date</label>
-												<div class="cal-icon">
-													<input class="form-control datetimepicker" type="text">
-												</div>
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label>End Date</label>
-												<div class="cal-icon">
-													<input class="form-control datetimepicker" type="text">
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-sm-3">
-											<div class="form-group">
-												<label>Rate</label>
-												<input placeholder="$50" class="form-control" value="$5000" type="text">
-											</div>
-										</div>
-										<div class="col-sm-3">
-											<div class="form-group">
-												<label>&nbsp;</label>
-												<select class="select">
-													<option>Hourly</option>
-													<option selected>Fixed</option>
-												</select>
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label>Priority</label>
-												<select class="select">
-													<option selected>High</option>
-													<option>Medium</option>
-													<option>Low</option>
-												</select>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label>Add Project Leader</label>
-												<input class="form-control" type="text">
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label>Team Leader</label>
-												<div class="project-members">
-													<a href="#" data-toggle="tooltip" title="Jeffery Lalor" class="avatar">
-														<img src="assets/img/profiles/avatar-16.jpg" alt="">
-													</a>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label>Add Team</label>
-												<input class="form-control" type="text">
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label>Team Members</label>
-												<div class="project-members">
-													<a href="#" data-toggle="tooltip" title="John Doe" class="avatar">
-														<img src="assets/img/profiles/avatar-16.jpg" alt="">
-													</a>
-													<a href="#" data-toggle="tooltip" title="Richard Miles" class="avatar">
-														<img src="assets/img/profiles/avatar-09.jpg" alt="">
-													</a>
-													<a href="#" data-toggle="tooltip" title="John Smith" class="avatar">
-														<img src="assets/img/profiles/avatar-10.jpg" alt="">
-													</a>
-													<a href="#" data-toggle="tooltip" title="Mike Litorus" class="avatar">
-														<img src="assets/img/profiles/avatar-05.jpg" alt="">
-													</a>
-													<span class="all-team">+2</span>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="form-group">
-										<label>Description</label>
-										<textarea rows="4" class="form-control" placeholder="Enter your message here"></textarea>
-									</div>
-									<div class="form-group">
-										<label>Upload Files</label>
-										<input class="form-control" type="file">
-									</div>
-									<div class="submit-section">
-										<button class="btn btn-primary submit-btn">Save</button>
-									</div>
-								</form>
-							</div>
+<div class="modal-content">
+	<div class="modal-header">
+		<h5 class="modal-title" data-i18n="projects.edit_project">Edit Project</h5>
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+	</div>
+	<div class="modal-body">
+		<form>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label data-i18n="projects.project_name">Project Name</label>
+						<input class="form-control" value="Project Management" type="text">
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label data-i18n="projects.client">Client</label>
+						<select class="select">
+							<option>Global Technologies</option>
+							<option>Delta Infotech</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label data-i18n="projects.start_date">Start Date</label>
+						<div class="cal-icon">
+							<input class="form-control datetimepicker" type="text">
 						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label data-i18n="projects.end_date">End Date</label>
+						<div class="cal-icon">
+							<input class="form-control datetimepicker" type="text">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="form-group">
+						<label data-i18n="projects.rate">Rate</label>
+						<input placeholder="$50" class="form-control" value="$5000" type="text">
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="form-group">
+						<label>&nbsp;</label>
+						<select class="select">
+							<option data-i18n="projects.hourly">Hourly</option>
+							<option selected data-i18n="projects.fixed">Fixed</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label data-i18n="projects.priority">Priority</label>
+						<select class="select">
+							<option selected data-i18n="projects.high">High</option>
+							<option data-i18n="projects.medium">Medium</option>
+							<option data-i18n="projects.low">Low</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label data-i18n="projects.add_project_leader">Add Project Leader</label>
+						<input class="form-control" type="text">
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label data-i18n="projects.team_leader">Team Leader</label>
+						<div class="project-members">
+							<a href="#" data-toggle="tooltip" title="Jeffery Lalor" class="avatar">
+								<img src="assets/img/profiles/avatar-16.jpg" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label data-i18n="projects.add_team">Add Team</label>
+						<input class="form-control" type="text">
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label data-i18n="projects.team_members">Team Members</label>
+						<div class="project-members">
+							<a href="#" data-toggle="tooltip" title="John Doe" class="avatar">
+								<img src="assets/img/profiles/avatar-16.jpg" alt="">
+							</a>
+							<a href="#" data-toggle="tooltip" title="Richard Miles" class="avatar">
+								<img src="assets/img/profiles/avatar-09.jpg" alt="">
+							</a>
+							<a href="#" data-toggle="tooltip" title="John Smith" class="avatar">
+								<img src="assets/img/profiles/avatar-10.jpg" alt="">
+							</a>
+							<a href="#" data-toggle="tooltip" title="Mike Litorus" class="avatar">
+								<img src="assets/img/profiles/avatar-05.jpg" alt="">
+							</a>
+							<span class="all-team">+2</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<label data-i18n="projects.description">Description</label>
+				<textarea rows="4" class="form-control" data-i18n-placeholder="projects.enter_message"></textarea>
+			</div>
+			<div class="form-group">
+				<label data-i18n="projects.upload_files">Upload Files</label>
+				<input class="form-control" type="file">
+			</div>
+			<div class="submit-section">
+				<button class="btn btn-primary submit-btn" data-i18n="common.save">Save</button>
+			</div>
+		</form>
+	</div>
+</div>
 					</div>
 				</div>
 				<div class="modal custom-modal fade" id="delete_project" role="dialog">

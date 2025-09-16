@@ -1,28 +1,211 @@
 ﻿{
-    "common":  {
-                   "confirm":  "Confirm",
-                   "loading":  "Loading...",
-                   "import":  "Import",
-                   "no":  "No",
-                   "reset":  "Reset",
-                   "cancel":  "Cancel",
-                   "back":  "Back",
-                   "download":  "Download",
-                   "save":  "Save",
-                   "delete":  "Delete",
-                   "next":  "Next",
-                   "edit":  "Edit",
-                   "filter":  "Filter",
-                   "close":  "Close",
-                   "add":  "Add",
-                   "view":  "View",
-                   "search":  "Search",
-                   "export":  "Export",
-                   "previous":  "Previous",
-                   "upload":  "Upload",
-                   "submit":  "Submit",
-                   "yes":  "Yes"
-               },
+      "header": {
+    "title": "CMC Global",
+    "search_placeholder": "Search here",
+    "notifications": "Notifications",
+    "clear_all": "Clear All",
+    "messages": "Messages",
+    "profile": "My Profile",
+    "settings": "Settings",
+    "logout": "Logout",
+    "view_all_notifications": "View All Notifications",
+    "view_all_messages": "View All Messages"
+  },
+  "sidebar": {
+    "main": "Main",
+    "dashboard": "Dashboard",
+    "apps": "Apps",
+    "chat": "Chat",
+    "email": "Email",
+    "employees": "Employees",
+    "all_employees": "All Employees",
+    "leaves_admin": "Leaves (Admin)",
+    "leaves_employee": "Leaves (Employee)",
+    "leave_settings": "Leave Settings",
+    "attendance_admin": "Attendance (Admin)",
+    "attendance_employee": "Attendance (Employee)",
+    "departments": "Departments",
+    "designations": "Designations",
+    "timesheet": "Timesheet",
+    "shift_schedule": "Shift & Schedule",
+    "overtime": "Overtime",
+    "tasks": "Tasks",
+    "task_board": "Task Board",
+    "leads": "Leads",
+    "tickets": "Tickets",
+    "hr": "HR",
+    "attendance": "Attendance",
+    "salary": "Salary",
+    "performance": "Performance",
+    "performance_indicator": "Performance Indicators",
+    "performance_review": "Performance Reviews",
+    "performance_appraisal": "Performance Appraisals",
+    "goals": "Goals",
+    "goal_list": "Goal List",
+    "goal_type": "Goal Type",
+    "training": "Training",
+    "training_list": "Training List",
+    "trainers": "Trainers",
+    "training_type": "Training Type",
+    "promotion": "Promotion",
+    "resignation": "Resignation",
+    "termination": "Termination",
+    "administration": "Administration",
+    "assets": "Assets",
+    "jobs": "Jobs",
+    "user_dashboard": "User Dashboard",
+    "jobs_dashboard": "Jobs Dashboard",
+    "manage_jobs": "Manage Jobs",
+    "manage_resumes": "Manage Resumes",
+    "shortlist_candidates": "Shortlisted Candidates",
+    "interview_questions": "Interview Questions",
+    "offer_approvals": "Offer Approvals",
+    "experience_level": "Experience Level",
+    "candidates_list": "Candidates List",
+    "schedule_timing": "Schedule Timing",
+    "aptitude_results": "Aptitude Results",
+    "profile": "Profile",
+    "employee_profile": "Employee Profile",
+    "client_profile": "Client Profile",
+    "subscriptions": "Subscriptions",
+    "subscriptions_admin": "Subscriptions (Admin)",
+    "subscriptions_company": "Subscriptions (Company)",
+    "subscribed_companies": "Subscribed Companies",
+    "policies": "Policies",
+    "reports": "Reports"
+  },
+ "jobs": {
+  "table": {
+      "number": "#",
+      "job_title": "Job Title",
+      "department": "Department", 
+      "start_date": "Start Date",
+      "expire_date": "Expire Date",
+      "job_type": "Job Type",
+      "status": "Status",
+      "applicants": "Applicants",
+      "actions": "Actions"
+    },
+    "titles": {
+      "web_developer": "Web Developer",
+      "web_designer": "Web Designer", 
+      "android_developer": "Android Developer"
+    },
+    "departments": {
+      "development": "Development",
+      "designing": "Designing",
+      "android": "Android"
+    },
+    "types": {
+      "full_time": "Full Time",
+      "part_time": "Part Time", 
+      "internship": "Internship",
+      "temporary": "Temporary",
+      "other": "Other"
+    },
+    "status": {
+      "open": "Open",
+      "closed": "Closed",
+      "cancelled": "Cancelled"  
+    },
+    "candidates": "Candidates",
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+  
+      "title": "Jobs",
+      "addJob": "Add Job",
+      "breadcrumb": {
+        "dashboard": "Dashboard",
+        "jobs": "Jobs"
+      },
+      "modal": {
+        "title": "Add Job",
+        "submit": "Submit",
+        "fields": {
+          "jobTitle": "Job Title",
+          "department": "Department",
+          "jobLocation": "Job Location",
+          "noOfVacancies": "No of Vacancies",
+          "experience": "Experience",
+          "age": "Age",
+          "salaryFrom": "Salary From",
+          "salaryTo": "Salary To",
+          "jobType": "Job Type",
+          "status": "Status",
+          "startDate": "Start Date",
+          "expiredDate": "Expired Date",
+          "description": "Description"
+        },
+        "placeholders": {
+      "jobTitle": "Enter job title",
+      "jobLocation": "Enter job location",
+      "noOfVacancies": "Enter number of vacancies",
+      "experience": "Enter required experience",
+      "age": "Enter required age",
+      "salaryFrom": "Enter minimum salary",
+      "salaryTo": "Enter maximum salary",
+      "startDate": "Select start date",
+      "expiredDate": "Select expiration date",
+      "description": "Enter job description"
+    },
+        "options": {
+          "selectDefault": "-",
+          "departments": {
+            "webDevelopment": "Web Development",
+            "applicationDevelopment": "Application Development",
+            "itManagement": "IT Management",
+            "accountsManagement": "Accounts Management",
+            "supportManagement": "Support Management",
+            "marketing": "Marketing"
+          },
+          "jobTypes": {
+            "fullTime": "Full Time",
+            "partTime": "Part Time",
+            "internship": "Internship",
+            "temporary": "Temporary",
+            "remote": "Remote",
+            "others": "Others"
+          },
+          "status": {
+            "open": "Open",
+            "closed": "Closed",
+            "cancelled": "Cancelled"
+          }
+        }
+      }
+    }
+    ,
+    "departments": {
+      "development": "Development",
+      "designing": "Designing", 
+      "android": "Android"
+    },
+    "types": {
+      "full_time": "Full Time",
+      "part_time": "Part Time",
+      "internship": "Internship",
+      "temporary": "Temporary",
+      "other": "Other"
+    },
+    "status": {
+      "open": "Open",
+      "closed": "Closed",
+      "cancelled": "Cancelled"
+    },
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "candidates": "Candidates",
+    "title": "Jobs",
+    "breadcrumb": {
+      "dashboard": "Dashboard",
+      "jobs": "Jobs"
+    },
+    "addJob": "Add Job"
+  ,
     "table":  {
                   "previous":  "Previous",
                   "entries":  "entries",
