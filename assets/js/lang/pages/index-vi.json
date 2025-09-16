@@ -72,7 +72,10 @@
     "subscriptions_company": "Đăng ký (Công ty)",
     "subscribed_companies": "Công ty đã đăng ký",
     "policies": "Chính sách",
-    "reports": "Báo cáo"
+    "reports": "Báo cáo",
+    "sales": "Bán hàng",
+    "accounting": "Kế toán",
+    "payroll": "Bảng lương"
   },
   "common": {
     "add": "Thêm",

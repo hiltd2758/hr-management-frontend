@@ -1,47 +1,96 @@
 ﻿{
-    "common":  {
-                   "confirm":  "Confirm",
-                   "loading":  "Loading...",
-                   "import":  "Import",
-                   "no":  "No",
-                   "reset":  "Reset",
-                   "cancel":  "Cancel",
-                   "back":  "Back",
-                   "download":  "Download",
-                   "save":  "Save",
-                   "delete":  "Delete",
-                   "next":  "Next",
-                   "edit":  "Edit",
-                   "filter":  "Filter",
-                   "close":  "Close",
-                   "add":  "Add",
-                   "view":  "View",
-                   "search":  "Search",
-                   "export":  "Export",
-                   "previous":  "Previous",
-                   "upload":  "Upload",
-                   "submit":  "Submit",
-                   "yes":  "Yes"
-               },
-    "table":  {
-                  "previous":  "Previous",
-                  "entries":  "entries",
-                  "no_data":  "No data available",
-                  "showing":  "Showing",
-                  "search":  "Search:",
-                  "first":  "First",
-                  "last":  "Last",
-                  "next":  "Next"
-              },
-    "form":  {
-                 "choose_file":  "Choose file",
-                 "password_mismatch":  "Passwords do not match",
-                 "required_field":  "This field is required",
-                 "invalid_email":  "Please enter a valid email",
-                 "please_select":  "Please select"
-             },
-    "page":  {
-                 "description":  "Page description for trainers",
-                 "title":  "trainers"
-             }
+  "header": {
+    "title": "CMC Global",
+    "search_placeholder": "Search here",
+    "notifications": "Notifications",
+    "clear_all": "Clear All",
+    "messages": "Messages",
+    "profile": "My Profile",
+    "settings": "Settings",
+    "logout": "Logout",
+    "view_all_notifications": "View all Notifications",
+    "view_all_messages": "View all Messages"
+  },
+  "sidebar": {
+    "main": "Main",
+    "dashboard": "Dashboard",
+    "apps": "Apps",
+    "employees": "Employees",
+    "tasks": "Tasks",
+    "leads": "Leads",
+    "tickets": "Tickets",
+    "hr": "HR",
+    "sales": "Sales",
+    "accounting": "Accounting",
+    "payroll": "Payroll",
+    "policies": "Policies",
+    "reports": "Reports",
+    "performance": "Performance",
+    "goals": "Goals",
+    "training": "Training",
+    "promotion": "Promotion",
+    "resignation": "Resignation",
+    "termination": "Termination",
+    "administration": "Administration",
+    "assets": "Assets",
+    "jobs": "Jobs",
+    "profile": "Profile",
+    "subscriptions": "Subscriptions"
+  },
+  "common": {
+    "add": "Add New",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "search": "Search",
+    "status": "Status",
+    "action": "Action",
+    "name": "Name",
+    "phone": "Contact Number",
+    "email": "Email",
+    "description": "Description",
+    "active": "Active",
+    "inactive": "Inactive",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "role": "Role"
+  },
+  "table": {
+    "number": "#",
+    "name": "Name",
+    "phone": "Contact Number",
+    "email": "Email",
+    "description": "Description",
+    "status": "Status",
+    "action": "Action"
+  },
+  "form": {
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "role": "Role",
+    "email": "Email",
+    "phone": "Phone",
+    "status": "Status",
+    "description": "Description",
+    "submit": "Submit",
+    "save": "Save",
+    "cancel": "Cancel",
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "pages": {
+    "trainers": {
+      "title": "Trainers",
+      "breadcrumb": {
+        "dashboard": "Dashboard",
+        "trainers": "Trainers"
+      },
+      "add_new": "Add New Trainer",
+      "edit_title": "Edit Trainer",
+      "delete_title": "Delete Trainers List",
+      "delete_confirm": "Are you sure want to delete?"
+    }
+  }
 }

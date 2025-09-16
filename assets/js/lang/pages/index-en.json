@@ -72,7 +72,10 @@
     "subscriptions_company": "Subscriptions (Company)",
     "subscribed_companies": "Subscribed Companies",
     "policies": "Policies",
-    "reports": "Reports"
+    "reports": "Reports",
+    "sales": "Sales",
+    "accounting": "Accounting",
+    "payroll": "Payroll"
   },
   "common": {
     "add": "Add",
